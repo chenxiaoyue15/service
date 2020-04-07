@@ -11,9 +11,9 @@ public class Exception2CodeRepo {
 	
 	private static final ImmutableMap<Object, RestCode> MAP = ImmutableMap.<Object, RestCode>builder()
 			.put(IllegalParamsException.Type.WRONG_PAGE_NUM,RestCode.WRONG_PAGE)
-            .put(IllegalStateException.class,RestCode.UNKNOWN_ERROR).build();
-//	        .put(UserException.Type.USER_NOT_LOGIN,RestCode.TOKEN_INVALID)
-//	        .put(UserException.Type.USER_NOT_FOUND,RestCode.USER_NOT_EXIST)
+            .put(IllegalStateException.class,RestCode.UNKNOWN_ERROR)
+	        .put(UserException.Type.USER_NOT_LOGIN,RestCode.TOKEN_INVALID)
+	        .put(UserException.Type.USER_NOT_FOUND,RestCode.USER_NOT_EXIST).build();
 //	        .put(UserException.Type.USER_AUTH_FAIL,RestCode.USER_NOT_EXIST).build();
 	
 	private static Object getType(Throwable throwable){
