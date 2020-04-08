@@ -1,0 +1,134 @@
+body{
+    background: #efefef;
+}
+.main{
+    margin: 30px;
+    background: white;
+}
+.btn-publish{
+    float: right;
+    margin-bottom: 14px;
+}
+.media-object{
+    width: 38px;
+    height: 38px;
+}
+.text-desc{
+    font-size: 12px;
+    font-weight: normal;
+    color: #999;
+
+}
+.login{/*class选择器*/
+    width: 300px;
+    height: 300px;
+    background: #e6e6e6;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;}
+.title1{
+    line-height: 60px;
+    text-align: center;/*水平居中*/
+    color:green;
+    font-size: 2em;
+}
+.login-content{
+    display: flex;
+    flex-direction: column;/*改变弹性盒方向*/
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #cccccc;
+}
+.login-content input{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px 10px 10px 10px;
+    outline: none;
+    text-indent: 1em;
+}
+.login-content input[type="button"]{
+    text-indent: 0;
+    background-color: red;
+    color: #ffffff;
+}
+
+.profile .section{
+    margin-top: 17px;
+}
+
+.question-title{
+    margin-top: 25px;
+}
+.question-menu{
+    color: #999;
+    font-size: 13px;
+
+    margin-bottom: 17px;
+}
+.comment{
+    margin: 10px 0;
+}
+.comment-btn{
+    float: right;
+    margin-bottom:10px ;
+}
+.comment-sp{
+    margin-top: 0;
+}
+.menu{
+    color: #999;
+    margin-top:5px ;
+}
+.menu .icon{
+    margin-right: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    /*鼠标悬浮变小手*/
+}
+.menu .active{
+    color: #400ef3;
+}
+.menu .icon:hover{
+    /*鼠标悬浮图案变色*/
+    color: #400ef3;
+}
+.comment-2{
+    border-radius: 10px;
+    /*圆角属性*/
+    margin-top: 10px;
+    /*距离顶部*/
+    border: 1px solid #999;
+    /*外边框属性*/
+    padding-top:15px ;
+    margin-bottom:15px ;
+}
+.comment-2 .btn{
+    margin: 10px 0 ;
+}
+.menu .comment-icon{
+    font-size: 15px;
+    cursor: pointer;
+}
+.menu .comment-icon :hover{
+    color: #400ef3;
+}
+.question-tag{
+    margin-right: 5px;
+}
+.question-related{
+    /*左边距0*/
+    padding-left: 2px;
+    /*行距*/
+    line-height: 20px;
+    /*左边小点*/
+    list-style: none;
+}
+.tag-tab{
+    margin-top: 10px;
+    display: none;
+    padding-top: 10px;
+}
+.tag-tab .label-info{
+    margin-right: 10px;
+
+}
