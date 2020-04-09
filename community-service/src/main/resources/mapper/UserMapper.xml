@@ -13,20 +13,20 @@
    </sql>
 
     <select id="select" resultType="user">
-      select *
-      from   user
-      <where>
-         <if test="id != null and id != 0">
-             and id = #{id}
-         </if>
-         <if test="pwd != null and pwd !='' ">
-             and pwd = #{pwd}
-         </if>
-         <if test="name != null and name !='' ">
-             and name = #{name}
-         </if>
-     </where>
-     </select>
+    select *
+    from   user
+    <where>
+        <if test="id != null and id != 0">
+            and id = #{id}
+        </if>
+        <if test="pwd != null and pwd !='' ">
+            and pwd = #{pwd}
+        </if>
+        <if test="name != null and name !='' ">
+            and name = #{name}
+        </if>
+    </where>
+</select>
 
     <select id="selectById" resultType="user">
       select *

@@ -3,6 +3,7 @@ package com.hzu.community.api.dao;
 import com.hzu.community.api.common.RestResponse;
 import com.hzu.community.api.config.GenericRest;
 import com.hzu.community.api.model.Question;
+import com.hzu.community.api.model.QuestionDTO;
 import com.hzu.community.api.utils.Rests;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -27,4 +28,15 @@ public class QuestionDao {
         return resp.getResult();
 
     }
+
+    public QuestionDTO getById(Integer id) {
+        RestResponse<QuestionDTO> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/question/one?id=" + id);
+            ResponseEntity<RestResponse<QuestionDTO>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<QuestionDTO>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+    }
+
 }

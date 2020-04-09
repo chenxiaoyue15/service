@@ -24,7 +24,11 @@ public class QuestionController {
         list = questionService.getQuestions();
         return RestResponse.success(list);
     }
-
+    @RequestMapping("one")
+    public RestResponse<Question> one(Integer id){
+        Question question = questionService.queryOneQuestion(id);
+        return RestResponse.success(question);
+    }
 
 
 

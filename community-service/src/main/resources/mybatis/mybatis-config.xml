@@ -19,6 +19,7 @@
     <typeAliases>
       <typeAlias type="com.hzu.community.model.User"        alias="user"/>
       <typeAlias type="com.hzu.community.model.Question"        alias="question"/>
+      <typeAlias type="com.hzu.community.model.Comment"        alias="Comment"/>
     </typeAliases>
 
     <typeHandlers>
@@ -27,6 +28,7 @@
     <mappers> 
       <mapper resource="mapper/UserMapper.xml"/>
       <mapper resource="mapper/QuestionMapper.xml"/>
+      <mapper resource="mapper/CommentMapper.xml"/>
     </mappers>
 
 

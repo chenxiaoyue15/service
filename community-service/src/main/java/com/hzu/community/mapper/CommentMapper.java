@@ -1,19 +1,21 @@
 package com.hzu.community.mapper;
 
+import com.hzu.community.model.Comment;
 import com.hzu.community.model.Question;
-import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
 @Repository
 @Mapper
-public interface QuestionMapper {
+public interface CommentMapper {
 //    @Insert("insert into question(title,description,gmt_create,gmt_modified,creator,tag,comment_count) values (#{title},#{description},#{gmtCreate},#{gmtModified},#{creator},#{tag},#{commentCount})")
 //    void create(Question question);
 //    @Select("select * from question ORDER BY gmt_create DESC limit #{offset},#{size} ")
 //    ORDER BY gmt_create DESC 按时间最新排序
-    List<Question> selectQuestion();
+    List<Comment> selectComment(@Param("id")Integer id, @Param("type")Integer type);
 
     List<Question> queryOneQuestion(Question query);
 
