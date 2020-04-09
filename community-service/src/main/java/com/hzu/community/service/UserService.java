@@ -37,7 +37,7 @@ public class UserService {
      * @param id
      * @return
      */
-    public User getUserById(Long id) {
+    public User getUserById(Integer id) {
         //Jedis对缓存的操作，key-value的操作
         String key = "user:" + id;
         String json = redisTemplate.opsForValue().get(key);

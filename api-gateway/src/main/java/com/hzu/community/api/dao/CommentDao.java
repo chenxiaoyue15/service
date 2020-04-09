@@ -17,14 +17,14 @@ import java.util.List;
 @Repository
 public class CommentDao {
     @Autowired
-    private static GenericRest rest;
+    private  GenericRest rest;
     @Value("${community.service.name}")
-    private static String userServiceName;
+    private  String userServiceName;
 
 
 
 
-    public static List<Comment> getComments(Integer id, Integer type) {
+    public  List<Comment> getComments(Integer id, Integer type) {
 
         RestResponse<List<Comment>> resp = Rests.exc(() -> {
 

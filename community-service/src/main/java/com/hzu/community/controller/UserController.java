@@ -22,7 +22,7 @@ public class UserController {
     private UserService userService;
 //    查询
     @RequestMapping("getById")
-    public RestResponse<User> getUserById(Long id){
+    public RestResponse<User> getUserById(Integer id){
        User user= userService.getUserById(id);
             return RestResponse.success(user);
     }

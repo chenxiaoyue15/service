@@ -10,7 +10,7 @@ import java.util.Map;
 @Repository
 @Mapper
 public interface UserMapper {
-    User selectById(Long id);
+    User selectById(Integer id);
 
     List<User> select(User user);
 
