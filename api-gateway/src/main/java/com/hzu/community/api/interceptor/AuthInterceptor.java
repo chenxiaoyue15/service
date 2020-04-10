@@ -52,6 +52,7 @@ public class AuthInterceptor implements HandlerInterceptor {
         //鉴权
         User user = userDao.getUserByToken(cookie.getValue());
         if (user != null) {
+            req.getSession().setAttribute("user", user);//这一步把user信息给session，可在前端获取到user信息，获取名字到导航栏
           req.setAttribute(CommonConstants.LOGIN_USER_ATTRIBUTE, user);
 //          req.setAttribute(CommonConstants.USER_ATTRIBUTE, user);
           UserContext.setUser(user);
