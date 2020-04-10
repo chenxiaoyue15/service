@@ -39,4 +39,11 @@ public class QuestionDao {
         });return resp.getResult();
     }
 
+    public void addQuestion(Question question) {
+        Rests.exc(()  ->{
+            String url = Rests.toUrl(userServiceName, "/question/add" );
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url,question,new ParameterizedTypeReference<RestResponse<Object>>() {});
+            return responseEntity.getBody();
+        });
+    }
 }

@@ -17,6 +17,10 @@ public interface QuestionMapper {
 
     List<Question> queryOneQuestion(Question query);
 
+
+
+    void insert(Question question);
+
 //    @Select("select count(1) from question")
 //    Integer count();
 //

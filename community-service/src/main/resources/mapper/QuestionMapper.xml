@@ -18,7 +18,28 @@
 
         </where>
     </select>
+    <insert id="insert">
+      insert into question(
+				          title,
+						  description,
+						  gmt_create,
+						  gmt_modified,
+						  creator,
+						  tag,
+						  comment_count,
+						  view_count)
+                  value(
+                       #{title},
+                       #{description},
+                       #{gmtCreate},
+                       #{gmtModified},
+                       #{creator},
+                       #{tag},
+                       #{commentCount},
+                       #{viewCount}
+                  )
 
+    </insert>
 
 
 

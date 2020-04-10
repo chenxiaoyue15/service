@@ -46,7 +46,7 @@ public class UserController {
             return "redirect:/login?" + "username=" + username + "&" + ResultMsg.errorMsg("用户名或密码错误").asUrlParams();
         }else {
             UserContext.setUser(user);
-            return  StringUtils.isNotBlank(request.getParameter("target")) ? "redirect:" + request.getParameter("target") : "redirect:/index";
+            return  StringUtils.isNotBlank(request.getParameter("target")) ? "redirect:" + request.getParameter("target") : "redirect:/";
         }
     }
 

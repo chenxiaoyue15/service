@@ -32,6 +32,10 @@ public class QuestionService {
         return questionDTO;
 
     }
+
+    public void createOrUpdate(Question question) {
+            questionDao.addQuestion(question);
+    }
 }
 
 

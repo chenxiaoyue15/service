@@ -16,7 +16,7 @@ import java.util.List;
 public class IndexController {
     @Autowired
     private QuestionService questionService;
-    @RequestMapping("/index")
+    @RequestMapping("/")
     public String index(Model model){
         List<Question> questions = questionService.getQuestions();
         model.addAttribute("question", questions);
