@@ -2,6 +2,7 @@ package com.hzu.community.controller;
 
 import com.google.common.base.Objects;
 import com.hzu.community.common.RestResponse;
+import com.hzu.community.model.Comment;
 import com.hzu.community.model.Question;
 import com.hzu.community.model.QuestionReq;
 import com.hzu.community.model.User;
@@ -62,5 +63,17 @@ public class QuestionController {
 
         return RestResponse.success();
     }
+    @RequestMapping("selectRelated")
+    public RestResponse<List<Question>> selectRelated(@RequestBody Question question){
+        List<Question> list = null;
+        list = questionService.selectRelated(question);
+        return RestResponse.success(list);
+    }
+    @RequestMapping(value="updateCommentCount")
+    public RestResponse<Object> updateCommentCount(@RequestBody Question question){
 
+        questionService.updateCommentCount(question);
+
+        return RestResponse.success();
+    }
 }

@@ -69,4 +69,33 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
+
+    public List<Question> selectRelated(Question question) {
+        RestResponse<List<Question>> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/question/selectRelated");
+            ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.post(url,question,new ParameterizedTypeReference<RestResponse<List<Question>>>() {});
+            return responseEntity.getBody();
+        });
+        return resp.getResult();
+    }
+
+    public Question getQuestion(Integer parentId) {
+        RestResponse<Question> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/question/one?id=" + parentId);
+            ResponseEntity<RestResponse<Question>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Question>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+    }
+
+    public void updateCommentCount(Question question) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(userServiceName, "/question/updateCommentCount");
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url, question, new ParameterizedTypeReference<RestResponse<Object>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
 }

@@ -41,4 +41,30 @@ public class CommentDao {
 
     }
 
+    public Comment selectById(Integer parentId) {
+        RestResponse<Comment> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/comment/one?id=" + parentId);
+            ResponseEntity<RestResponse<Comment>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Comment>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+    }
+
+    public void insert(Comment comment) {
+        Rests.exc(()  ->{
+            String url = Rests.toUrl(userServiceName, "/comment/add" );
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url,comment,new ParameterizedTypeReference<RestResponse<Object>>() {});
+            return responseEntity.getBody();
+        });
+    }
+
+    public void incCommentCount(Comment updateCommentCount) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(userServiceName, "/comment/updateCommentCount");
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url, updateCommentCount, new ParameterizedTypeReference<RestResponse<Object>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
 }

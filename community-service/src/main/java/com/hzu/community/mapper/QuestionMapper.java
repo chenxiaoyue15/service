@@ -23,6 +23,10 @@ public interface QuestionMapper {
 
     void update(Question question);
 
+    List<Question> selectRelated(Question question);
+
+    void updateCommentCount(Question question);
+
 //    @Select("select count(1) from question")
 //    Integer count();
 //

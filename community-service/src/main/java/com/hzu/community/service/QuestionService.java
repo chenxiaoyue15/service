@@ -48,4 +48,13 @@ private QuestionMapper questionMapper;
         questionMapper.update(question);
 
     }
+
+    public List<Question> selectRelated(Question question) {
+        List<Question> questions = questionMapper.selectRelated(question);
+        return questions;
+    }
+
+    public void updateCommentCount(Question question) {
+        questionMapper.updateCommentCount(question);
+    }
 }

@@ -23,5 +23,21 @@ private CommentMapper commentMapper;
     }
 
 
+    public Comment queryOneComment(Integer id) {
+        Comment query = new Comment();
+        query.setId(id);
+        List<Comment> comments=commentMapper.queryOneComment(query);
+        if (!comments.isEmpty()){
+            return comments.get(0);
+        }
+        return null;
+    }
 
+    public void addComment(Comment comment) {
+        commentMapper.insert(comment);
+    }
+
+    public void updateCommentCount(Comment comment) {
+        commentMapper.updateCommentCount(comment);
+    }
 }

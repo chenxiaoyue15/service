@@ -6,6 +6,7 @@ import com.hzu.community.model.Question;
 import com.hzu.community.service.CommentService;
 import com.hzu.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -30,12 +31,23 @@ public class CommentController {
         list = commentService.getComment(id,type);
         return RestResponse.success(list);
     }
-//    @RequestMapping("one")
-//    public RestResponse<Question> one(Integer id){
-//        Question question = questionService.queryOneQuestion(id);
-//        return RestResponse.success(question);
-//    }
+    @RequestMapping("one")
+    public RestResponse<Comment> one(Integer id){
+        Comment comment = commentService.queryOneComment(id);
+        return RestResponse.success(comment);
+    }
+    @RequestMapping(value="add")
+    public RestResponse<Object> leaveComment(@RequestBody Comment comment){
+        commentService.addComment(comment);
 
+        return RestResponse.success();
+    }
+    @RequestMapping(value="updateCommentCount")
+    public RestResponse<Object> updateCommentCount(@RequestBody Comment comment){
 
+        commentService.updateCommentCount(comment);
+
+        return RestResponse.success();
+    }
 
 }

@@ -1,10 +1,13 @@
 package com.hzu.community.api.service;
 
 import com.hzu.community.api.dao.CommentDao;
+import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.enums.CommentTypeEnum;
+import com.hzu.community.api.enums.NotificationTypeEnum;
 import com.hzu.community.api.model.Comment;
 import com.hzu.community.api.model.CommentDTO;
+import com.hzu.community.api.model.Question;
 import com.hzu.community.api.model.User;
 import org.springframework.beans.BeanUtils;
 
@@ -25,6 +28,8 @@ public class CommentService {
     private CommentDao commentDao;
     @Autowired
     private UserDao userDao;
+    @Autowired
+    private QuestionDao questionDao;
     public  List<CommentDTO> listByTargetId(Integer id, CommentTypeEnum type) {
         //回显评论
         List<Comment> comments = commentDao.getComments(id, type.getType());
@@ -54,5 +59,32 @@ public class CommentService {
 
         }).collect(Collectors.toList());
         return commentDTOS;
+    }
+
+    public void insert(Comment comment, User user) {
+        if (comment.getType() == CommentTypeEnum.COMMENT.getType()) {
+            //插入评论
+            Comment dbComment = commentDao.selectById(comment.getParentId());
+            Question question = questionDao.getQuestion(dbComment.getParentId());
+            commentDao.insert(comment);
+
+
+            //增加评论数
+            Comment updateCommentCount = new Comment();
+            updateCommentCount.setId(comment.getParentId());
+            //updateCommentCount.setCommentCount(comment.getCommentCount()+1);
+            commentDao.incCommentCount(updateCommentCount);
+            //创建通知
+//            createNotify(comment, dbComment.getCommentator(), commentator.getAccountId(), question.getTitle(), NotificationTypeEnum.REPLY_COMMENT, question.getId());
+        } else {
+            //回复问题
+            Question question = questionDao.getQuestion(comment.getParentId());
+//            comment.setCommentCount(0);
+            commentDao.insert(comment);
+            question.setId(comment.getParentId());
+            questionDao.updateCommentCount(question);
+            //创建通知
+//            createNotify(comment, question.getCreator(), commentator.getAccountId(), question.getTitle(),NotificationTypeEnum.REPLY_QUESTION, question.getId());
+        }
     }
 }

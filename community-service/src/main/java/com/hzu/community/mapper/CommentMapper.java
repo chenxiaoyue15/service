@@ -17,7 +17,13 @@ public interface CommentMapper {
 //    ORDER BY gmt_create DESC 按时间最新排序
     List<Comment> selectComment(@Param("id")Integer id, @Param("type")Integer type);
 
-    List<Question> queryOneQuestion(Question query);
+
+
+    List<Comment> queryOneComment(Comment query);
+
+    void insert(Comment comment);
+
+    void updateCommentCount(Comment comment);
 
 //    @Select("select count(1) from question")
 //    Integer count();

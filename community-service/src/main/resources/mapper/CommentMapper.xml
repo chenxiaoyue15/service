@@ -6,11 +6,6 @@
     <select id="selectComment" resultType="comment">
         select *
         from   comment
-
-    </select>
-    <select id="queryOneQuestion" resultType="question">
-        select *
-        from   question
         <where>
             <if test="id != null and id != 0">
                 and parent_id=#{id}
@@ -21,8 +16,32 @@
 
         </where>
     </select>
+    <select id="queryOneComment" resultType="comment">
+        select *
+        from   comment
+        <where>
+            <if test="id != null and id != 0">
+                and id = #{id}
+            </if>
 
+        </where>
+    </select>
+    <insert id="insert">
+      insert into comment(
+				        parent_id,type,gmt_create,gmt_modified,commentator,content,comment_count
+				        )
+                  value(
+                       #{parentId},#{type},#{gmtCreate},#{gmtModified},#{commentator},#{content},#{commentCount}
+                  )
 
+    </insert>
+    <update id="updateCommentCount">
+        update comment
+        <set>
+            comment_count=comment_count+1
+        </set>
+         where id = #{id}
+    </update>
 
 
 </mapper>
