@@ -19,6 +19,11 @@ public class UserDao {
     @Autowired
     private  GenericRest rest;
 
+    /**
+     * 调用论坛服务的用户属性接口
+     * @param integer
+     * @return
+     */
     public   User ById(Integer integer) {
         RestResponse<User> resp = Rests.exc(() -> {
 
@@ -32,6 +37,11 @@ public class UserDao {
 
     }
 
+    /**
+     * 调用用户登录接口
+     * @param user
+     * @return
+     */
     public User authUser(User user) {
         String url="http://"+userServiceName + "/user/auth";
         ResponseEntity<RestResponse<User>> responseEntity = rest.post(url, user, new ParameterizedTypeReference<RestResponse<User>>(){}) ;
@@ -44,6 +54,11 @@ public class UserDao {
 
     }
 
+    /**
+     * 调用用户鉴权接口
+     * @param token
+     * @return
+     */
     public User getUserByToken(String token) {
 
         String url = "http://" + userServiceName + "/user/get?token="+token;

@@ -22,7 +22,12 @@ public class CommentDao {
     private  String userServiceName;
 
 
-
+    /**
+     * 调用评论列表接口
+     * @param id
+     * @param type
+     * @return
+     */
 
     public  List<Comment> getComments(Integer id, Integer type) {
 

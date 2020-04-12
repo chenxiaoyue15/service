@@ -43,9 +43,22 @@ public class QuestionController {
         return RestResponse.success(question);
     }
 
+    /**
+     * 添加文章接口
+     * @param question
+     * @return
+     */
     @RequestMapping(value="add")
     public RestResponse<Object> leaveComment(@RequestBody Question question){
         questionService.addQuestion(question);
+
+        return RestResponse.success();
+    }
+
+    @RequestMapping(value="update")
+    public RestResponse<Object> updateQuestion(@RequestBody Question question){
+
+         questionService.updateQuestion(question);
 
         return RestResponse.success();
     }

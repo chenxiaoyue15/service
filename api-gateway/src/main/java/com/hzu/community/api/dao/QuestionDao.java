@@ -18,6 +18,11 @@ public class QuestionDao {
     private GenericRest rest;
     @Value("${community.service.name}")
     private String userServiceName;
+
+    /**
+     * 调用文章列表接口
+     * @return
+     */
     public  List<Question> getQuestions() {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
 
@@ -29,6 +34,11 @@ public class QuestionDao {
 
     }
 
+    /**
+     * 调用文章详情接口
+     * @param id
+     * @return
+     */
     public QuestionDTO getById(Integer id) {
         RestResponse<QuestionDTO> resp = Rests.exc(() -> {
 
@@ -39,10 +49,23 @@ public class QuestionDao {
         });return resp.getResult();
     }
 
+    /**
+     * 调用添加文章接口
+     * @param question
+     */
     public void addQuestion(Question question) {
         Rests.exc(()  ->{
             String url = Rests.toUrl(userServiceName, "/question/add" );
             ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url,question,new ParameterizedTypeReference<RestResponse<Object>>() {});
+            return responseEntity.getBody();
+        });
+    }
+
+    public void update(Question question) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(userServiceName, "/question/update");
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url, question, new ParameterizedTypeReference<RestResponse<Object>>() {
+            });
             return responseEntity.getBody();
         });
     }

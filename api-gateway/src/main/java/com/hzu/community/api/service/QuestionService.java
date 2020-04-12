@@ -34,7 +34,19 @@ public class QuestionService {
     }
 
     public void createOrUpdate(Question question) {
+        if (question.getId()==null){
+            question.setGmtCreate(System.currentTimeMillis());
+            question.setGmtModified(question.getGmtCreate());
+            question.setViewCount(0);
+            question.setCommentCount(0);
+            question.setLikeCount(0);
             questionDao.addQuestion(question);
+        }else {
+            question.setGmtCreate(System.currentTimeMillis());
+            question.setGmtModified(question.getGmtCreate());
+            questionDao.update(question);
+        }
+
     }
 }
 

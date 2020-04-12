@@ -21,6 +21,8 @@ public interface QuestionMapper {
 
     void insert(Question question);
 
+    void update(Question question);
+
 //    @Select("select count(1) from question")
 //    Integer count();
 //

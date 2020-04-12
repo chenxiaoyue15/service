@@ -18,6 +18,12 @@ public class CommentController {
     @Autowired
     private CommentService commentService;
 
+    /**
+     * 获取评论接口
+     * @param id
+     * @param type
+     * @return
+     */
     @RequestMapping("list")
     public RestResponse<List<Comment>> list(Integer id,Integer type){
         List<Comment> list = null;

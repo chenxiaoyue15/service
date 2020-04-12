@@ -42,4 +42,10 @@ private QuestionMapper questionMapper;
         question.setLikeCount(0);
         questionMapper.insert(question);
     }
+
+    public void updateQuestion(Question question) {
+        question.setGmtModified(question.getGmtCreate());
+        questionMapper.update(question);
+
+    }
 }

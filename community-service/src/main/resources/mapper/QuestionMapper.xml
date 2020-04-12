@@ -40,7 +40,15 @@
                   )
 
     </insert>
-
+    <update id="update">
+        update question
+        <set>
+            title = #{title},
+            description=#{description},
+            gmt_modified=#{gmtModified}
+        </set>
+        where id = #{id}
+    </update>
 
 
 </mapper>

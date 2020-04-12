@@ -3,6 +3,7 @@ package com.hzu.community.api.controller;
 import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.model.Question;
+import com.hzu.community.api.model.QuestionDTO;
 import com.hzu.community.api.model.TagCache;
 import com.hzu.community.api.model.User;
 import com.hzu.community.api.service.QuestionService;
@@ -10,9 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.WebUtils;
 
 import javax.servlet.http.Cookie;
@@ -27,23 +26,23 @@ public class PublishController {
     private QuestionService questionService;
 
 
-//    @GetMapping("/publish/{id}")
-//    public String edit(@PathVariable(name = "id")Integer id, Model model){
-//        QuestionDTO question = questionService.getById(id);
-//        model.addAttribute("title",question.getTitle());
-//        model.addAttribute("description",question.getDescription());
-//        model.addAttribute("tag",question.getTag());
-//        model.addAttribute("id",question.getId());
-//        model.addAttribute("tags",TagCache.get());
-//        return "publish";
-//    }
+    @GetMapping("/publish/{id}")
+    public String edit(@PathVariable(name = "id")Integer id, Model model){
+        QuestionDTO question = questionService.getById(id);
+        model.addAttribute("title",question.getTitle());
+        model.addAttribute("description",question.getDescription());
+        model.addAttribute("tag",question.getTag());
+        model.addAttribute("id",question.getId());
+        model.addAttribute("tags",TagCache.get());
+        return "publish";
+    }
 
-//    @GetMapping("/publish")
-//    public String publish(Model model){
-//        model.addAttribute("tags",TagCache.get());
-//
-//        return "publish";
-//    }
+    @GetMapping("/publish")
+    public String publish(Model model){
+        model.addAttribute("tags",TagCache.get());
+
+        return "publish";
+    }
     @RequestMapping("/publish")
     public String doPublish(
             @RequestParam(value = "title",required = false) String title,
@@ -88,7 +87,7 @@ public class PublishController {
         question.setTag(tag);
         question.setCreator(user.getId());
 
-//        question.setId(id);
+        question.setId(id);
         questionService.createOrUpdate(question);
 
         return "redirect:/";
