@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.hzu.community.mapper.QuestionMapper">
+<mapper namespace="com.hzu.community.mapper.NotificationMapper">
 
 
     <select id="selectQuestion" resultType="question">
@@ -8,9 +8,9 @@
         from   question
 
     </select>
-    <select id="queryOneQuestion" resultType="question">
+    <select id="queryId" resultType="notification">
         select *
-        from   question
+        from   notification
         <where>
             <if test="id != null and id != 0">
                 and id = #{id}
@@ -18,25 +18,11 @@
 
         </where>
     </select>
-    <insert id="insert">
-      insert into question(
-				          title,
-						  description,
-						  gmt_create,
-						  gmt_modified,
-						  creator,
-						  tag,
-						  comment_count,
-						  view_count)
+    <insert id="addNotification">
+      insert into notification(
+				          id,type,gmt_create,notifier,receiver,outerId,status,notifier_name,outer_title)
                   value(
-                       #{title},
-                       #{description},
-                       #{gmtCreate},
-                       #{gmtModified},
-                       #{creator},
-                       #{tag},
-                       #{commentCount},
-                       #{viewCount}
+                      #{id},#{type},#{gmtCreate},#{notifier},#{receiver},#{outerId},#{status},#{notifierName},#{outerTitle}
                   )
 
     </insert>
@@ -54,17 +40,24 @@
         from   question
         where id != #{id} and tag regexp #{tag}
     </select>
-    <update id="updateCommentCount">
-        update question
-        <set>
-            comment_count=comment_count+1
-        </set>
+    <update id="updateRead">
+        update notification
+
+            set status=#{status}
+
         where id = #{id}
     </update>
 
-    <select id="selectMyQuestion" resultType="question">
+
+    <select id="countUnread" resultType="integer" >
+        select count(*)
+        from   notification
+        where receiver = #{userId} and status = #{status}
+     </select>
+    <select id="select" resultType="notification">
         select *
-        from   question
-        where creator = #{id}
+        from   notification
+        where receiver = #{id}
     </select>
+
 </mapper>

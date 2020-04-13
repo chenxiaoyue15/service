@@ -98,4 +98,15 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
+
+    public List<Question> selectMyQuestion(Integer id) {
+        RestResponse<List<Question>> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/question/selectMyQuestion?id="+id);
+            ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,  new ParameterizedTypeReference<RestResponse<List<Question>>>() {
+            });
+            return responseEntity.getBody();
+        });
+        return resp.getResult();
+    }
 }

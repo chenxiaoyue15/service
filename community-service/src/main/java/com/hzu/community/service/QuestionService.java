@@ -57,4 +57,9 @@ private QuestionMapper questionMapper;
     public void updateCommentCount(Question question) {
         questionMapper.updateCommentCount(question);
     }
+
+    public List<Question> selectMyQuestion(Integer id) {
+        List<Question> questions = questionMapper.selectMyQuestion(id);
+        return questions;
+    }
 }

@@ -1,14 +1,13 @@
 package com.hzu.community.api.service;
 
 import com.hzu.community.api.dao.CommentDao;
+import com.hzu.community.api.dao.NotificationDao;
 import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.enums.CommentTypeEnum;
+import com.hzu.community.api.enums.NotificationStatusEnum;
 import com.hzu.community.api.enums.NotificationTypeEnum;
-import com.hzu.community.api.model.Comment;
-import com.hzu.community.api.model.CommentDTO;
-import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.User;
+import com.hzu.community.api.model.*;
 import org.springframework.beans.BeanUtils;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,6 +29,8 @@ public class CommentService {
     private UserDao userDao;
     @Autowired
     private QuestionDao questionDao;
+    @Autowired
+    private NotificationDao notificationDao;
     public  List<CommentDTO> listByTargetId(Integer id, CommentTypeEnum type) {
         //回显评论
         List<Comment> comments = commentDao.getComments(id, type.getType());
@@ -61,7 +62,7 @@ public class CommentService {
         return commentDTOS;
     }
 
-    public void insert(Comment comment, User user) {
+    public void insert(Comment comment, User commentator) {
         if (comment.getType() == CommentTypeEnum.COMMENT.getType()) {
             //插入评论
             Comment dbComment = commentDao.selectById(comment.getParentId());
@@ -75,7 +76,7 @@ public class CommentService {
             //updateCommentCount.setCommentCount(comment.getCommentCount()+1);
             commentDao.incCommentCount(updateCommentCount);
             //创建通知
-//            createNotify(comment, dbComment.getCommentator(), commentator.getAccountId(), question.getTitle(), NotificationTypeEnum.REPLY_COMMENT, question.getId());
+            createNotify(comment, dbComment.getCommentator(), commentator.getAccountId(), question.getTitle(), NotificationTypeEnum.REPLY_COMMENT, question.getId());
         } else {
             //回复问题
             Question question = questionDao.getQuestion(comment.getParentId());
@@ -84,7 +85,20 @@ public class CommentService {
             question.setId(comment.getParentId());
             questionDao.updateCommentCount(question);
             //创建通知
-//            createNotify(comment, question.getCreator(), commentator.getAccountId(), question.getTitle(),NotificationTypeEnum.REPLY_QUESTION, question.getId());
+            createNotify(comment, question.getCreator(), commentator.getAccountId(), question.getTitle(),NotificationTypeEnum.REPLY_QUESTION, question.getId());
         }
+    }
+    //        创建通知的方法
+    private void createNotify(Comment comment, Integer receiver, String notifierName, String outerTitle, NotificationTypeEnum notificationType, Integer outerId) {
+        Notification notification = new Notification();
+        notification.setGmtCreate(System.currentTimeMillis());
+        notification.setType(notificationType.getType());
+        notification.setOuterId(outerId);
+        notification.setNotifier(comment.getCommentator());
+        notification.setStatus(NotificationStatusEnum.UNREAD.getStatus());
+        notification.setReceiver(receiver);
+        notification.setNotifierName(notifierName);
+        notification.setOuterTitle(outerTitle);
+        notificationDao.insert(notification);
     }
 }

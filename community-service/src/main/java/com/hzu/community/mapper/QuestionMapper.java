@@ -27,6 +27,8 @@ public interface QuestionMapper {
 
     void updateCommentCount(Question question);
 
+    List<Question> selectMyQuestion(Integer id);
+
 //    @Select("select count(1) from question")
 //    Integer count();
 //

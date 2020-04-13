@@ -69,6 +69,12 @@ public class QuestionController {
         list = questionService.selectRelated(question);
         return RestResponse.success(list);
     }
+    @RequestMapping("selectMyQuestion")
+    public RestResponse<List<Question>> selectMyQuestion(Integer id){
+        List<Question> list = null;
+        list = questionService.selectMyQuestion(id);
+        return RestResponse.success(list);
+    }
     @RequestMapping(value="updateCommentCount")
     public RestResponse<Object> updateCommentCount(@RequestBody Question question){
 

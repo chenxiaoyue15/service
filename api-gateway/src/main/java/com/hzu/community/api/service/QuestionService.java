@@ -67,6 +67,11 @@ public class QuestionService {
         }).collect(Collectors.toList());
         return questionDTOS;
     }
+
+    public List<Question> selectMyQuestion(Integer id) {
+
+        return questionDao.selectMyQuestion(id);
+    }
 }
 
 

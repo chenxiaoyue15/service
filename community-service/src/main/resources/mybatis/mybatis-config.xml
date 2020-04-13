@@ -19,7 +19,8 @@
     <typeAliases>
       <typeAlias type="com.hzu.community.model.User"        alias="user"/>
       <typeAlias type="com.hzu.community.model.Question"        alias="question"/>
-      <typeAlias type="com.hzu.community.model.Comment"        alias="Comment"/>
+      <typeAlias type="com.hzu.community.model.Comment"        alias="comment"/>
+      <typeAlias type="com.hzu.community.model.Notification"        alias="notification"/>
     </typeAliases>
 
     <typeHandlers>
@@ -29,6 +30,7 @@
       <mapper resource="mapper/UserMapper.xml"/>
       <mapper resource="mapper/QuestionMapper.xml"/>
       <mapper resource="mapper/CommentMapper.xml"/>
+      <mapper resource="mapper/NotificationMapper.xml"/>
     </mappers>
 
 
