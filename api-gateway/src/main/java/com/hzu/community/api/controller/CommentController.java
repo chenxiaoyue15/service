@@ -19,9 +19,9 @@ public class CommentController {
     @RequestMapping(value = "/comment", method = RequestMethod.POST)
     public Object post(@RequestBody CommentCreateDTO commentCreateDTO, HttpServletRequest request) {
         User user = (User) request.getSession().getAttribute("user");
-//        if (user == null) {
-//            return ResultDTO.errorOf(2002, "未登录,请先登录");
-//        }
+        if (user == null) {
+            return ResultDTO.errorOf(2002, "未登录,请先登录");
+        }
 
         Comment comment = new Comment();
         comment.setParentId(commentCreateDTO.getParentId());

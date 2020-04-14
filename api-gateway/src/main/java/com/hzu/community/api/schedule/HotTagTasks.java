@@ -29,7 +29,7 @@ private HotTagCache hotTagCache;
 
         Map<String, Integer> priorities = new HashMap<>();
         while (offset == 0 || list.size() == limit) {
-            list = questionDao.getQuestions(offset, limit,null,null);
+            list = questionDao.getQuestions(offset, limit,null,null,null);
             for (Question question : list) {
                 String[] tags = StringUtils.split(question.getTag(), ",");
                 for (String tag : tags) {

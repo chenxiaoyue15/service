@@ -15,9 +15,9 @@ public class QuestionService {
 @Autowired
 private QuestionMapper questionMapper;
 
-    public List<Question> getQuestions(Integer offset, Integer size, String search, String tag) {
+    public List<Question> getQuestions(Integer offset, Integer size, String search, String tag, String sort) {
 
-        return questionMapper.selectQuestion(offset,size,search,tag);
+        return questionMapper.selectQuestion(offset,size,search,tag,sort);
     }
 
 

@@ -14,7 +14,7 @@ public interface QuestionMapper {
 //    void create(Question question);
 //    @Select("select * from question ORDER BY gmt_create DESC limit #{offset},#{size} ")
 //    ORDER BY gmt_create DESC 按时间最新排序
-    List<Question> selectQuestion(@Param(value = "offset") Integer offset, @Param(value = "size") Integer size, @Param(value = "search") String search,@Param(value = "tag") String tag);
+    List<Question> selectQuestion(@Param(value = "offset") Integer offset, @Param(value = "size") Integer size, @Param(value = "search") String search, @Param(value = "tag") String tag, @Param(value = "sort")String sort);
 
     List<Question> queryOneQuestion(Question query);
 

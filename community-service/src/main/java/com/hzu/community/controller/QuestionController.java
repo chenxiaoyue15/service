@@ -24,9 +24,9 @@ public class QuestionController {
      * @return
      */
     @RequestMapping("list")
-    public RestResponse<List<Question>> list(Integer offset,Integer size,String search,String tag){
+    public RestResponse<List<Question>> list(Integer offset,Integer size,String search,String tag,String sort){
         List<Question> list = null;
-        list = questionService.getQuestions(offset,size,search,tag);
+        list = questionService.getQuestions(offset,size,search,tag,sort);
         return RestResponse.success(list);
     }
 

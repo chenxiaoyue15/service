@@ -23,7 +23,7 @@ public class QuestionService {
     private QuestionDao questionDao;
     @Autowired
     private UserDao userDao;
-    public PaginationDTO getQuestions(String search, String tag, Integer page, Integer size) {
+    public PaginationDTO getQuestions(String search, String tag, Integer page, Integer size, String sort) {
         if (StringUtils.isNotBlank(search)) {
             String[] tags = StringUtils.split(search, " ");
             search = Arrays
@@ -38,7 +38,7 @@ public class QuestionService {
         Integer totalCount=questionDao.count(search,tag);
         paginationDTO.setPagination(totalCount,page,size);
         Integer offset = size * (page - 1);
-        List<Question> questions =  questionDao.getQuestions(offset,size,search,tag);
+        List<Question> questions =  questionDao.getQuestions(offset,size,search,tag,sort);
         List<QuestionDTO>questionDTOList=new ArrayList<>();
 
         for (Question question : questions){

@@ -29,9 +29,13 @@ public class QuestionDao {
      * @param size
      * @param search
      */
-    public List<Question> getQuestions(Integer offset,Integer size,String search,String tag) {
+    public List<Question> getQuestions(Integer offset,Integer size,String search,String tag,String sort) {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
-
+            if (sort!=null){
+                String url = Rests.toUrl(userServiceName, "/question/list?offset="+offset+"&size="+size+"&sort="+sort);
+                ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,new ParameterizedTypeReference<RestResponse<List<Question>>>() {});
+                return responseEntity.getBody();
+            }
             if (search==null&&tag==null){
                 String url = Rests.toUrl(userServiceName, "/question/list?offset="+offset+"&size="+size);
                 ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,new ParameterizedTypeReference<RestResponse<List<Question>>>() {});

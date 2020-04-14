@@ -13,7 +13,13 @@
                 tag regexp #{tag}
             </if>
         </where>
-        ORDER BY gmt_create DESC limit #{offset},#{size}
+        <if test="sort == null or sort == ''">
+            order by gmt_create desc
+        </if>
+        <if test="sort == 'hot' ">
+            order by comment_count desc
+        </if>
+        limit #{offset},#{size}
     </select>
 
     <select id="queryOneQuestion" resultType="question">
