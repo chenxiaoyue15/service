@@ -1,6 +1,7 @@
 package com.hzu.community.mapper;
 
 import com.hzu.community.model.Question;
+import com.hzu.community.model.QuestionQueryDTO;
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 
@@ -13,7 +14,7 @@ public interface QuestionMapper {
 //    void create(Question question);
 //    @Select("select * from question ORDER BY gmt_create DESC limit #{offset},#{size} ")
 //    ORDER BY gmt_create DESC 按时间最新排序
-    List<Question> selectQuestion();
+    List<Question> selectQuestion(@Param(value = "offset") Integer offset, @Param(value = "size") Integer size, @Param(value = "search") String search,@Param(value = "tag") String tag);
 
     List<Question> queryOneQuestion(Question query);
 
@@ -27,7 +28,12 @@ public interface QuestionMapper {
 
     void updateCommentCount(Question question);
 
-    List<Question> selectMyQuestion(Integer id);
+    List<Question> selectMyQuestion(@Param(value = "id")Integer id, @Param(value = "offset")Integer offset, @Param(value = "size")Integer size);
+
+    Integer count(@Param(value = "search")String search, @Param(value = "tag")String tag);
+
+    void updateViewCount(Question updateQuestion);
+
 
 //    @Select("select count(1) from question")
 //    Integer count();

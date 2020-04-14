@@ -1,10 +1,7 @@
 package com.hzu.community.api.controller;
 
 import com.hzu.community.api.dao.UserDao;
-import com.hzu.community.api.model.Notification;
-import com.hzu.community.api.model.NotificationDTO;
-import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.User;
+import com.hzu.community.api.model.*;
 import com.hzu.community.api.service.NotificationService;
 import com.hzu.community.api.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,22 +28,24 @@ public class ProfileController {
     private UserDao userDao;
     @GetMapping("/profile/{action}")//他是一个get方法，地址是/profile，就是希望访问profile的时候来调用这个地址
     public String profile(@PathVariable(name = "action") String action,
-                          Model model, HttpServletRequest request
+                          Model model, HttpServletRequest request,
+                          @RequestParam(name = "page", defaultValue = "1") Integer page,
+                          @RequestParam(name = "size", defaultValue = "5") Integer size
                          ) {//定义一个方法，String的意思就是返回他对应的页面，
         Cookie cookie = WebUtils.getCookie(request, TOKEN_COOKIE);
         User user = userDao.getUserByToken(cookie.getValue());
 
         if ("questions".equals(action)) {
-            List<Question> question = questionService.selectMyQuestion(user.getId());
+            PaginationDTO paginationDTO = questionService.selectMyQuestion(user.getId(),page, size);
             model.addAttribute("section", "questions");
             model.addAttribute("sectionName", "我的提问");
-            model.addAttribute("pagination",question);
+            model.addAttribute("pagination",paginationDTO);
 
         } else if ("replies".equals(action)) {
-            List<NotificationDTO> notification = notificationService.select(user.getId());
+            PaginationDTO paginationDTO = notificationService.select(user.getId(),page, size);
             model.addAttribute("section", "replies");
             model.addAttribute("sectionName", "最新回复");
-            model.addAttribute("pagination",notification);
+            model.addAttribute("pagination",paginationDTO);
         }
 
         return "profile";

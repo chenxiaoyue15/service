@@ -40,8 +40,12 @@ private NotificationMapper notificationMapper;
         notificationMapper.addNotification(notification);
     }
 
-    public List<Notification> select(Integer id) {
-        List<Notification> notifications = notificationMapper.select(id);
+    public List<Notification> select(Integer id, Integer offset, Integer size) {
+        List<Notification> notifications = notificationMapper.select(id,offset,size);
         return notifications;
+    }
+
+    public Integer count(Integer id) {
+        return notificationMapper.count(id);
     }
 }

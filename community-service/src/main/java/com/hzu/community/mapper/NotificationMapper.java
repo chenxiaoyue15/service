@@ -20,5 +20,7 @@ public interface NotificationMapper {
 
     void addNotification(Notification notification);
 
-    List<Notification> select(Integer id);
+    List<Notification> select(@Param("id")Integer id, @Param(value = "offset")Integer offset, @Param(value = "size")Integer size);
+
+    Integer count(@Param("id")Integer id);
 }

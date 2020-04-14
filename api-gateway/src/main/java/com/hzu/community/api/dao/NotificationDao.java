@@ -59,10 +59,10 @@ public class NotificationDao {
     }
 
 
-    public List<Notification> select(Integer id) {
+    public List<Notification> select(Integer id, Integer offset, Integer size) {
         RestResponse<List<Notification>> resp = Rests.exc(() -> {
 
-            String url = Rests.toUrl(userServiceName, "/notification/select?id="+id);
+            String url = Rests.toUrl(userServiceName, "/notification/select?id="+id+"&offset="+offset+"&size="+size);
             ResponseEntity<RestResponse<List<Notification>>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<List<Notification>>>() {
             });
             return responseEntity.getBody();
@@ -70,4 +70,13 @@ public class NotificationDao {
         return resp.getResult();
     }
 
+    public Integer countByUserId(Integer id) {
+        RestResponse<Integer> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/notification/count?id="+id);
+            ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+    }
 }

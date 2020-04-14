@@ -4,10 +4,18 @@
 
 
     <select id="selectQuestion" resultType="question">
-        select *
-        from   question
-
+        select * from question
+        <where>
+            <if test="search != null and search != ''">
+               title REGEXP #{search}
+            </if>
+            <if test="tag != null and tag != ''">
+                tag regexp #{tag}
+            </if>
+        </where>
+        ORDER BY gmt_create DESC limit #{offset},#{size}
     </select>
+
     <select id="queryOneQuestion" resultType="question">
         select *
         from   question
@@ -66,5 +74,29 @@
         select *
         from   question
         where creator = #{id}
+        ORDER BY gmt_create DESC limit #{offset},#{size}
     </select>
+
+    <select id="count" resultType="integer" >
+        select count(id)
+        from   question
+        <where>
+            <if test="search != null and search != ''">
+                 title regexp #{search}
+            </if>
+            <if test="tag != null and tag != ''">
+                 tag regexp #{tag}
+            </if>
+
+        </where>
+     </select>
+
+
+    <update id="updateViewCount">
+        update question
+        <set>
+            view_count=view_count+1
+        </set>
+        where id = #{id}
+    </update>
 </mapper>

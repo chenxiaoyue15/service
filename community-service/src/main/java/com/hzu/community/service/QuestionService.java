@@ -1,10 +1,9 @@
 package com.hzu.community.service;
 
 
-import com.hzu.community.common.RestResponse;
 import com.hzu.community.mapper.QuestionMapper;
 import com.hzu.community.model.Question;
-import com.hzu.community.model.QuestionReq;
+import com.hzu.community.model.QuestionQueryDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,10 +15,9 @@ public class QuestionService {
 @Autowired
 private QuestionMapper questionMapper;
 
-    public List<Question> getQuestions() {
+    public List<Question> getQuestions(Integer offset, Integer size, String search, String tag) {
 
-        List<Question> questions = questionMapper.selectQuestion();
-        return questions;
+        return questionMapper.selectQuestion(offset,size,search,tag);
     }
 
 
@@ -58,8 +56,19 @@ private QuestionMapper questionMapper;
         questionMapper.updateCommentCount(question);
     }
 
-    public List<Question> selectMyQuestion(Integer id) {
-        List<Question> questions = questionMapper.selectMyQuestion(id);
+    public List<Question> selectMyQuestion(Integer id,Integer offset, Integer size ) {
+        List<Question> questions = questionMapper.selectMyQuestion(id,offset,size);
         return questions;
+    }
+
+    public Integer count(String search, String tag) {
+
+        return questionMapper.count(search,tag);
+    }
+
+
+    public void updateViewCount(Question updateQuestion) {
+
+        questionMapper.updateViewCount(updateQuestion);
     }
 }

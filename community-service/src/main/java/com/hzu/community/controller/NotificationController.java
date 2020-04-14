@@ -51,7 +51,13 @@ public class NotificationController {
 
         return RestResponse.success(count);
     }
+    @RequestMapping(value="count")
+    public RestResponse<Integer> count(Integer id){
 
+        Integer count =  notificationService.count(id);
+
+        return RestResponse.success(count);
+    }
     @RequestMapping(value="updateRead")
     public RestResponse<Object> updateRead(@RequestBody Notification notification){
 
@@ -60,9 +66,9 @@ public class NotificationController {
         return RestResponse.success();
     }
     @RequestMapping("select")
-    public RestResponse<List<Notification>> selectMyQuestion(Integer id){
+    public RestResponse<List<Notification>> selectMyQuestion(Integer id,Integer offset, Integer size){
         List<Notification> list = null;
-        list = notificationService.select(id);
+        list = notificationService.select(id,offset,size);
         return RestResponse.success(list);
     }
 }

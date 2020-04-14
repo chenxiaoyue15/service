@@ -5,6 +5,7 @@ import com.hzu.community.api.enums.NotificationStatusEnum;
 import com.hzu.community.api.enums.NotificationTypeEnum;
 import com.hzu.community.api.model.Notification;
 import com.hzu.community.api.model.NotificationDTO;
+import com.hzu.community.api.model.PaginationDTO;
 import com.hzu.community.api.model.User;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -60,8 +61,15 @@ public class NotificationService {
         return notificationDTO;
     }
 
-    public List<NotificationDTO> select(Integer id) {
-        List<Notification> notifications = notificationDao.select(id);
+    public PaginationDTO select(Integer id, Integer page, Integer size) {
+        PaginationDTO<NotificationDTO> paginationDTO = new PaginationDTO<>();
+        Integer totalCount=notificationDao.countByUserId(id);
+        paginationDTO.setPagination(totalCount,page,size);
+        Integer offset = size * (page - 1);
+        List<Notification> notifications = notificationDao.select(id,offset,size);
+        if (notifications.size()==0){
+            return paginationDTO;
+        }
         List<NotificationDTO>notificationDTOS=new ArrayList<>();
         for (Notification notification:notifications){
             NotificationDTO notificationDTO = new NotificationDTO();
@@ -69,6 +77,7 @@ public class NotificationService {
             notificationDTO.setTypeName(NotificationTypeEnum.nameOfType(notification.getType()));
             notificationDTOS.add(notificationDTO);
         }
-        return notificationDTOS;
+        paginationDTO.setData(notificationDTOS);
+        return paginationDTO;
     }
 }

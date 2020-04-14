@@ -2,10 +2,7 @@ package com.hzu.community.controller;
 
 import com.google.common.base.Objects;
 import com.hzu.community.common.RestResponse;
-import com.hzu.community.model.Comment;
-import com.hzu.community.model.Question;
-import com.hzu.community.model.QuestionReq;
-import com.hzu.community.model.User;
+import com.hzu.community.model.*;
 import com.hzu.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -27,9 +24,9 @@ public class QuestionController {
      * @return
      */
     @RequestMapping("list")
-    public RestResponse<List<Question>> list(){
+    public RestResponse<List<Question>> list(Integer offset,Integer size,String search,String tag){
         List<Question> list = null;
-        list = questionService.getQuestions();
+        list = questionService.getQuestions(offset,size,search,tag);
         return RestResponse.success(list);
     }
 
@@ -70,15 +67,29 @@ public class QuestionController {
         return RestResponse.success(list);
     }
     @RequestMapping("selectMyQuestion")
-    public RestResponse<List<Question>> selectMyQuestion(Integer id){
+    public RestResponse<List<Question>> selectMyQuestion(Integer id,Integer offset, Integer size){
         List<Question> list = null;
-        list = questionService.selectMyQuestion(id);
+        list = questionService.selectMyQuestion(id,offset,size);
         return RestResponse.success(list);
     }
     @RequestMapping(value="updateCommentCount")
     public RestResponse<Object> updateCommentCount(@RequestBody Question question){
 
         questionService.updateCommentCount(question);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="count")
+    public RestResponse<Integer> count(String search, String tag){
+
+        Integer count =  questionService.count(search,tag);
+
+        return RestResponse.success(count);
+    }
+    @RequestMapping(value="updateViewCount")
+    public RestResponse<Object> updateViewCount(@RequestBody Question updateQuestion){
+
+        questionService.updateViewCount(updateQuestion);
 
         return RestResponse.success();
     }

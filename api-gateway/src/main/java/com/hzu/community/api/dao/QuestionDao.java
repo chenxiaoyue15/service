@@ -4,6 +4,7 @@ import com.hzu.community.api.common.RestResponse;
 import com.hzu.community.api.config.GenericRest;
 import com.hzu.community.api.model.Question;
 import com.hzu.community.api.model.QuestionDTO;
+import com.hzu.community.api.model.QuestionQueryDTO;
 import com.hzu.community.api.utils.Rests;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -22,13 +23,31 @@ public class QuestionDao {
     /**
      * 调用文章列表接口
      * @return
+     * @param
+     * @param
+     * @param offset
+     * @param size
+     * @param search
      */
-    public  List<Question> getQuestions() {
+    public List<Question> getQuestions(Integer offset,Integer size,String search,String tag) {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
 
-            String url = Rests.toUrl(userServiceName, "/question/list");
+            if (search==null&&tag==null){
+                String url = Rests.toUrl(userServiceName, "/question/list?offset="+offset+"&size="+size);
+                ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,new ParameterizedTypeReference<RestResponse<List<Question>>>() {});
+                return responseEntity.getBody();
+            }
+            else if (search!=null&&tag==null){
+            String url = Rests.toUrl(userServiceName, "/question/list?offset="+offset+"&size="+size+"&search="+search);
             ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,new ParameterizedTypeReference<RestResponse<List<Question>>>() {});
             return responseEntity.getBody();
+            }
+            else {
+                String url = Rests.toUrl(userServiceName, "/question/list?offset="+offset+"&size="+size+"&tag="+tag);
+                ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,new ParameterizedTypeReference<RestResponse<List<Question>>>() {});
+                return responseEntity.getBody();
+            }
+
         });
         return resp.getResult();
 
@@ -80,10 +99,10 @@ public class QuestionDao {
         return resp.getResult();
     }
 
-    public Question getQuestion(Integer parentId) {
+    public Question getQuestion(Integer id) {
         RestResponse<Question> resp = Rests.exc(() -> {
 
-            String url = Rests.toUrl(userServiceName, "/question/one?id=" + parentId);
+            String url = Rests.toUrl(userServiceName, "/question/one?id=" + id);
             ResponseEntity<RestResponse<Question>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Question>>() {});
             return responseEntity.getBody();
 
@@ -99,14 +118,56 @@ public class QuestionDao {
         });
     }
 
-    public List<Question> selectMyQuestion(Integer id) {
+    public List<Question> selectMyQuestion(Integer id, Integer offset, Integer size) {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
 
-            String url = Rests.toUrl(userServiceName, "/question/selectMyQuestion?id="+id);
+            String url = Rests.toUrl(userServiceName, "/question/selectMyQuestion?id="+id+"&offset="+offset+"&size="+size);
             ResponseEntity<RestResponse<List<Question>>> responseEntity = rest.get(url,  new ParameterizedTypeReference<RestResponse<List<Question>>>() {
             });
             return responseEntity.getBody();
         });
         return resp.getResult();
+    }
+
+    public Integer count(String search, String tag) {
+
+
+        RestResponse<Integer> resp = Rests.exc(() -> {
+
+            if (search == null && tag ==null){
+                String url = Rests.toUrl(userServiceName, "/question/count");
+                ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {});
+                return responseEntity.getBody();
+            }else if (search!=null &&tag ==null){
+            String url = Rests.toUrl(userServiceName, "/question/count?search="+search);
+            ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {});
+            return responseEntity.getBody();
+            }else {
+                String url = Rests.toUrl(userServiceName, "/question/count?tag="+tag);
+                ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {});
+                return responseEntity.getBody();
+            }
+
+        });return resp.getResult();
+    }
+
+
+    public Integer countByUserId(Integer userId) {
+        RestResponse<Integer> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/question/count?creator="+userId);
+            ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+    }
+
+    public void updateViewCount(Question updateQuestion) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(userServiceName, "/question/updateViewCount");
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url, updateQuestion, new ParameterizedTypeReference<RestResponse<Object>>() {
+            });
+            return responseEntity.getBody();
+        });
     }
 }

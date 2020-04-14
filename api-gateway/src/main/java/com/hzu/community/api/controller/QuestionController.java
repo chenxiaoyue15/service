@@ -27,7 +27,7 @@ public class QuestionController {
         List<QuestionDTO> relatedQuestions = questionService.selectRelated(questionDTO);
         List<CommentDTO> comments = commentService.listByTargetId(id,CommentTypeEnum.QUESTION);
 //        System.out.println(comments);
-//        questionService.incView(id);//累加阅读数，用incView方法更新数据库里的数据
+        questionService.incView(id);//累加阅读数，用incView方法更新数据库里的数据
         model.addAttribute("question",questionDTO);//回显数据到页面
         model.addAttribute("comments",comments);//回显数据到页面
         model.addAttribute("relatedQuestions",relatedQuestions);//回显数据到页面
