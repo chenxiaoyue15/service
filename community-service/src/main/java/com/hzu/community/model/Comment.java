@@ -10,7 +10,7 @@ public class Comment {
     private Integer commentator;
     private Long gmtCreate;
     private Long gmtModified;
-    private Long likeCount;
+    private Integer likeCount;
     private String content;
     private Integer commentCount;
 }

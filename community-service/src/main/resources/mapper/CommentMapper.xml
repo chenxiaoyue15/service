@@ -28,10 +28,10 @@
     </select>
     <insert id="insert">
       insert into comment(
-				        parent_id,type,gmt_create,gmt_modified,commentator,content,comment_count
+				        parent_id,type,gmt_create,gmt_modified,commentator,content,comment_count,like_count
 				        )
                   value(
-                       #{parentId},#{type},#{gmtCreate},#{gmtModified},#{commentator},#{content},#{commentCount}
+                       #{parentId},#{type},#{gmtCreate},#{gmtModified},#{commentator},#{content},#{commentCount},#{likeCount}
                   )
 
     </insert>
@@ -42,6 +42,12 @@
         </set>
          where id = #{id}
     </update>
-
+    <update id="updateLikeCount">
+        update comment
+        <set>
+            like_count= #{likeCount}
+        </set>
+        where id = #{id}
+    </update>
 
 </mapper>

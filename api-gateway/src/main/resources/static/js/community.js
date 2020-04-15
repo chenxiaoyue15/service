@@ -44,6 +44,23 @@ function comment(e) {
     comment2target(commentId, 2, content);
 }
 
+function like(aid) {
+    $.ajax({
+        type: "POST",
+        url: "/great",
+        contentType: 'application/json',
+        data: JSON.stringify({
+            "aid": aid
+        })
+})
+}
+function liked(a) {
+    var aid = a.getAttribute("data-id");
+    like(aid);
+}
+
+
+
 // 展开二级评论
 function openComments(e) {
     var id = e.getAttribute("data-id");

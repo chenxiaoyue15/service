@@ -40,4 +40,9 @@ private CommentMapper commentMapper;
     public void updateCommentCount(Comment comment) {
         commentMapper.updateCommentCount(comment);
     }
+
+    public void updateLikeCount(Comment comment) {
+
+        commentMapper.updateLikeCount(comment);
+    }
 }

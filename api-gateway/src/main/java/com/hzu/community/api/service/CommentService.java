@@ -101,4 +101,17 @@ public class CommentService {
         notification.setOuterTitle(outerTitle);
         notificationDao.insert(notification);
     }
+
+    public Comment findByIdForUpdate(int aid) {
+
+        return commentDao.selectById(aid);
+    }
+
+    public void saveAndFlush(Comment comment) {
+        commentDao.saveAndFlush(comment);
+    }
+
+    public Integer findAll() {
+        return commentDao.findAll();
+    }
 }

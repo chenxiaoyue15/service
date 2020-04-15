@@ -25,6 +25,8 @@ public interface CommentMapper {
 
     void updateCommentCount(Comment comment);
 
+    void updateLikeCount(Comment comment);
+
 //    @Select("select count(1) from question")
 //    Integer count();
 //

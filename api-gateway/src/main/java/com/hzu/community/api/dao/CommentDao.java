@@ -3,8 +3,6 @@ package com.hzu.community.api.dao;
 import com.hzu.community.api.common.RestResponse;
 import com.hzu.community.api.config.GenericRest;
 import com.hzu.community.api.model.Comment;
-import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.QuestionDTO;
 import com.hzu.community.api.utils.Rests;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -66,5 +64,26 @@ public class CommentDao {
             });
             return responseEntity.getBody();
         });
+    }
+
+
+    public void saveAndFlush(Comment comment) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(userServiceName, "/comment/updateLikeCount");
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url, comment, new ParameterizedTypeReference<RestResponse<Object>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
+
+    public Integer findAll() {
+        RestResponse<Integer> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(userServiceName, "/comment/findAllLiked");
+            ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+
     }
 }

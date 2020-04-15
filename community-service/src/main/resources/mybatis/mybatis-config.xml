@@ -22,6 +22,7 @@
       <typeAlias type="com.hzu.community.model.Comment"        alias="comment"/>
       <typeAlias type="com.hzu.community.model.Notification"        alias="notification"/>
       <typeAlias type="com.hzu.community.model.QuestionQueryDTO"        alias="questionQueryDTO"/>
+      <typeAlias type="com.hzu.community.model.Great"        alias="great"/>
     </typeAliases>
 
     <typeHandlers>
@@ -32,6 +33,7 @@
       <mapper resource="mapper/QuestionMapper.xml"/>
       <mapper resource="mapper/CommentMapper.xml"/>
       <mapper resource="mapper/NotificationMapper.xml"/>
+      <mapper resource="mapper/GreatMapper.xml"/>
     </mappers>
 
 

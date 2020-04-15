@@ -2,8 +2,10 @@ package com.hzu.community.controller;
 
 import com.hzu.community.common.RestResponse;
 import com.hzu.community.model.Comment;
+import com.hzu.community.model.Great;
 import com.hzu.community.model.Question;
 import com.hzu.community.service.CommentService;
+import com.hzu.community.service.GreatService;
 import com.hzu.community.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,7 +20,8 @@ public class CommentController {
 
     @Autowired
     private CommentService commentService;
-
+    @Autowired
+    private GreatService greatService;
     /**
      * 获取评论接口
      * @param id
@@ -49,5 +52,31 @@ public class CommentController {
 
         return RestResponse.success();
     }
+    @RequestMapping("liked")
+    public RestResponse<List<Great>> liked(Integer aid, Integer uid){
+        List<Great> list = null;
+        list = greatService.findByAidAndUid(aid,uid);
+        return RestResponse.success(list);
+    }
+    @RequestMapping(value="deleteLiked")
+    public RestResponse<Object> deleteLiked(@RequestBody Great great){
 
+        greatService.deleteLiked(great);
+
+        return RestResponse.success();
+    }
+
+    @RequestMapping(value="updateLikeCount")
+    public RestResponse<Object> updateLikeCount(@RequestBody Comment comment){
+
+        commentService.updateLikeCount(comment);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="addLiked")
+    public RestResponse<Object> addLiked(@RequestBody Great great){
+        greatService.addLiked(great);
+
+        return RestResponse.success();
+    }
 }
