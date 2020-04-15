@@ -75,7 +75,7 @@ public class CommentController {
             comment.setLikeCount(comment.getLikeCount()-1);
             comment.setId(comment.getId());
             commentService.saveAndFlush(comment);
-
+            return ResultDTO.okOf();
 
         }else {
             //如果没有找到这条记录，则添加这条记录，同时文章点赞数加1
@@ -88,9 +88,9 @@ public class CommentController {
             Comment comment=commentService.findByIdForUpdate(aid);
             comment.setLikeCount(comment.getLikeCount()+1);
             commentService.saveAndFlush(comment);
-
+            return ResultDTO.okOf();
         }
-        return ResultDTO.okOf();
+
 
     }
 }

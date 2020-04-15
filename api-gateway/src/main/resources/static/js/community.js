@@ -51,8 +51,23 @@ function like(aid) {
         contentType: 'application/json',
         data: JSON.stringify({
             "aid": aid
-        })
-})
+        }),success: function (response) {
+            if (response.code == 200) {
+                window.location.reload();
+                //$("#comment_section").hide()
+            } else {
+                var isAccepted = confirm("未登录,请先登录再进行操作");
+                if (isAccepted) {
+                    window.open("/login");
+                    window.localStorage.setItem("closable", "true");
+                }
+
+            }
+            console.log(response)
+        },
+        dataType: "json"
+    });
+
 }
 function liked(a) {
     var aid = a.getAttribute("data-id");
