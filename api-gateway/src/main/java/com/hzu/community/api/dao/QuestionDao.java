@@ -174,4 +174,13 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
+
+    public void deleteById(Question question) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(userServiceName, "/question/deleteById");
+            ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url, question, new ParameterizedTypeReference<RestResponse<Object>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
 }

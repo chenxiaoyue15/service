@@ -143,3 +143,19 @@ function showSelectTag() {
     $("#select-tag").show();
     
 }
+
+function deleted() {
+    var questionId = $("#question_id").val();
+    var de = confirm("确定进行删除操作？");
+    if (de) {
+        $.ajax({
+                type: "POST",
+                url: "/deleted",
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    "id": questionId
+                })
+    }),window.location="/";
+    }
+
+}

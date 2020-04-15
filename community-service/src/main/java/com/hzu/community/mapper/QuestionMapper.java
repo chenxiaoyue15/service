@@ -34,6 +34,8 @@ public interface QuestionMapper {
 
     void updateViewCount(Question updateQuestion);
 
+    void deleteById(Question question);
+
 
 //    @Select("select count(1) from question")
 //    Integer count();

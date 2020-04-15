@@ -2,14 +2,15 @@ package com.hzu.community.api.controller;
 
 import com.hzu.community.api.enums.CommentTypeEnum;
 import com.hzu.community.api.model.CommentDTO;
+import com.hzu.community.api.model.Question;
 import com.hzu.community.api.model.QuestionDTO;
+import com.hzu.community.api.model.ResultDTO;
 import com.hzu.community.api.service.CommentService;
 import com.hzu.community.api.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -33,6 +34,16 @@ public class QuestionController {
         model.addAttribute("relatedQuestions",relatedQuestions);//回显数据到页面
 
         return "question";
+
+
+    }
+    @ResponseBody
+    @RequestMapping(value = "/deleted", method = RequestMethod.POST)
+    public Object delete(@RequestBody Question question) {
+
+         questionService.deleteById(question);
+
+        return ResultDTO.okOf();
     }
 
 }

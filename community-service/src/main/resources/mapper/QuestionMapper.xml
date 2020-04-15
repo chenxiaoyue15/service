@@ -105,4 +105,9 @@
         </set>
         where id = #{id}
     </update>
+
+    <delete id="deleteById">
+        delete  from question
+        where id = #{id}
+    </delete>
 </mapper>

@@ -24,13 +24,11 @@ public class QuestionService {
     @Autowired
     private UserDao userDao;
     public PaginationDTO getQuestions(String search, String tag, Integer page, Integer size, String sort) {
+//        如果search有值，先字符串处理
         if (StringUtils.isNotBlank(search)) {
-            String[] tags = StringUtils.split(search, " ");
+            String[] tags = StringUtils.split(search, " ");//以空格分隔
             search = Arrays
                     .stream(tags)
-//                    .filter(StringUtils::isNotBlank)
-//                    .map(t -> t.replace("+", "").replace("*", "").replace("?", ""))
-//                    .filter(StringUtils::isNotBlank)
                     .collect(Collectors.joining("|"));
         }
 
@@ -81,9 +79,14 @@ public class QuestionService {
 
     }
 
+    /**
+     * 相关问题
+     * @param queryDTO
+     * @return
+     */
     public List<QuestionDTO> selectRelated(QuestionDTO queryDTO) {
-        String[] tags=StringUtils.split(queryDTO.getTag(),",");
-        String regexpTag = Arrays.stream(tags).collect(Collectors.joining("|"));
+        String[] tags=StringUtils.split(queryDTO.getTag(),",");//通过逗号隔开
+        String regexpTag = Arrays.stream(tags).collect(Collectors.joining("|"));//通过|拼接
         Question question = new Question();
         question.setId(queryDTO.getId());
         question.setTag(regexpTag);
@@ -123,6 +126,10 @@ public class QuestionService {
         updateQuestion.setId(question.getId());//把question里的id赋给updateQuestion
 //        updateQuestion.setViewCount(question.getViewCount()+1);//把question里的浏览数加1赋给updateQuestion
         questionDao.updateViewCount(updateQuestion);//用updateViewCount方法更新数据库
+    }
+
+    public void deleteById(Question question) {
+        questionDao.deleteById(question);
     }
 }
 

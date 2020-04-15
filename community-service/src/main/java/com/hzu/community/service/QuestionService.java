@@ -71,4 +71,8 @@ private QuestionMapper questionMapper;
 
         questionMapper.updateViewCount(updateQuestion);
     }
+
+    public void deleteById(Question question) {
+        questionMapper.deleteById(question);
+    }
 }

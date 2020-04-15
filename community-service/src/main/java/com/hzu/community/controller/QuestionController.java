@@ -93,4 +93,11 @@ public class QuestionController {
 
         return RestResponse.success();
     }
+    @RequestMapping(value="deleteById")
+    public RestResponse<Object> deleteById(@RequestBody Question question){
+
+        questionService.deleteById(question);
+
+        return RestResponse.success();
+    }
 }
