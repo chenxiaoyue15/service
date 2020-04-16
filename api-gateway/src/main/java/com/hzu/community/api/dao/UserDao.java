@@ -2,10 +2,8 @@ package com.hzu.community.api.dao;
 
 import com.hzu.community.api.common.RestResponse;
 import com.hzu.community.api.config.GenericRest;
-import com.hzu.community.api.model.QuestionDTO;
 import com.hzu.community.api.model.User;
 import com.hzu.community.api.utils.Rests;
-import com.netflix.discovery.converters.Auto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;

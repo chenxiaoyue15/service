@@ -1,7 +1,7 @@
 package com.hzu.community.mapper;
 
 import com.hzu.community.model.Question;
-import com.hzu.community.model.QuestionQueryDTO;
+
 import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Repository;
 

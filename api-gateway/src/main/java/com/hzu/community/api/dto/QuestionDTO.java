@@ -1,5 +1,6 @@
-package com.hzu.community.api.model;
+package com.hzu.community.api.dto;
 
+import com.hzu.community.api.model.User;
 import lombok.Data;
 
 @Data

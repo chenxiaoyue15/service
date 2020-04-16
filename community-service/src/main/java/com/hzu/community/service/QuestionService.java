@@ -3,7 +3,7 @@ package com.hzu.community.service;
 
 import com.hzu.community.mapper.QuestionMapper;
 import com.hzu.community.model.Question;
-import com.hzu.community.model.QuestionQueryDTO;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

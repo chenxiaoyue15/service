@@ -1,5 +1,6 @@
 package com.hzu.community.api.model;
 
+import com.hzu.community.api.dto.HotTagDTO;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 

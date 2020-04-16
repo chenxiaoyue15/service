@@ -1,7 +1,7 @@
 package com.hzu.community.api.controller;
 
 import com.hzu.community.api.enums.NotificationTypeEnum;
-import com.hzu.community.api.model.NotificationDTO;
+import com.hzu.community.api.dto.NotificationDTO;
 import com.hzu.community.api.model.User;
 import com.hzu.community.api.service.NotificationService;
 import org.springframework.beans.factory.annotation.Autowired;

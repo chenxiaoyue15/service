@@ -1,10 +1,12 @@
 package com.hzu.community.api.controller;
 
 import com.hzu.community.api.enums.CommentTypeEnum;
-import com.hzu.community.api.model.CommentDTO;
+import com.hzu.community.api.exception.CustomizeErrorCode;
+import com.hzu.community.api.exception.CustomizeException;
+import com.hzu.community.api.dto.CommentDTO;
 import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.QuestionDTO;
-import com.hzu.community.api.model.ResultDTO;
+import com.hzu.community.api.dto.QuestionDTO;
+import com.hzu.community.api.dto.ResultDTO;
 import com.hzu.community.api.service.CommentService;
 import com.hzu.community.api.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +26,12 @@ public class QuestionController {
     private CommentService commentService;
     @GetMapping("/question/{id}")
     public String question(@PathVariable(name = "id") Integer id, Model model){
+        try {
+            QuestionDTO questionDTO = questionService.getById(id);//把数据库里id等于id的数据传给questionDTO
+
+        } catch (NullPointerException e) {
+            throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
+        }
         QuestionDTO questionDTO = questionService.getById(id);//把数据库里id等于id的数据传给questionDTO
         List<QuestionDTO> relatedQuestions = questionService.selectRelated(questionDTO);
         List<CommentDTO> comments = commentService.listByTargetId(id,CommentTypeEnum.QUESTION);

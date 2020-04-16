@@ -1,6 +1,7 @@
 package com.hzu.community.api.controller;
 
 import com.hzu.community.api.dao.UserDao;
+import com.hzu.community.api.dto.PaginationDTO;
 import com.hzu.community.api.model.*;
 import com.hzu.community.api.service.NotificationService;
 import com.hzu.community.api.service.QuestionService;
@@ -14,7 +15,6 @@ import org.springframework.web.util.WebUtils;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
-import java.util.List;
 
 @Controller
 public class ProfileController {

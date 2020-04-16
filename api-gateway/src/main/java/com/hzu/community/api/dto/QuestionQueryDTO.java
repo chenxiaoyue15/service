@@ -1,4 +1,4 @@
-package com.hzu.community.model;
+package com.hzu.community.api.dto;
 
 import lombok.Data;
 

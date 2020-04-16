@@ -4,6 +4,7 @@ import com.hzu.community.api.dao.CommentDao;
 import com.hzu.community.api.dao.NotificationDao;
 import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
+import com.hzu.community.api.dto.CommentDTO;
 import com.hzu.community.api.enums.CommentTypeEnum;
 import com.hzu.community.api.enums.NotificationStatusEnum;
 import com.hzu.community.api.enums.NotificationTypeEnum;

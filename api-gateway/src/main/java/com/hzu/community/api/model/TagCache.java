@@ -2,6 +2,8 @@ package com.hzu.community.api.model;
 
 
 
+import com.hzu.community.api.dto.TagDTO;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

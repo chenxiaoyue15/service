@@ -1,9 +1,8 @@
 package com.hzu.community.api.controller;
 
-import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.QuestionDTO;
+import com.hzu.community.api.dto.QuestionDTO;
 import com.hzu.community.api.model.TagCache;
 import com.hzu.community.api.model.User;
 import com.hzu.community.api.service.QuestionService;

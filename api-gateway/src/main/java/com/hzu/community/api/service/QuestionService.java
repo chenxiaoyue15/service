@@ -3,6 +3,8 @@ package com.hzu.community.api.service;
 
 import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
+import com.hzu.community.api.dto.PaginationDTO;
+import com.hzu.community.api.dto.QuestionDTO;
 import com.hzu.community.api.model.*;
 
 

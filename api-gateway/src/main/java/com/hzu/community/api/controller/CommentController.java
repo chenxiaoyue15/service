@@ -1,13 +1,15 @@
 package com.hzu.community.api.controller;
 
 import com.hzu.community.api.dao.UserDao;
+import com.hzu.community.api.dto.CommentCreateDTO;
+import com.hzu.community.api.dto.CommentDTO;
+import com.hzu.community.api.dto.ResultDTO;
 import com.hzu.community.api.enums.CommentTypeEnum;
 import com.hzu.community.api.model.*;
 import com.hzu.community.api.service.CommentService;
 import com.hzu.community.api.service.GreatService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.WebUtils;
 

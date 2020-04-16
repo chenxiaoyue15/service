@@ -1,17 +1,13 @@
 package com.hzu.community.api.service;
-
-import java.util.List;
-
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.model.User;
-import org.apache.commons.configuration.beanutils.BeanHelper;
+
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.scheduling.annotation.Async;
+
 import org.springframework.stereotype.Service;
 
-import com.google.common.collect.Lists;
 
 /**
  * 用户登录，注册，个人信息服务

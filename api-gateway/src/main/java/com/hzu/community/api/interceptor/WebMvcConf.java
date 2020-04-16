@@ -24,7 +24,7 @@ public class WebMvcConf implements WebMvcConfigurer {
 
 //    super.addInterceptors(registry);
   }
-  
+
   @Override
   public void addCorsMappings(CorsRegistry registry) {
     registry.addMapping("/**")//拦截所有的url

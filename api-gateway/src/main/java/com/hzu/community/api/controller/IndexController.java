@@ -1,10 +1,9 @@
 package com.hzu.community.api.controller;
 
 import com.hzu.community.api.model.HotTagCache;
-import com.hzu.community.api.model.PaginationDTO;
+import com.hzu.community.api.dto.PaginationDTO;
 
 import com.hzu.community.api.service.QuestionService;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 

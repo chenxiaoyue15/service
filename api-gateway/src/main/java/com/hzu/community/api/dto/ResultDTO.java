@@ -1,5 +1,6 @@
-package com.hzu.community.api.model;
+package com.hzu.community.api.dto;
 
+import com.hzu.community.api.exception.CustomizeErrorCode;
 import lombok.Data;
 
 @Data
@@ -34,5 +35,8 @@ public class ResultDTO<T> {
         resultDTO.setMessage("成功");
         resultDTO.setData(t);
         return resultDTO;
+    }
+    public static ResultDTO errorOf(CustomizeErrorCode errorCode) {
+        return errorOf(errorCode.getCode(), errorCode.getMessage());
     }
 }
