@@ -140,7 +140,12 @@ function selectTag(e) {
     
 }
 function showSelectTag() {
-    $("#select-tag").show();
+    if($("#select-tag").is(":hidden")){
+        $("#select-tag").show();
+    }else{
+        $("#select-tag").hide();
+    }
+    // $("#select-tag").show();
     
 }
 

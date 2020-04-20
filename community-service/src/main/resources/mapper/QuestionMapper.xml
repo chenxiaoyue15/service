@@ -17,7 +17,7 @@
             order by gmt_create desc
         </if>
         <if test="sort == 'hot' ">
-            order by comment_count desc
+            order by view_count desc
         </if>
         limit #{offset},#{size}
     </select>

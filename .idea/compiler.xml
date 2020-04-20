@@ -8,12 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="backstage-service" />
         <module name="community-service" />
         <module name="eureka-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="8" />
+      <module name="backstage-service" target="6" />
       <module name="community-service" target="8" />
       <module name="eureka-server" target="1.8" />
     </bytecodeTargetLevel>
