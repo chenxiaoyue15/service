@@ -45,13 +45,13 @@ public class QuestionController {
 
 
     }
-    @ResponseBody
-    @RequestMapping(value = "/deleted", method = RequestMethod.POST)
-    public Object delete(@RequestBody Question question) {
-
-         questionService.deleteById(question);
-
-        return ResultDTO.okOf();
-    }
+//    @ResponseBody
+//    @RequestMapping(value = "/deleted", method = RequestMethod.POST)
+//    public Object delete(@RequestBody Question question) {
+//
+//         questionService.deleteById(question);
+//
+//        return ResultDTO.okOf();
+//    }l
 
 }

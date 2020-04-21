@@ -26,7 +26,7 @@
       
       <!-- logo -->
       <div id="logo" class="sidebar-header">
-        <a href="admin.html">校企合作平台后台管理</a>
+        <a href="/admin"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
       </div>
       <div class="lyear-layout-sidebar-scroll"> 
         
@@ -52,9 +52,7 @@
           </ul>
         </nav>
         
-        <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2019. <a target="_blank" href="http://lyear.itshubao.com">IT书包</a> All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-        </div>
+
       </div>
       
     </aside>
@@ -78,8 +76,8 @@
           <ul class="topbar-right">
             <li class="dropdown dropdown-profile">
               <a href="javascript:void(0)" data-toggle="dropdown">
-                <img class="img-avatar img-avatar-48 m-r-10" src="images/users/avatar.jpg" alt="笔下光年" />
-                <span>笔下光年 <span class="caret"></span></span>
+                <img class="img-avatar img-avatar-48 m-r-10" src="" alt="笔下光年" />
+                <span th:text="${session.user.getAccountId()}"> <span class="caret"></span></span>
               </a>
               <ul class="dropdown-menu dropdown-menu-right">
                 <li> <a href="lyear_pages_profile.html"><i class="mdi mdi-account"></i> 个人信息</a> </li>

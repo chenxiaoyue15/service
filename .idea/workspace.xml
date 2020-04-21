@@ -2,265 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1718f5a7-d552-4e9e-917c-d91b2a04de9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/css/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/css/jquery-kq-nav-left.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/css/materialdesignicons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/fonts/materialdesignicons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/fonts/materialdesignicons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/fonts/materialdesignicons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/fonts/materialdesignicons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/fonts/materialdesignicons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/bootstrap-colorpicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/css/bootstrap-colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/css/bootstrap-colorpicker.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/img/bootstrap-colorpicker/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/img/bootstrap-colorpicker/hue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-colorpicker/img/bootstrap-colorpicker/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/bootstrap-datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/bootstrap-datepicker3.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/bootstrap-datepicker3.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.nb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/bootstrap-datetimepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ar-ma.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ar-sa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ar-tn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/bn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/bo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/cv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/cy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/de-at.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/en-au.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/en-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/en-gb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/fr-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/fy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/hy-am.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/jv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/mr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ms-my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/my.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ne.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/pt-br.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/si.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/sr-cyrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/tl-ph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/tzl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/tzm-latn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/tzm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/uz.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/locale/zh-tw.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-datetimepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap-notify.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/chosen.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/ion-rangeslider/ion.rangeSlider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/ion-rangeslider/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/jconfirm/jquery-confirm.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/jconfirm/jquery-confirm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/jquery-tags-input/jquery.tagsinput.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/jquery-tags-input/jquery.tagsinput.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/jquery.bootstrap.wizard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/lightyear.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/main.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/BackstageServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/Exception2CodeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/GlobalExceptionHanlder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/RestCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/GenericRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/HttpClientAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/HttpClientProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/MyBatisconfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/RestAutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbsDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/exception/IllegalParamsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/exception/WithTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Comment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Great.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/QuestionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/test/java/com/hzu/backstageservice/BackstageServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/RepliesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/WebMvcConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/WebMvcConf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/community-service/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -289,92 +47,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HotController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java">
+      <file leaf-file-name="my.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="-1425">
+              <caret line="6" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuestionDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/QuestionService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/QuestionMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="62" column="87" lean-forward="true" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/navigation.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
+      <file leaf-file-name="notification.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+              <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+            <state relative-caret-position="19">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="31" column="112" selection-start-line="31" selection-start-column="112" selection-end-line="31" selection-end-column="112" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1465">
+              <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-228" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1027">
+              <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#small#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -424,16 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/QuestionMapper.java" />
-        <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/community-service/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dto/CommentCreateDTO.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/exception/IllegalParamsException.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/UserException.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/HttpClientAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/CommentMapper.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/common/Exception2CodeRepo.java" />
@@ -458,23 +240,33 @@
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper/QuestionMapper.xml" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/lyear_pages_doc.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/lyear_pages_doc.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/lyear_ui_typography.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question2.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/lyear_pages_add_doc.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/hotController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" />
         <option value="$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/RepliesController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/MyController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/WebMvcConf.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question2.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html" />
       </list>
     </option>
   </component>
@@ -528,8 +320,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
     <option name="width" value="1281" />
     <option name="height" value="741" />
   </component>
@@ -541,7 +333,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -614,6 +405,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -651,7 +452,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service" type="b2602c69:ProjectViewProjectNode" />
@@ -661,7 +462,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js2" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="service" type="b2602c69:ProjectViewProjectNode" />
@@ -682,128 +483,11 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="community" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -824,12 +508,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static\fonts" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates\admin" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static\css" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1xiangmu\service\community-service\src\main\resources\mapper" />
+      <recent name="E:\1xiangmu\service\community-service\src\main\java\com\hzu\community\mapper" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hzu.community.api.controller" />
@@ -838,9 +519,12 @@
       <recent name="com.hzu.backstageservice.service" />
       <recent name="com.hzu.backstageservice.mappers" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1xiangmu\service\community-service\src\main\resources\mapper" />
-      <recent name="E:\1xiangmu\service\community-service\src\main\java\com\hzu\community\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static\images" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static\fonts" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates\admin" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -976,19 +660,20 @@
       <workItem from="1587273791114" duration="1419000" />
       <workItem from="1587275273691" duration="10039000" />
       <workItem from="1587293066042" duration="21075000" />
-      <workItem from="1587357052515" duration="19431000" />
+      <workItem from="1587357052515" duration="27332000" />
+      <workItem from="1587447934459" duration="19213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="373947000" />
+    <option name="totallyTimeSpent" value="401061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.44704932" side_tool="true" weight="0.27598566" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.118027486" side_tool="true" weight="0.4516129" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.16653194" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -1004,15 +689,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.39784947" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.8819725" visible="true" weight="0.39247313" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.49731663" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4995958" weight="0.3297491" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5529507" weight="0.27598566" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29668552" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.55214226" weight="0.27598566" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30153596" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3291592" />
@@ -1021,9 +705,11 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3291592" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.4014337" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4995958" weight="0.3297491" />
@@ -1045,7 +731,6 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.10994341" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28455943" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1054,9 +739,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.4014337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1067,7 +752,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1075,271 +760,216 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/config/HttpClientProperties.java">
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/common/UserException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/common/Exception2CodeRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/common/GlobalExceptionHanlder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/common/RestCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/config/HttpClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/config/GenericRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="34" column="73" lean-forward="true" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-          <folding>
-            <element signature="e#665#688#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper/QuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="190">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/tables.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="153" column="16" selection-start-line="153" selection-start-column="16" selection-end-line="153" selection-end-column="16" />
+        <state relative-caret-position="-287">
+          <caret line="221" column="16" selection-start-line="221" selection-start-column="16" selection-end-line="221" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/materialdesignicons.min.css">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/NotificationDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret column="58267" selection-start-column="58267" selection-end-column="58267" />
+        <state relative-caret-position="169">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/NotificationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="68" column="61" lean-forward="true" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Question.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="107">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/schedule/HotTagTasks.java">
+    <entry file="jar://F:/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        <state relative-caret-position="104">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/community.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/js/editormd.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="2" column="12536" selection-start-line="2" selection-start-column="12536" selection-end-line="2" selection-end-column="12536" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="1" column="42" lean-forward="true" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="94" column="14" selection-start-line="59" selection-start-column="16" selection-end-line="94" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/js2/main.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="422" column="1" selection-start-line="422" selection-start-column="1" selection-end-line="422" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="5638" selection-start-line="4" selection-start-column="5638" selection-end-line="4" selection-end-column="5638" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/style.min.css">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="3189" column="5" selection-start-line="3189" selection-start-column="5" selection-end-line="3189" selection-end-column="5" />
+          <caret line="176" column="21" lean-forward="true" selection-start-line="176" selection-start-column="21" selection-end-line="176" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/profile.html">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="77">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#small#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#small#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4847#4848#0" expanded="true" />
+            <element signature="e#4895#4896#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dto/ResultDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/TagCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/util/WebUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1435">
+          <caret line="238" column="25" selection-start-line="238" selection-start-column="25" selection-end-line="238" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/AuthInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1022">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/AuthActionInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/WebMvcConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" column="42" lean-forward="true" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="145" column="32" lean-forward="true" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
+        <state relative-caret-position="96">
+          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/community.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="156" column="64" selection-start-line="156" selection-start-column="64" selection-end-line="156" selection-end-column="64" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/js/editormd.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1" column="873" lean-forward="true" selection-start-line="1" selection-start-column="873" selection-end-line="1" selection-end-column="873" />
           <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/PriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="319" column="19" selection-start-line="319" selection-start-column="19" selection-end-line="319" selection-end-column="19" />
+          <folding>
+            <element signature="e#12127#12128#0" expanded="true" />
+            <element signature="e#12158#12159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dto/HotTagDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/HotTagCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="117443" selection-start-line="4" selection-start-column="117443" selection-end-line="4" selection-end-column="117443" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="30" column="70" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish2.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="96" column="18" lean-forward="true" selection-start-line="96" selection-start-column="18" selection-end-line="96" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="114">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1348,17 +978,161 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-471">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="209">
+          <caret line="32" column="50" lean-forward="true" selection-start-line="32" selection-start-column="50" selection-end-line="32" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/RepliesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="38" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/NotificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-152">
+          <caret line="33" column="55" lean-forward="true" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="31" column="112" selection-start-line="31" selection-start-column="112" selection-end-line="31" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#textarea#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1027">
+          <caret line="56" column="44" lean-forward="true" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#small#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1465">
+          <caret line="23" column="112" selection-start-line="23" selection-start-column="112" selection-end-line="23" selection-end-column="112" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1366,84 +1140,20 @@
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+          <caret line="109" column="31" selection-start-line="109" selection-start-column="31" selection-end-line="109" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="28" column="37" lean-forward="true" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/QuestionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="62" column="87" lean-forward="true" selection-start-line="62" selection-start-column="74" selection-end-line="62" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="146" column="26" lean-forward="true" selection-start-line="146" selection-start-column="26" selection-end-line="146" selection-end-column="26" />
+        <state relative-caret-position="-1425">
+          <caret line="6" selection-start-line="6" selection-start-column="4" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

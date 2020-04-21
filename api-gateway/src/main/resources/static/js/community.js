@@ -149,8 +149,8 @@ function showSelectTag() {
     
 }
 
-function deleted() {
-    var questionId = $("#question_id").val();
+function deleted(e) {
+    var questionId =e.getAttribute("data-id");
     var de = confirm("确定进行删除操作？");
     if (de) {
         $.ajax({

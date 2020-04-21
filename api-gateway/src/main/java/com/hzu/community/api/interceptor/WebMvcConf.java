@@ -19,8 +19,8 @@ public class WebMvcConf implements WebMvcConfigurer {
     registry
         .addInterceptor(authActionInterceptor)
          .addPathPatterns("/question")
-        .addPathPatterns("/publish").addPathPatterns("/profile/questions")
-        .addPathPatterns("/profile/replies");
+        .addPathPatterns("/publish").addPathPatterns("/replies")
+        .addPathPatterns("/personal");
 
 //    super.addInterceptors(registry);
   }

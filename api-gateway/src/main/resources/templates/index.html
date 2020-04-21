@@ -21,13 +21,13 @@
        
       <!-- logo -->
       <div id="logo" class="sidebar-header">
-        <a href="index.html"><img src="images/logo-sidebar.png" title="LightYear" alt="LightYear" /></a>
+        <a href="/home"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
       </div>
       <div class="lyear-layout-sidebar-scroll">
         
         <nav class="sidebar-main">
           <ul class="nav nav-drawer">
-            <li class="nav-item"> <a href="index.html"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
+            <li class="nav-item"> <a href="/home"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
             <li class="nav-item nav-item-has-subnav active open">
               <a href="javascript:void(0)"><i class="mdi mdi-palette"></i> 发现</a>
               <ul class="nav nav-subnav">
@@ -44,16 +44,13 @@
             <li class="nav-item nav-item-has-subnav ">
               <a href="javascript:void(0)"><i class="mdi mdi-file-outline"></i> 个人中心</a>
               <ul class="nav nav-subnav">
-                <li > <a href="">个人资料</a> </li>
-                <li> <a href="">消息通知</a> </li>
+                <li > <a href="/personal">我的文章</a> </li>
+                <li > <a href="/replies">消息通知<span class="badge" th:text="${session.unreadCount}"></span></a> </li>
               </ul>
             </li>
           </ul>
         </nav>
-        
-        <div class="sidebar-footer">
-          <p class="copyright">Copyright &copy; 2019. <a target="_blank" href="http://lyear.itshubao.com">IT书包</a> All rights reserved. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
-        </div>
+
       </div>
       
     </aside>
@@ -71,14 +68,14 @@
               <span class="lyear-toggler-bar"></span>
               <span class="lyear-toggler-bar"></span>
             </div>
-            <span class="navbar-page-title"> 示例页面 - 文档列表 </span>
+            <span class="navbar-page-title"> 最新文章 </span>
           </div>
           
           <ul class="topbar-right">
             <li class="dropdown dropdown-profile">
               <a href="javascript:void(0)" data-toggle="dropdown">
                 <img class="img-avatar img-avatar-48 m-r-10" src="images/users/avatar.jpg" alt="笔下光年" />
-                <span>笔下光年 <span class="caret"></span></span>
+                <span th:text="${session.user.getAccountId()}"> <span class="caret"></span></span>
               </a>
               <ul class="dropdown-menu dropdown-menu-right">
                 <li> <a href="lyear_pages_profile.html"><i class="mdi mdi-account"></i> 个人信息</a> </li>
@@ -117,9 +114,6 @@
                 </form>
                 <div class="toolbar-btn-action">
                   <a class="btn btn-primary m-r-5" href="/publish"><i class="mdi mdi-plus"></i> 新增</a>
-                  <a class="btn btn-success m-r-5" href="#!"><i class="mdi mdi-check"></i> 启用</a>
-                  <a class="btn btn-warning m-r-5" href="#!"><i class="mdi mdi-block-helper"></i> 禁用</a>
-                  <a class="btn btn-danger" href="#!"><i class="mdi mdi-window-close"></i> 删除</a>
                 </div>
               </div>
               <div class="card-body">
@@ -139,7 +133,7 @@
                     <tbody>
                     <tr th:each="question : ${pagination.data}">
 
-                      <td th:text="${question.id}"></td>
+                      <td ><span class="numberClass"></span></td>
                       <td th:text="${question.title}"></td>
                       <td th:text="${#dates.format(question.gmtCreate,'yyyy-MM-dd HH:mm:ss')}"></td>
                       <td th:text="${question.creator}"></td>
@@ -147,7 +141,6 @@
                       <td>
                         <div class="btn-group">
                           <a class="btn btn-xs btn-default" th:href="@{'/question/'+${question.id}}" title="查看" data-toggle="tooltip"><i class="mdi mdi-eye-outline"></i></a>
-                          <a class="btn btn-xs btn-default" href="#!" title="删除" data-toggle="tooltip"><i class="mdi mdi-window-close"></i></a>
                         </div>
                       </td>
                     </tr>
@@ -169,7 +162,7 @@
                     </li>
 
                     <li th:each="page : ${pagination.pages}" th:class="${pagination.page == page}? 'active': ''"><a
-                            th:href="@{/(page=${page},search=${search})}" th:text="${page} "></a></li>
+                            th:href="@{/(page=${page},search=${search})}" th:text="${page} " id="page"></a></li>
 
 
                     <li th:if="${pagination.showNext}">
@@ -209,6 +202,16 @@ $(function(){
         $('#search-btn').html($(this).text() + ' <span class="caret"></span>');
     });
 });
+
+$(function(){
+    function number(){
+        for(var i=0;i< $(".numberClass").length;i++){
+            $(".numberClass").get(i).innerHTML = i+1;
+        }
+    }
+    number();
+});
+
 </script>
 </body>
 </html>
