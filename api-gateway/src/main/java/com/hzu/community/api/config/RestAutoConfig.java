@@ -32,9 +32,9 @@ public class RestAutoConfig {
         @LoadBalanced
         @Bean//spring 对restTemplate bean进行定制，加入loadbalance拦截器进行ip:port的替换
          RestTemplate lbRestTemplate(HttpClient httpclient) {
-            RestTemplate restTemplate = new RestTemplate(new HttpComponentsClientHttpRequestFactory(httpclient));
-            restTemplate.getMessageConverters().add(0,new StringHttpMessageConverter(Charset.forName("utf-8")));
-            restTemplate.getMessageConverters().add(1,new FastJsonHttpMessageConvert5());
+            RestTemplate restTemplate = new RestTemplate(new HttpComponentsClientHttpRequestFactory(httpclient));//这样使RestTemplate底层实现使用HttpComponents
+            restTemplate.getMessageConverters().add(0,new StringHttpMessageConverter(Charset.forName("utf-8")));//接受的响应序列号
+            restTemplate.getMessageConverters().add(1,new FastJsonHttpMessageConvert5());//能够对接收的JSON反序列化
             return restTemplate;
         }
 

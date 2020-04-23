@@ -39,7 +39,7 @@ public class GreatDao {
 
     public void saveAndFlush(Great great) {
         Rests.exc(()  ->{
-            String url = Rests.toUrl(userServiceName, "/comment/addLiked" );
+                String url = Rests.toUrl(userServiceName, "/comment/addLiked" );
             ResponseEntity<RestResponse<Object>> responseEntity = rest.post(url,great,new ParameterizedTypeReference<RestResponse<Object>>() {});
             return responseEntity.getBody();
         });

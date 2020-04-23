@@ -47,7 +47,7 @@ public class QuestionController {
      * @return
      */
     @RequestMapping(value="add")
-    public RestResponse<Object> leaveComment(@RequestBody Question question){
+    public RestResponse<Object> addQuestion(@RequestBody Question question){
         questionService.addQuestion(question);
 
         return RestResponse.success();

@@ -40,7 +40,7 @@ public class CommentController {
         return RestResponse.success(comment);
     }
     @RequestMapping(value="add")
-    public RestResponse<Object> leaveComment(@RequestBody Comment comment){
+    public RestResponse<Object> addComment(@RequestBody Comment comment){
         commentService.addComment(comment);
 
         return RestResponse.success();

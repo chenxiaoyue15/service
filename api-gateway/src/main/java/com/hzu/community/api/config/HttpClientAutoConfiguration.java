@@ -37,12 +37,12 @@ public class HttpClientAutoConfiguration {
     @ConditionalOnMissingBean(HttpClient.class)
     public HttpClient httpClient() {
         RequestConfig requestConfig = RequestConfig.custom()
-                .setConnectTimeout(properties.getConnectTimeOut())
-                .setSocketTimeout(properties.getSocketTimeOut()).build();// 构建requestConfig
+                .setConnectTimeout(properties.getConnectTimeOut())//设置连接超时
+                .setSocketTimeout(properties.getSocketTimeOut()).build();// 构建requestConfig，设置读超时
         HttpClient client = HttpClientBuilder.create().setDefaultRequestConfig(requestConfig)
                 .setUserAgent(properties.getAgent())
-                .setMaxConnPerRoute(properties.getMaxConnPerRoute())
-                .setMaxConnTotal(properties.getMaxConnTotaol())
+                .setMaxConnPerRoute(properties.getMaxConnPerRoute())//每一个服务节点最大的连接数
+                .setMaxConnTotal(properties.getMaxConnTotaol())//总的最大连接数
                 .addInterceptorFirst(logbookHttpRequestInterceptor)
                 .addInterceptorFirst(logbookHttpResponseInterceptor)
                 .build();

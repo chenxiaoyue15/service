@@ -38,7 +38,7 @@ public class NotificationController {
      * @return
      */
     @RequestMapping(value="add")
-    public RestResponse<Object> insert(@RequestBody Notification notification){
+    public RestResponse<Object> addNotification(@RequestBody Notification notification){
         notificationService.addNotification(notification);
 
         return RestResponse.success();
@@ -66,7 +66,7 @@ public class NotificationController {
         return RestResponse.success();
     }
     @RequestMapping("select")
-    public RestResponse<List<Notification>> selectMyQuestion(Integer id,Integer offset, Integer size){
+    public RestResponse<List<Notification>> list(Integer id,Integer offset, Integer size){
         List<Notification> list = null;
         list = notificationService.select(id,offset,size);
         return RestResponse.success(list);
