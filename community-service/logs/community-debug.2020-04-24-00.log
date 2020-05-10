@@ -1,0 +1,12 @@
+2020-04-24 00:31:10.719  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.QuestionMapper.count:] [8b918325ec49bcab,610a08f3beb7f35c,2d4eeaba9076653e] - ==>  Preparing: select count(id) from question 
+2020-04-24 00:31:10.769  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.QuestionMapper.count:] [8b918325ec49bcab,610a08f3beb7f35c,2d4eeaba9076653e] - ==> Parameters: 
+2020-04-24 00:31:10.790  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.QuestionMapper.count:] [8b918325ec49bcab,610a08f3beb7f35c,2d4eeaba9076653e] - <==      Total: 1
+2020-04-24 00:31:10.815  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [8b918325ec49bcab,7cc7a319a5501bc4,7ac4e2c97fd3b645] - ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-04-24 00:31:10.819  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [8b918325ec49bcab,7cc7a319a5501bc4,7ac4e2c97fd3b645] - ==> Parameters: 0(Integer), 5(Integer)
+2020-04-24 00:31:10.825  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [8b918325ec49bcab,7cc7a319a5501bc4,7ac4e2c97fd3b645] - <==      Total: 5
+2020-04-24 00:31:10.852  [http-nio-8083-exec-4] DEBUG [com.hzu.community.mapper.UserMapper.selectById:] [8b918325ec49bcab,42f2e70e44cb6718,8b918325ec49bcab] - ==>  Preparing: select * from user where id = ? 
+2020-04-24 00:31:10.855  [http-nio-8083-exec-4] DEBUG [com.hzu.community.mapper.UserMapper.selectById:] [8b918325ec49bcab,42f2e70e44cb6718,8b918325ec49bcab] - ==> Parameters: 1(Integer)
+2020-04-24 00:31:10.860  [http-nio-8083-exec-4] DEBUG [com.hzu.community.mapper.UserMapper.selectById:] [8b918325ec49bcab,42f2e70e44cb6718,8b918325ec49bcab] - <==      Total: 1
+2020-04-24 00:54:05.624  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [aa8758f083a11c2b,db870420b2e2708d,9f4e10166d639393] - ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-04-24 00:54:05.709  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [aa8758f083a11c2b,db870420b2e2708d,9f4e10166d639393] - ==> Parameters: 0(Integer), 4(Integer)
+2020-04-24 00:54:05.736  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [aa8758f083a11c2b,db870420b2e2708d,9f4e10166d639393] - <==      Total: 4

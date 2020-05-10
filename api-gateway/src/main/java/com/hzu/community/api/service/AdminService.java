@@ -6,6 +6,8 @@ import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.dto.PaginationDTO;
 import com.hzu.community.api.dto.QuestionDTO;
+import com.hzu.community.api.model.Company;
+import com.hzu.community.api.model.Project;
 import com.hzu.community.api.model.Question;
 import com.hzu.community.api.model.User;
 import org.apache.commons.lang3.StringUtils;
@@ -29,7 +31,7 @@ public class AdminService {
 
 
         PaginationDTO paginationDTO = new PaginationDTO();
-        Integer totalCount=adminDao.count();
+        Integer totalCount=adminDao.questioncount();
         paginationDTO.setPagination(totalCount,page,size);
         Integer offset = size * (page - 1);
         List<Question> questions =  adminDao.getQuestions(offset,size);
@@ -48,6 +50,37 @@ public class AdminService {
 
 
 
+        return paginationDTO;
+    }
+
+    public PaginationDTO getusers(Integer page, Integer size) {
+
+        PaginationDTO paginationDTO = new PaginationDTO();
+        Integer totalCount=adminDao.usercount();
+        paginationDTO.setPagination(totalCount,page,size);
+        Integer offset = size * (page - 1);
+        List<User> users =  adminDao.getUsers(offset,size);
+        paginationDTO.setData(users);
+        return paginationDTO;
+    }
+
+    public PaginationDTO getcompanyusers(Integer page, Integer size) {
+        PaginationDTO paginationDTO = new PaginationDTO();
+        Integer totalCount=adminDao.companycount();
+        paginationDTO.setPagination(totalCount,page,size);
+        Integer offset = size * (page - 1);
+        List<Company> users =  adminDao.companyUsers(offset,size);
+        paginationDTO.setData(users);
+        return paginationDTO;
+    }
+
+    public PaginationDTO projectlist(Integer page, Integer size) {
+        PaginationDTO paginationDTO = new PaginationDTO();
+        Integer totalCount=adminDao.projectcount();
+        paginationDTO.setPagination(totalCount,page,size);
+        Integer offset = size * (page - 1);
+        List<Project> users =  adminDao.projectlist(offset,size);
+        paginationDTO.setData(users);
         return paginationDTO;
     }
 }

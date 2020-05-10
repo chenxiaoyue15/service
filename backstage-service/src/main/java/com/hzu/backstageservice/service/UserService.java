@@ -21,4 +21,9 @@ public class UserService {
     public List<User> getUsers(Integer offset, Integer size) {
         return userMapper.selectUsers(offset,size);
     }
+
+    public Integer count() {
+
+        return userMapper.count();
+    }
 }

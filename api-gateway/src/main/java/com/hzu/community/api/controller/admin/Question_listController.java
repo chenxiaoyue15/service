@@ -15,12 +15,39 @@ public class Question_listController {
     private AdminService adminService;
 
     @GetMapping("/question_list")
-    public String index(Model model,
+    public String question_list(Model model,
                         @RequestParam(name = "page", defaultValue = "1") Integer page,
                         @RequestParam(name = "size", defaultValue = "5") Integer size
     ) {
         PaginationDTO pagination = adminService.getQuestions(page, size);
         model.addAttribute("pagination", pagination);
         return "admin/question_list";
+    }
+    @GetMapping("/user_list")
+    public String userlist(Model model,
+                        @RequestParam(name = "page", defaultValue = "1") Integer page,
+                        @RequestParam(name = "size", defaultValue = "5") Integer size
+    ) {
+        PaginationDTO pagination = adminService.getusers(page, size);
+        model.addAttribute("pagination", pagination);
+        return "admin/user_list";
+    }
+    @GetMapping("/company_list")
+    public String companylist(Model model,
+                        @RequestParam(name = "page", defaultValue = "1") Integer page,
+                        @RequestParam(name = "size", defaultValue = "5") Integer size
+    ) {
+        PaginationDTO pagination = adminService.getcompanyusers(page, size);
+        model.addAttribute("pagination", pagination);
+        return "admin/company_list";
+    }
+    @GetMapping("/project_list")
+    public String projectlist(Model model,
+                        @RequestParam(name = "page", defaultValue = "1") Integer page,
+                        @RequestParam(name = "size", defaultValue = "5") Integer size
+    ) {
+        PaginationDTO pagination = adminService.projectlist(page, size);
+        model.addAttribute("pagination", pagination);
+        return "admin/project_list";
     }
 }

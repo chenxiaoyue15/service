@@ -14,4 +14,7 @@ public interface UserMapper {
 
 
     List<User> selectUsers(Integer offset, Integer size);
+
+    Integer count();
+
 }

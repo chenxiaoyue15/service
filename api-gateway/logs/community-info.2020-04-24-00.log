@@ -1,0 +1,788 @@
+2020-04-24 00:12:05.095 [main] INFO  [com.hzu.community.api.ApiGatewayApplication:651] [,] - No active profile set, falling back to default profiles: default
+2020-04-24 00:12:06.574 [main] WARN  [org.springframework.boot.actuate.endpoint.EndpointId:155] [,] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-04-24 00:12:07.149 [main] WARN  [org.springframework.boot.actuate.endpoint.EndpointId:155] [,] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-24 00:12:07.373 [main] INFO  [org.springframework.cloud.context.scope.GenericScope:295] [,] - BeanFactory id=6729a879-54b2-3126-82cc-1069d01dfff5
+2020-04-24 00:12:08.176 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] [,] - Tomcat initialized with port(s): 8080 (http)
+2020-04-24 00:12:08.191 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-24 00:12:08.192 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-04-24 00:12:08.193 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 00:12:08.402 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-04-24 00:12:08.402 [main] INFO  [org.springframework.web.context.ContextLoader:284] [,] - Root WebApplicationContext: initialization completed in 3281 ms
+2020-04-24 00:12:09.320 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-04-24 00:12:09.321 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-24 00:12:09.330 [main] INFO  [com.netflix.config.DynamicPropertyFactory:281] [,] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@68b366e2
+2020-04-24 00:12:11.591 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-04-24 00:12:11.592 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-24 00:12:11.916 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] [,] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 00:12:12.098 [main] INFO  [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:58] [,] - Adding welcome page template: index
+2020-04-24 00:12:12.418 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181] [,] - Initializing ExecutorService 'taskScheduler'
+2020-04-24 00:12:13.299 [main] WARN  [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:86] [,] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-24 00:12:13.543 [main] INFO  [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:72] [,] - Setting initial instance status as: STARTING
+2020-04-24 00:12:13.588 [main] INFO  [com.netflix.discovery.DiscoveryClient:368] [,] - Initializing Eureka in region us-east-1
+2020-04-24 00:12:13.656 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] [,] - Using JSON encoding codec LegacyJacksonJson
+2020-04-24 00:12:13.657 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] [,] - Using JSON decoding codec LegacyJacksonJson
+2020-04-24 00:12:13.790 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] [,] - Using XML encoding codec XStreamXml
+2020-04-24 00:12:13.790 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] [,] - Using XML decoding codec XStreamXml
+2020-04-24 00:12:14.047 [main] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:12:14.482 [main] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:12:14.482 [main] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:12:14.482 [main] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:12:14.482 [main] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:12:14.483 [main] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:12:14.483 [main] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: true
+2020-04-24 00:12:14.483 [main] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:12:14.790 [main] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:12:14.792 [main] INFO  [com.netflix.discovery.DiscoveryClient:1342] [,] - Not registering with Eureka server per configuration
+2020-04-24 00:12:14.796 [main] INFO  [com.netflix.discovery.DiscoveryClient:468] [,] - Discovery Client initialized at timestamp 1587658334794 with initial instances count: 0
+2020-04-24 00:12:14.807 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41] [,] - Registering application API-GATEWAY with eureka with status UP
+2020-04-24 00:12:14.838 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-24 00:12:14.856 [scheduling-1] INFO  [com.hzu.community.api.schedule.HotTagTasks:27] [4e0221fbd52e3d94,4e0221fbd52e3d94] - hotTagSchedule start 2020-04-24T00:12:14.853+0800
+2020-04-24 00:12:14.888 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] [,] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-24 00:12:14.890 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145] [,] - Updating port to 8080
+2020-04-24 00:12:16.078 [hystrix-questionDao-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [4e0221fbd52e3d94,b4065020586b56f5] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:12:16.165 [hystrix-questionDao-1] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer:58] [4e0221fbd52e3d94,b4065020586b56f5] - Shutdown hook installed for: NFLoadBalancer-PingTimer-community
+2020-04-24 00:12:16.166 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.BaseLoadBalancer:197] [4e0221fbd52e3d94,b4065020586b56f5] - Client: community instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=community,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-04-24 00:12:16.173 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:222] [4e0221fbd52e3d94,b4065020586b56f5] - Using serverListUpdater PollingServerListUpdater
+2020-04-24 00:12:16.177 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:150] [4e0221fbd52e3d94,b4065020586b56f5] - DynamicServerListLoadBalancer for client community initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=community,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@4630c8ad
+2020-04-24 00:12:16.198 [hystrix-questionDao-1] INFO  [com.hzu.community.api.utils.Rests:77] [4e0221fbd52e3d94,e9e32c5752c26f4a] - result=null
+2020-04-24 00:12:16.210 [scheduling-1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:95] [,] - Unexpected error occurred in scheduled task
+com.hzu.community.api.utils.RestException: sendReq error by No instances available for community
+	at com.hzu.community.api.utils.Rests.sendReq(Rests.java:75) ~[classes/:?]
+	at com.hzu.community.api.utils.Rests.exc(Rests.java:31) ~[classes/:?]
+	at com.hzu.community.api.utils.Rests.exc(Rests.java:27) ~[classes/:?]
+	at com.hzu.community.api.dao.QuestionDao.getQuestions(QuestionDao.java:42) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at com.netflix.hystrix.contrib.javanica.command.MethodExecutionAction.execute(MethodExecutionAction.java:116) ~[hystrix-javanica-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.contrib.javanica.command.MethodExecutionAction.executeWithArgs(MethodExecutionAction.java:93) ~[hystrix-javanica-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.contrib.javanica.command.MethodExecutionAction.execute(MethodExecutionAction.java:78) ~[hystrix-javanica-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.contrib.javanica.command.GenericCommand$1.execute(GenericCommand.java:48) ~[hystrix-javanica-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand.process(AbstractHystrixCommand.java:145) ~[hystrix-javanica-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.contrib.javanica.command.GenericCommand.run(GenericCommand.java:45) ~[hystrix-javanica-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OperatorSubscribeOn$SubscribeOnSubscriber.call(OperatorSubscribeOn.java:100) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at org.springframework.cloud.sleuth.instrument.async.TraceCallable.call(TraceCallable.java:70) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55) ~[rxjava-1.3.8.jar:1.3.8]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_121]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-04-24 00:12:16.481 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] [,] - Tomcat initialized with port(s): 8023 (http)
+2020-04-24 00:12:16.482 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8023"]
+2020-04-24 00:12:16.482 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-04-24 00:12:16.482 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 00:12:16.512 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-04-24 00:12:16.512 [main] INFO  [org.springframework.web.context.ContextLoader:284] [,] - Root WebApplicationContext: initialization completed in 148 ms
+2020-04-24 00:12:16.516 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:75] [,] - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-04-24 00:12:16.527 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58] [,] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-04-24 00:12:16.586 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8023"]
+2020-04-24 00:12:16.592 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] [,] - Tomcat started on port(s): 8023 (http) with context path ''
+2020-04-24 00:12:17.350 [main] INFO  [com.hzu.community.api.ApiGatewayApplication:61] [,] - Started ApiGatewayApplication in 15.097 seconds (JVM running for 19.819)
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:12:44.793 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:12:44.805 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:13:14.820 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:13:14.820 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:13:14.820 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:13:14.821 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:13:14.821 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:13:14.821 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:13:14.821 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:13:14.825 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:13:44.826 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:13:44.827 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:13:44.840 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:13:44.840 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:13:44.840 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:13:44.840 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:13:44.841 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:13:44.853 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:14:14.856 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:14:14.856 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:14:14.856 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:14:14.856 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:14:14.856 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:14:14.856 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:14:14.857 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:14:14.862 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:14:44.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:14:44.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:14:44.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:14:44.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:14:44.864 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:14:44.865 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:14:44.865 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:14:44.870 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:15:14.883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:15:14.883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:15:14.883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:15:14.883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:15:14.883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:15:14.883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:15:14.884 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:15:14.891 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:15:44.893 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:15:44.893 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:15:44.893 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:15:44.893 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:15:44.893 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:15:44.894 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: false
+2020-04-24 00:15:44.894 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:15:44.897 [DiscoveryClient-CacheRefreshExecutor-0] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:15:50.702 [http-nio-8080-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] [,] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-24 00:15:50.702 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:525] [,] - Initializing Servlet 'dispatcherServlet'
+2020-04-24 00:15:50.723 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:547] [,] - Completed initialization in 21 ms
+2020-04-24 00:15:50.783 [http-nio-8080-exec-1] ERROR [org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter:54] [2adf84469be561f3,2adf84469be561f3] - Uncaught exception thrown
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalStateException: No instances available for community
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:41) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: java.lang.IllegalStateException: No instances available for community
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:119) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:99) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:58) ~[spring-cloud-commons-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at brave.spring.web.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:55) ~[brave-instrumentation-spring-web-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTracingClientHttpRequestInterceptor.intercept(TraceWebClientAutoConfiguration.java:309) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:674) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:612) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.hzu.community.api.config.GenericRest.get(GenericRest.java:37) ~[classes/:?]
+	at com.hzu.community.api.dao.UserDao.getUserByToken(UserDao.java:63) ~[classes/:?]
+	at com.hzu.community.api.interceptor.AuthInterceptor.preHandle(AuthInterceptor.java:55) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 56 more
+2020-04-24 00:15:50.790 [http-nio-8080-exec-1] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175] [,] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No instances available for community] with root cause
+java.lang.IllegalStateException: No instances available for community
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:119) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:99) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:58) ~[spring-cloud-commons-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at brave.spring.web.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:55) ~[brave-instrumentation-spring-web-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTracingClientHttpRequestInterceptor.intercept(TraceWebClientAutoConfiguration.java:309) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:674) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:612) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.hzu.community.api.config.GenericRest.get(GenericRest.java:37) ~[classes/:?]
+	at com.hzu.community.api.dao.UserDao.getUserByToken(UserDao.java:63) ~[classes/:?]
+	at com.hzu.community.api.interceptor.AuthInterceptor.preHandle(AuthInterceptor.java:55) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:41) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-04-24 00:15:54.694 [http-nio-8080-exec-2] ERROR [org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter:54] [c403d524aa1aac7f,c403d524aa1aac7f] - Uncaught exception thrown
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalStateException: No instances available for community
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:41) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: java.lang.IllegalStateException: No instances available for community
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:119) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:99) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:58) ~[spring-cloud-commons-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at brave.spring.web.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:55) ~[brave-instrumentation-spring-web-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTracingClientHttpRequestInterceptor.intercept(TraceWebClientAutoConfiguration.java:309) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:674) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:612) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.hzu.community.api.config.GenericRest.get(GenericRest.java:37) ~[classes/:?]
+	at com.hzu.community.api.dao.UserDao.getUserByToken(UserDao.java:63) ~[classes/:?]
+	at com.hzu.community.api.interceptor.AuthInterceptor.preHandle(AuthInterceptor.java:55) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 56 more
+2020-04-24 00:15:54.695 [http-nio-8080-exec-2] ERROR [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]:175] [,] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalStateException: No instances available for community] with root cause
+java.lang.IllegalStateException: No instances available for community
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:119) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.execute(RibbonLoadBalancerClient.java:99) ~[spring-cloud-netflix-ribbon-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.client.loadbalancer.LoadBalancerInterceptor.intercept(LoadBalancerInterceptor.java:58) ~[spring-cloud-commons-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at brave.spring.web.TracingClientHttpRequestInterceptor.intercept(TracingClientHttpRequestInterceptor.java:55) ~[brave-instrumentation-spring-web-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.client.LazyTracingClientHttpRequestInterceptor.intercept(TraceWebClientAutoConfiguration.java:309) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:77) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:674) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:612) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at com.hzu.community.api.config.GenericRest.get(GenericRest.java:37) ~[classes/:?]
+	at com.hzu.community.api.dao.UserDao.getUserByToken(UserDao.java:63) ~[classes/:?]
+	at com.hzu.community.api.interceptor.AuthInterceptor.preHandle(AuthInterceptor.java:55) ~[classes/:?]
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:41) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-04-24 00:16:13.713 [main] INFO  [com.hzu.community.api.ApiGatewayApplication:651] [,] - No active profile set, falling back to default profiles: default
+2020-04-24 00:16:14.037 [main] WARN  [org.springframework.boot.actuate.endpoint.EndpointId:155] [,] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-04-24 00:16:14.512 [main] WARN  [org.springframework.boot.actuate.endpoint.EndpointId:155] [,] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-24 00:16:14.809 [main] INFO  [org.springframework.cloud.context.scope.GenericScope:295] [,] - BeanFactory id=6729a879-54b2-3126-82cc-1069d01dfff5
+2020-04-24 00:16:15.710 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] [,] - Tomcat initialized with port(s): 8080 (http)
+2020-04-24 00:16:15.721 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-24 00:16:15.722 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-04-24 00:16:15.722 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 00:16:15.860 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-04-24 00:16:15.861 [main] INFO  [org.springframework.web.context.ContextLoader:284] [,] - Root WebApplicationContext: initialization completed in 2121 ms
+2020-04-24 00:16:16.675 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-04-24 00:16:16.676 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-24 00:16:16.681 [main] INFO  [com.netflix.config.DynamicPropertyFactory:281] [,] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@dab1f89
+2020-04-24 00:16:18.551 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-04-24 00:16:18.552 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-24 00:16:18.840 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] [,] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 00:16:18.973 [main] INFO  [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:58] [,] - Adding welcome page template: index
+2020-04-24 00:16:19.454 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181] [,] - Initializing ExecutorService 'taskScheduler'
+2020-04-24 00:16:20.754 [main] WARN  [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:86] [,] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-24 00:16:21.011 [main] INFO  [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:72] [,] - Setting initial instance status as: STARTING
+2020-04-24 00:16:21.050 [main] INFO  [com.netflix.discovery.DiscoveryClient:368] [,] - Initializing Eureka in region us-east-1
+2020-04-24 00:16:21.115 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] [,] - Using JSON encoding codec LegacyJacksonJson
+2020-04-24 00:16:21.115 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] [,] - Using JSON decoding codec LegacyJacksonJson
+2020-04-24 00:16:21.291 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] [,] - Using XML encoding codec XStreamXml
+2020-04-24 00:16:21.292 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] [,] - Using XML decoding codec XStreamXml
+2020-04-24 00:16:21.467 [main] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:16:21.826 [main] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:16:21.826 [main] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:16:21.826 [main] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:16:21.827 [main] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:16:21.827 [main] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:16:21.827 [main] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: true
+2020-04-24 00:16:21.827 [main] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:16:21.976 [main] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:16:21.978 [main] INFO  [com.netflix.discovery.DiscoveryClient:1342] [,] - Not registering with Eureka server per configuration
+2020-04-24 00:16:21.982 [main] INFO  [com.netflix.discovery.DiscoveryClient:468] [,] - Discovery Client initialized at timestamp 1587658581981 with initial instances count: 1
+2020-04-24 00:16:21.990 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41] [,] - Registering application API-GATEWAY with eureka with status UP
+2020-04-24 00:16:22.014 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-24 00:16:22.024 [scheduling-1] INFO  [com.hzu.community.api.schedule.HotTagTasks:27] [784938fa55235a4c,784938fa55235a4c] - hotTagSchedule start 2020-04-24T00:16:22.022+0800
+2020-04-24 00:16:22.046 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] [,] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-24 00:16:22.047 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145] [,] - Updating port to 8080
+2020-04-24 00:16:22.643 [http-nio-8080-exec-1] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] [,] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-24 00:16:22.643 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:525] [,] - Initializing Servlet 'dispatcherServlet'
+2020-04-24 00:16:22.678 [http-nio-8080-exec-1] INFO  [org.springframework.web.servlet.DispatcherServlet:547] [,] - Completed initialization in 35 ms
+2020-04-24 00:16:22.805 [hystrix-questionDao-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [784938fa55235a4c,35e9721dc8bb09d9] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:16:22.839 [hystrix-questionDao-1] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer:58] [784938fa55235a4c,35e9721dc8bb09d9] - Shutdown hook installed for: NFLoadBalancer-PingTimer-community
+2020-04-24 00:16:22.840 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.BaseLoadBalancer:197] [784938fa55235a4c,35e9721dc8bb09d9] - Client: community instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=community,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-04-24 00:16:22.847 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:222] [784938fa55235a4c,35e9721dc8bb09d9] - Using serverListUpdater PollingServerListUpdater
+2020-04-24 00:16:22.930 [hystrix-questionDao-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [784938fa55235a4c,35e9721dc8bb09d9] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:16:22.933 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:150] [784938fa55235a4c,35e9721dc8bb09d9] - DynamicServerListLoadBalancer for client community initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=community,current list of Servers=[DESKTOP-K5RUUL2:8083],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-K5RUUL2:8083;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@22238235
+2020-04-24 00:16:23.111 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] [,] - Tomcat initialized with port(s): 8023 (http)
+2020-04-24 00:16:23.112 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8023"]
+2020-04-24 00:16:23.112 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-04-24 00:16:23.113 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 00:16:23.152 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-04-24 00:16:23.152 [main] INFO  [org.springframework.web.context.ContextLoader:284] [,] - Root WebApplicationContext: initialization completed in 145 ms
+2020-04-24 00:16:23.157 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:75] [,] - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-04-24 00:16:23.171 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58] [,] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-04-24 00:16:23.239 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8023"]
+2020-04-24 00:16:23.271 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] [,] - Tomcat started on port(s): 8023 (http) with context path ''
+2020-04-24 00:16:23.274 [scheduling-1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:95] [,] - Unexpected error occurred in scheduled task
+com.netflix.hystrix.exception.HystrixRuntimeException: getQuestions timed-out and fallback failed.
+	at com.netflix.hystrix.AbstractCommand$22.call(AbstractCommand.java:832) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$22.call(AbstractCommand.java:807) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.hystrix.AbstractCommand$DeprecatedOnFallbackHookApplication$1.onError(AbstractCommand.java:1472) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$FallbackHookApplication$1.onError(AbstractCommand.java:1397) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:44) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:28) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:142) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$1.run(AbstractCommand.java:1142) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:41) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:37) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at org.springframework.cloud.sleuth.instrument.async.TraceCallable.call(TraceCallable.java:70) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable.run(HystrixContextRunnable.java:57) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$2.tick(AbstractCommand.java:1159) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.util.HystrixTimer$1.run(HystrixTimer.java:99) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: java.util.concurrent.TimeoutException
+	at com.netflix.hystrix.AbstractCommand.handleTimeoutViaFallback(AbstractCommand.java:997) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand.access$500(AbstractCommand.java:60) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:609) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:601) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140) ~[rxjava-1.3.8.jar:1.3.8]
+	... 16 more
+2020-04-24 00:16:23.430 [hystrix-questionDao-1] INFO  [com.hzu.community.api.utils.Rests:77] [784938fa55235a4c,cd99bc2b8289d0c0] - result=RestResponse [code=0, msg=OK, result=[Question(id=18, title=热门3, description=123, tag=php,java,js, gmtCreate=1587463062594, gmtModified=1587463062594, creator=1, viewCount=15, commentCount=1, likeCount=null), Question(id=17, title=热门2, description=123, tag=js,php,java, gmtCreate=1587463050254, gmtModified=1587463050254, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=16, title=热门标签, description=123是科技部对UI安管部卡斯比接口的把会计师不安居客吧开发背带裤, tag=php,js,java, gmtCreate=1587463038397, gmtModified=1587463038397, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=10, title=springboot快速学习, description=123, tag=java,python, gmtCreate=1586840236237, gmtModified=1586840236237, creator=1, viewCount=13, commentCount=0, likeCount=null)]]
+2020-04-24 00:16:23.851 [PollingServerListUpdater-0] INFO  [com.netflix.config.ChainedDynamicProperty:115] [,] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:16:24.187 [main] INFO  [com.hzu.community.api.ApiGatewayApplication:61] [,] - Started ApiGatewayApplication in 12.668 seconds (JVM running for 16.726)
+2020-04-24 00:16:25.167 [hystrix-questionDao-2] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,f1df23a3335dad75] - result=RestResponse [code=0, msg=OK, result=5]
+2020-04-24 00:16:25.182 [hystrix-questionDao-3] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,86446e9ea3302bb4] - result=RestResponse [code=0, msg=OK, result=[Question(id=18, title=热门3, description=123, tag=php,java,js, gmtCreate=1587463062594, gmtModified=1587463062594, creator=1, viewCount=15, commentCount=1, likeCount=null), Question(id=17, title=热门2, description=123, tag=js,php,java, gmtCreate=1587463050254, gmtModified=1587463050254, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=16, title=热门标签, description=123是科技部对UI安管部卡斯比接口的把会计师不安居客吧开发背带裤, tag=php,js,java, gmtCreate=1587463038397, gmtModified=1587463038397, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=10, title=springboot快速学习, description=123, tag=java,python, gmtCreate=1586840236237, gmtModified=1586840236237, creator=1, viewCount=13, commentCount=0, likeCount=null), Question(id=8, title=java Spring Boot, description=123, tag=java,docker, gmtCreate=1586840198981, gmtModified=1586840198981, creator=1, viewCount=8, commentCount=0, likeCount=null)]]
+2020-04-24 00:16:25.231 [http-nio-8080-exec-1] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,8f309a3693007856] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:16:25.249 [http-nio-8080-exec-1] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,8f309a3693007856] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:16:25.256 [http-nio-8080-exec-1] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,8f309a3693007856] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:16:25.264 [http-nio-8080-exec-1] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,8f309a3693007856] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:16:25.297 [http-nio-8080-exec-1] INFO  [com.hzu.community.api.utils.Rests:77] [8f309a3693007856,8f309a3693007856] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:21:21.847 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:26:21.849 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:31:10.804 [hystrix-questionDao-4] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,2d4eeaba9076653e] - result=RestResponse [code=0, msg=OK, result=5]
+2020-04-24 00:31:10.836 [hystrix-questionDao-5] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,7ac4e2c97fd3b645] - result=RestResponse [code=0, msg=OK, result=[Question(id=18, title=热门3, description=123, tag=php,java,js, gmtCreate=1587463062594, gmtModified=1587463062594, creator=1, viewCount=15, commentCount=1, likeCount=null), Question(id=17, title=热门2, description=123, tag=js,php,java, gmtCreate=1587463050254, gmtModified=1587463050254, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=16, title=热门标签, description=123是科技部对UI安管部卡斯比接口的把会计师不安居客吧开发背带裤, tag=php,js,java, gmtCreate=1587463038397, gmtModified=1587463038397, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=10, title=springboot快速学习, description=123, tag=java,python, gmtCreate=1586840236237, gmtModified=1586840236237, creator=1, viewCount=13, commentCount=0, likeCount=null), Question(id=8, title=java Spring Boot, description=123, tag=java,docker, gmtCreate=1586840198981, gmtModified=1586840198981, creator=1, viewCount=8, commentCount=0, likeCount=null)]]
+2020-04-24 00:31:10.908 [http-nio-8080-exec-7] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,8b918325ec49bcab] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:31:10.936 [http-nio-8080-exec-7] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,8b918325ec49bcab] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:31:10.949 [http-nio-8080-exec-7] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,8b918325ec49bcab] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:31:10.961 [http-nio-8080-exec-7] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,8b918325ec49bcab] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:31:10.970 [http-nio-8080-exec-7] INFO  [com.hzu.community.api.utils.Rests:77] [8b918325ec49bcab,8b918325ec49bcab] - result=RestResponse [code=0, msg=OK, result=User(id=1, name=123, age=1, pwd=123, token=4d931e3d-725b-4e09-810f-72c6665c6301, avatarUrl=1, accountId=陈晓跃)]
+2020-04-24 00:31:21.849 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:36:21.850 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:41:21.852 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:53:53.679 [main] INFO  [com.hzu.community.api.ApiGatewayApplication:651] [,] - No active profile set, falling back to default profiles: default
+2020-04-24 00:53:54.618 [main] WARN  [org.springframework.boot.actuate.endpoint.EndpointId:155] [,] - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-04-24 00:53:55.138 [main] WARN  [org.springframework.boot.actuate.endpoint.EndpointId:155] [,] - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-04-24 00:53:55.373 [main] INFO  [org.springframework.cloud.context.scope.GenericScope:295] [,] - BeanFactory id=afdcc6f3-3255-34f2-bb9d-5bf7da403173
+2020-04-24 00:53:56.110 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] [,] - Tomcat initialized with port(s): 8080 (http)
+2020-04-24 00:53:56.121 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-24 00:53:56.122 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-04-24 00:53:56.122 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 00:53:56.273 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-04-24 00:53:56.273 [main] INFO  [org.springframework.web.context.ContextLoader:284] [,] - Root WebApplicationContext: initialization completed in 2560 ms
+2020-04-24 00:53:57.117 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-04-24 00:53:57.117 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-24 00:53:57.123 [main] INFO  [com.netflix.config.DynamicPropertyFactory:281] [,] - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@7e91ed74
+2020-04-24 00:53:58.274 [main] WARN  [org.springframework.cloud.sleuth.zipkin2.ZipkinAutoConfiguration:114] [,] - Check result of the [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a8f6e6}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out}]
+2020-04-24 00:54:00.109 [main] WARN  [com.netflix.config.sources.URLConfigurationSource:121] [,] - No URLs will be polled as dynamic configuration sources.
+2020-04-24 00:54:00.110 [main] INFO  [com.netflix.config.sources.URLConfigurationSource:122] [,] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-04-24 00:54:00.516 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor:181] [,] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-24 00:54:00.638 [main] INFO  [org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping:58] [,] - Adding welcome page template: index
+2020-04-24 00:54:00.957 [main] INFO  [org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler:181] [,] - Initializing ExecutorService 'taskScheduler'
+2020-04-24 00:54:01.799 [main] WARN  [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger:86] [,] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-04-24 00:54:02.747 [main] INFO  [org.springframework.cloud.netflix.eureka.InstanceInfoFactory:72] [,] - Setting initial instance status as: STARTING
+2020-04-24 00:54:02.787 [main] INFO  [com.netflix.discovery.DiscoveryClient:368] [,] - Initializing Eureka in region us-east-1
+2020-04-24 00:54:02.865 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:70] [,] - Using JSON encoding codec LegacyJacksonJson
+2020-04-24 00:54:02.866 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:71] [,] - Using JSON decoding codec LegacyJacksonJson
+2020-04-24 00:54:02.993 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:80] [,] - Using XML encoding codec XStreamXml
+2020-04-24 00:54:02.993 [main] INFO  [com.netflix.discovery.provider.DiscoveryJerseyProvider:81] [,] - Using XML decoding codec XStreamXml
+2020-04-24 00:54:03.171 [main] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-04-24 00:54:03.623 [main] INFO  [com.netflix.discovery.DiscoveryClient:981] [,] - Disable delta property : false
+2020-04-24 00:54:03.624 [main] INFO  [com.netflix.discovery.DiscoveryClient:982] [,] - Single vip registry refresh property : null
+2020-04-24 00:54:03.624 [main] INFO  [com.netflix.discovery.DiscoveryClient:983] [,] - Force full registry fetch : false
+2020-04-24 00:54:03.624 [main] INFO  [com.netflix.discovery.DiscoveryClient:984] [,] - Application is null : false
+2020-04-24 00:54:03.624 [main] INFO  [com.netflix.discovery.DiscoveryClient:985] [,] - Registered Applications size is zero : true
+2020-04-24 00:54:03.624 [main] INFO  [com.netflix.discovery.DiscoveryClient:987] [,] - Application version is -1: true
+2020-04-24 00:54:03.625 [main] INFO  [com.netflix.discovery.DiscoveryClient:1070] [,] - Getting all instance registry info from the eureka server
+2020-04-24 00:54:03.835 [main] INFO  [com.netflix.discovery.DiscoveryClient:1079] [,] - The response status is 200
+2020-04-24 00:54:03.838 [main] INFO  [com.netflix.discovery.DiscoveryClient:1342] [,] - Not registering with Eureka server per configuration
+2020-04-24 00:54:03.842 [main] INFO  [com.netflix.discovery.DiscoveryClient:468] [,] - Discovery Client initialized at timestamp 1587660843841 with initial instances count: 1
+2020-04-24 00:54:03.853 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry:41] [,] - Registering application API-GATEWAY with eureka with status UP
+2020-04-24 00:54:03.911 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-24 00:54:03.971 [scheduling-1] INFO  [com.hzu.community.api.schedule.HotTagTasks:27] [aa8758f083a11c2b,aa8758f083a11c2b] - hotTagSchedule start 2020-04-24T00:54:03.968+0800
+2020-04-24 00:54:03.995 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] [,] - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-24 00:54:03.996 [main] INFO  [org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration:145] [,] - Updating port to 8080
+2020-04-24 00:54:05.046 [hystrix-questionDao-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [aa8758f083a11c2b,db870420b2e2708d] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:54:05.121 [hystrix-questionDao-1] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer:58] [aa8758f083a11c2b,db870420b2e2708d] - Shutdown hook installed for: NFLoadBalancer-PingTimer-community
+2020-04-24 00:54:05.122 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.BaseLoadBalancer:197] [aa8758f083a11c2b,db870420b2e2708d] - Client: community instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=community,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2020-04-24 00:54:05.129 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:222] [aa8758f083a11c2b,db870420b2e2708d] - Using serverListUpdater PollingServerListUpdater
+2020-04-24 00:54:05.235 [hystrix-questionDao-1] INFO  [com.netflix.config.ChainedDynamicProperty:115] [aa8758f083a11c2b,db870420b2e2708d] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:54:05.237 [hystrix-questionDao-1] INFO  [com.netflix.loadbalancer.DynamicServerListLoadBalancer:150] [aa8758f083a11c2b,db870420b2e2708d] - DynamicServerListLoadBalancer for client community initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=community,current list of Servers=[DESKTOP-K5RUUL2:8083],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:DESKTOP-K5RUUL2:8083;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@3e85a5db
+2020-04-24 00:54:05.358 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:92] [,] - Tomcat initialized with port(s): 8023 (http)
+2020-04-24 00:54:05.359 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Initializing ProtocolHandler ["http-nio-8023"]
+2020-04-24 00:54:05.359 [main] INFO  [org.apache.catalina.core.StandardService:173] [,] - Starting service [Tomcat]
+2020-04-24 00:54:05.359 [main] INFO  [org.apache.catalina.core.StandardEngine:173] [,] - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-24 00:54:05.418 [main] INFO  [org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/]:173] [,] - Initializing Spring embedded WebApplicationContext
+2020-04-24 00:54:05.418 [main] INFO  [org.springframework.web.context.ContextLoader:284] [,] - Root WebApplicationContext: initialization completed in 226 ms
+2020-04-24 00:54:05.421 [scheduling-1] ERROR [org.springframework.scheduling.support.TaskUtils$LoggingErrorHandler:95] [,] - Unexpected error occurred in scheduled task
+com.netflix.hystrix.exception.HystrixRuntimeException: getQuestions timed-out and fallback failed.
+	at com.netflix.hystrix.AbstractCommand$22.call(AbstractCommand.java:832) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$22.call(AbstractCommand.java:807) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.hystrix.AbstractCommand$DeprecatedOnFallbackHookApplication$1.onError(AbstractCommand.java:1472) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$FallbackHookApplication$1.onError(AbstractCommand.java:1397) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:44) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:28) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.Observable.unsafeSubscribe(Observable.java:10327) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:142) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87) ~[rxjava-1.3.8.jar:1.3.8]
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$1.run(AbstractCommand.java:1142) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:41) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable$1.call(HystrixContextRunnable.java:37) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at org.springframework.cloud.sleuth.instrument.async.TraceCallable.call(TraceCallable.java:70) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.netflix.hystrix.strategy.concurrency.HystrixContextRunnable.run(HystrixContextRunnable.java:57) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$2.tick(AbstractCommand.java:1159) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.util.HystrixTimer$1.run(HystrixTimer.java:99) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_121]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) ~[?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) ~[?:1.8.0_121]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: java.util.concurrent.TimeoutException
+	at com.netflix.hystrix.AbstractCommand.handleTimeoutViaFallback(AbstractCommand.java:997) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand.access$500(AbstractCommand.java:60) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:609) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at com.netflix.hystrix.AbstractCommand$12.call(AbstractCommand.java:601) ~[hystrix-core-1.5.18.jar:1.5.18]
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140) ~[rxjava-1.3.8.jar:1.3.8]
+	... 16 more
+2020-04-24 00:54:05.425 [main] INFO  [org.springframework.boot.actuate.endpoint.web.ServletEndpointRegistrar:75] [,] - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2020-04-24 00:54:05.434 [main] INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver:58] [,] - Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-04-24 00:54:05.511 [main] INFO  [org.apache.coyote.http11.Http11NioProtocol:173] [,] - Starting ProtocolHandler ["http-nio-8023"]
+2020-04-24 00:54:05.516 [main] INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer:204] [,] - Tomcat started on port(s): 8023 (http) with context path ''
+2020-04-24 00:54:05.878 [hystrix-questionDao-1] INFO  [com.hzu.community.api.utils.Rests:77] [aa8758f083a11c2b,9f4e10166d639393] - result=RestResponse [code=0, msg=OK, result=[Question(id=18, title=热门3, description=123, tag=php,java,js, gmtCreate=1587463062594, gmtModified=1587463062594, creator=1, viewCount=15, commentCount=1, likeCount=null), Question(id=17, title=热门2, description=123, tag=js,php,java, gmtCreate=1587463050254, gmtModified=1587463050254, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=16, title=热门标签, description=123是科技部对UI安管部卡斯比接口的把会计师不安居客吧开发背带裤, tag=php,js,java, gmtCreate=1587463038397, gmtModified=1587463038397, creator=1, viewCount=0, commentCount=0, likeCount=null), Question(id=10, title=springboot快速学习, description=123, tag=java,python, gmtCreate=1586840236237, gmtModified=1586840236237, creator=1, viewCount=13, commentCount=0, likeCount=null)]]
+2020-04-24 00:54:06.135 [PollingServerListUpdater-0] INFO  [com.netflix.config.ChainedDynamicProperty:115] [,] - Flipping property: community.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2020-04-24 00:54:06.273 [main] INFO  [com.hzu.community.api.ApiGatewayApplication:61] [,] - Started ApiGatewayApplication in 15.067 seconds (JVM running for 18.701)
+2020-04-24 00:54:06.317 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a8f6e6}] WARN  [zipkin2.reporter.AsyncReporter$BoundedAsyncReporter:295] [,] - Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2020-04-24 00:54:06.318 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@2a8f6e6}] WARN  [zipkin2.reporter.AsyncReporter$BoundedAsyncReporter:302] [,] - Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": connect timed out; nested exception is java.net.SocketTimeoutException: connect timed out
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:748) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateSenderConfiguration.java:228) ~[spring-cloud-sleuth-zipkin-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:641) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender.post(RestTemplateSender.java:129) ~[spring-cloud-sleuth-zipkin-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:142) ~[spring-cloud-sleuth-zipkin-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender$HttpPostCall.doExecute(RestTemplateSender.java:132) ~[spring-cloud-sleuth-zipkin-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at zipkin2.Call$Base.execute(Call.java:380) ~[zipkin-2.19.3.jar:?]
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:284) ~[zipkin-reporter-2.12.1.jar:?]
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:358) ~[zipkin-reporter-2.12.1.jar:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_121]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_121]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_121]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_121]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_121]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_121]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175) ~[?:1.8.0_121]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:1.8.0_121]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:1.8.0_121]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:1.8.0_121]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:1.8.0_121]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:1.8.0_121]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1202) ~[?:1.8.0_121]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1138) ~[?:1.8.0_121]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032) ~[?:1.8.0_121]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:966) ~[?:1.8.0_121]
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:53) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:739) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	... 9 more
+2020-04-24 00:59:03.627 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration

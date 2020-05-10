@@ -5,6 +5,10 @@ import com.hzu.community.api.config.GenericRest;
 import com.hzu.community.api.model.Question;
 import com.hzu.community.api.dto.QuestionDTO;
 import com.hzu.community.api.utils.Rests;
+import com.netflix.hystrix.HystrixCommandProperties;
+import com.netflix.hystrix.contrib.javanica.annotation.DefaultProperties;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
@@ -13,6 +17,12 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 @Repository
+@DefaultProperties(groupKey="questionDao",
+        commandProperties={@HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="1000"),@HystrixProperty(name="circuitBreaker.requestVolumeThreshold",value="10"),@HystrixProperty(name="circuitBreaker.errorThresholdPercentage",value="4")},
+        threadPoolProperties={@HystrixProperty(name="coreSize",value="2")
+                ,@HystrixProperty(name="maxQueueSize",value="2")},
+        threadPoolKey="questionDao"
+)
 public class QuestionDao {
     @Autowired
     private GenericRest rest;
@@ -28,6 +38,9 @@ public class QuestionDao {
      * @param size
      * @param search
      */
+
+
+    @HystrixCommand
     public List<Question> getQuestions(Integer offset,Integer size,String search,String tag,String sort) {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
             if (sort!=null){
@@ -61,6 +74,8 @@ public class QuestionDao {
      * @param id
      * @return
      */
+
+    @HystrixCommand
     public QuestionDTO getById(Integer id) {
         RestResponse<QuestionDTO> resp = Rests.exc(() -> {
 
@@ -75,6 +90,7 @@ public class QuestionDao {
      * 调用添加文章接口
      * @param question
      */
+    @HystrixCommand
     public void addQuestion(Question question) {
         Rests.exc(()  ->{
             String url = Rests.toUrl(userServiceName, "/question/add" );
@@ -82,7 +98,7 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
-
+    @HystrixCommand
     public void update(Question question) {
         Rests.exc(() -> {
             String url = Rests.toUrl(userServiceName, "/question/update");
@@ -91,7 +107,7 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
-
+    @HystrixCommand
     public List<Question> selectRelated(Question question) {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
 
@@ -101,7 +117,7 @@ public class QuestionDao {
         });
         return resp.getResult();
     }
-
+    @HystrixCommand
     public Question getQuestion(Integer id) {
         RestResponse<Question> resp = Rests.exc(() -> {
 
@@ -111,7 +127,7 @@ public class QuestionDao {
 
         });return resp.getResult();
     }
-
+    @HystrixCommand
     public void updateCommentCount(Question question) {
         Rests.exc(() -> {
             String url = Rests.toUrl(userServiceName, "/question/updateCommentCount");
@@ -120,7 +136,7 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
-
+    @HystrixCommand
     public List<Question> selectMyQuestion(Integer id, Integer offset, Integer size) {
         RestResponse<List<Question>> resp = Rests.exc(() -> {
 
@@ -131,7 +147,7 @@ public class QuestionDao {
         });
         return resp.getResult();
     }
-
+    @HystrixCommand
     public Integer count(String search, String tag) {
 
 
@@ -154,7 +170,7 @@ public class QuestionDao {
         });return resp.getResult();
     }
 
-
+    @HystrixCommand
     public Integer countByUserId(Integer userId) {
         RestResponse<Integer> resp = Rests.exc(() -> {
 
@@ -164,7 +180,7 @@ public class QuestionDao {
 
         });return resp.getResult();
     }
-
+    @HystrixCommand
     public void updateViewCount(Question updateQuestion) {
         Rests.exc(() -> {
             String url = Rests.toUrl(userServiceName, "/question/updateViewCount");
@@ -173,7 +189,7 @@ public class QuestionDao {
             return responseEntity.getBody();
         });
     }
-
+    @HystrixCommand
     public void deleteById(Question question) {
         Rests.exc(() -> {
             String url = Rests.toUrl(userServiceName, "/question/deleteById");

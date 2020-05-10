@@ -2,26 +2,130 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1718f5a7-d552-4e9e-917c-d91b2a04de9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbssDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_19_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_2_6_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/log4j2.component.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/community-service/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/UserServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/Exception2CodeRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/NewRuleConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/PageParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/RestCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/RestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/DruidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/GenericRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/HttpClientAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/HttpClientProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/RestAutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/controller/AgencyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/exception/IllegalParamsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/exception/WithTypeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/mapper/AgencyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/ListResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/service/AgencyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/utils/BeanHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/utils/HashUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/utils/JwtHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/agency.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/hzu/project/user/UserServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/HttpClientAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/HttpClientAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/RestAutoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/RestAutoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/GreatDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/GreatDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/community-service/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
     <ignored path="$PROJECT_DIR$/api-gateway/target/" />
     <ignored path="$PROJECT_DIR$/backstage-service/target/" />
+    <ignored path="$PROJECT_DIR$/zipkin/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,91 +147,11 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="service" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TurbDataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbDataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuestionMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper/QuestionMapper.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="BackstageController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/profile.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TurbsDataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbsDataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TurbssDataSourceConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbssDataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BackstageServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/BackstageServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -156,6 +180,9 @@
       <find>actuator</find>
       <find>alibaba</find>
       <find>mapUnderscoreToCamelCase</find>
+      <find>actu</find>
+      <find>starter</find>
+      <find>timeoutInMilliseconds</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,57 +199,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/MyBatisconfig.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper/QuestionMapper.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/lyear_pages_doc.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/lyear_pages_doc.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/lyear_ui_typography.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/lyear_pages_add_doc.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/hotController.java" />
-        <option value="$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/RepliesController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/MyController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/WebMvcConf.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question2.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/RestAutoConfig.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/HttpClientAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestResponse.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" />
-        <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" />
         <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java" />
         <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/GreatDao.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/Turb2DataSourceConfig.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbsDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbssDataSourceConfig.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/community-service/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/zipkin/src/main/java/com/hzu/zipkin/ZipkinApplication.java" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/community-service/pom.xml" />
+        <option value="$PROJECT_DIR$/zipkin/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Project.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/ListResponse.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Company.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Company.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Project.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" />
+        <option value="$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties" />
+        <option value="$PROJECT_DIR$/community-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" />
+        <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java" />
       </list>
     </option>
   </component>
@@ -252,15 +279,6 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="api-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="community-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="community-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -271,7 +289,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="21" />
+    <option name="x" value="633" />
+    <option name="y" value="267" />
     <option name="width" value="1281" />
     <option name="height" value="741" />
   </component>
@@ -283,8 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,41 +312,6 @@
             <path>
               <item name="service" type="b2602c69:ProjectViewProjectNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="api-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="community-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -348,16 +330,34 @@
             <path>
               <item name="service" type="b2602c69:ProjectViewProjectNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="user-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,26 +374,26 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\1xiangmu\service\backstage-service\src\main\resources\mapper3" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static\images" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static\fonts" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates\admin" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hzu.backstageservice.mapperss" />
-      <recent name="com.hzu.backstageservice.config" />
-      <recent name="com.hzu.community.api.controller" />
-      <recent name="com.hzu.community.api.dao" />
-      <recent name="com.hzu.community.api.service" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\1xiangmu\service\community-service\src\main\resources\mapper" />
       <recent name="E:\1xiangmu\service\community-service\src\main\java\com\hzu\community\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzu.community.api.model" />
+      <recent name="com.hzu.backstageservice.service" />
+      <recent name="com.hzu.backstageservice.mappers" />
+      <recent name="com.hzu.backstageservice.mapperss" />
+      <recent name="com.hzu.backstageservice.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1xiangmu\service" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates\admin" />
+      <recent name="E:\1xiangmu\service\backstage-service\src\main\resources\mapper2" />
+      <recent name="E:\1xiangmu\service\backstage-service\src\main\java\com\hzu\backstageservice\model" />
+      <recent name="E:\1xiangmu\service\community-service\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,9 +412,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.3283582" />
+    <option name="contentProportion" value="0.3018242" />
   </component>
-  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.CommunityServiceApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hzu.community.api.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -532,19 +532,26 @@
       <workItem from="1587357052515" duration="27332000" />
       <workItem from="1587447934459" duration="24074000" />
       <workItem from="1587542226455" duration="6506000" />
-      <workItem from="1587615948999" duration="22167000" />
+      <workItem from="1587615948999" duration="32744000" />
+      <workItem from="1587656744561" duration="3000" />
+      <workItem from="1587657168566" duration="3000" />
+      <workItem from="1587657248804" duration="7647000" />
+      <workItem from="1587743812277" duration="6321000" />
+      <workItem from="1587790948505" duration="21611000" />
+      <workItem from="1587895648719" duration="2060000" />
+      <workItem from="1589120604854" duration="309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434595000" />
+    <option name="totallyTimeSpent" value="483126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.118027486" side_tool="true" weight="0.4516129" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.03718674" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.37671787" side_tool="true" weight="0.3781362" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.28536782" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -554,17 +561,16 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32616487" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.8819725" weight="0.390681" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.62328213" weight="0.3781362" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.49731663" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4995958" weight="0.3297491" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.55214226" weight="0.27598566" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31123686" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.567502" weight="0.27598566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -572,6 +578,7 @@
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3291592" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32616487" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -579,6 +586,7 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3291592" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.4014337" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4995958" weight="0.3297491" />
@@ -600,7 +608,6 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.10994341" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28455943" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -609,9 +616,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.4014337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,379 +637,351 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/CommentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/GreatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="69" column="68" selection-start-line="69" selection-start-column="61" selection-end-line="69" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/NotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/NotificationMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/mapper/NotificationMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="54" column="49" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.hzu.community.api.controller.IndexController">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.hzu.community.api.controller.IndexController</OriginalElement>
-          <nodes>
-            <node x="" y="">com.hzu.community.api.controller.IndexController</node>
-            <node x="" y="">org.springframework.stereotype.Controller</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="68.0" y="55.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-api-gateway">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-api-gateway</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-api-gateway</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="79.0" y="15.0" />
-          <SelectedNodes />
-          <Categories />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="57" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/HotTagCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/schedule/HotTagTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/repository/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE.jar!/org/springframework/web/servlet/HandlerInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/AuthActionInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/WebMvcConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="24" selection-end-line="89" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="74" column="13" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/interceptor/AuthInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="58" column="70" lean-forward="true" selection-start-line="58" selection-start-column="70" selection-end-line="58" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="53" column="54" lean-forward="true" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/enums/CommentTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/GreatService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="28" />
-          <folding>
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/CommentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/GreatDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="41" column="76" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/enums/NotificationStatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/NotificationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="54" column="72" selection-start-line="54" selection-start-column="69" selection-end-line="54" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/NotificationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="26" column="64" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/NotificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/MyBatisconfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="52" lean-forward="true" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="209">
+          <caret line="23" column="13" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="23" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="74" lean-forward="true" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
+        <state relative-caret-position="240">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="130" column="71" selection-start-line="130" selection-start-column="71" selection-end-line="130" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="128" column="57" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="38">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/BackstageServiceApplication.java">
+    <entry file="jar://F:/repository/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/DefaultProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="193">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/application.properties">
+    <entry file="jar://F:/repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        <state relative-caret-position="50">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbssDataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        <state relative-caret-position="152">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbsDataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="247">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbDataSourceConfig.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="1026">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper/QuestionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="116" column="66" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/RestAutoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/utils/Rests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/CommonConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/ResultMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-634">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/UserContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/HttpClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/QuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="30" column="59" lean-forward="true" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/NotificationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/GreatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+        <state relative-caret-position="150">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/profile.html">
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/NotificationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1052">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/GreatService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/User.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>

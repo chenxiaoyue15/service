@@ -164,3 +164,32 @@ function deleted(e) {
     }
 
 }
+function deleteds(e) {
+    var questionId = e.getAttribute("data-id");
+    var de = confirm("确定进行删除操作？");
+    if (de) {
+        $.ajax({
+            type: "POST",
+            url: "/deleted",
+            contentType: 'application/json',
+            data: JSON.stringify({
+                "id": questionId
+            })
+        }), window.location = "/admin/question_list";
+    }
+}
+
+function stopusing(e) {
+    var userId = e.getAttribute("data-id");
+    var de = confirm("确定进行删除操作？");
+    if (de) {
+        $.ajax({
+            type: "POST",
+            url: "/stopuser",
+            contentType: 'application/json',
+            data: JSON.stringify({
+                "id": userId
+            })
+        }), window.location = "/admin/user_list";
+    }
+}

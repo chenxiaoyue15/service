@@ -17,6 +17,10 @@
     from   user
 
 </select>
+    <select id="count" resultType="integer" >
+        select count(id)
+        from   user
 
+    </select>
 
 </mapper>

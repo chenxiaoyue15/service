@@ -49,9 +49,6 @@ public class CommentService {
 
         }
 
-
-        // List<User> users = userMapper.ById(userIds);
-
         Map<Integer, User> userMap = users.stream().collect(Collectors.toMap(user -> user.getId(), user -> user));
         List<CommentDTO> commentDTOS = comments.stream().map(comment -> {
             CommentDTO commentDTO = new CommentDTO();

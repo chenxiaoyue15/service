@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>首页 - 光年(Light Year Admin)后台管理系统模板</title>
+  <link rel="icon" href="favicon.ico" type="image/ico">
+  <meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">
+  <meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">
+  <meta name="author" content="yinqi">
+
+
+  <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../static/css/style.min.css">
+  <link rel="stylesheet" href="../../static/css/materialdesignicons.min.css">
+  <script src="../../static/js/community.js"></script>
+
+
+</head>
+
+<body>
+<div class="lyear-layout-web">
+  <div class="lyear-layout-container">
+    <!--左侧导航-->
+    <aside class="lyear-layout-sidebar">
+
+      <!-- logo -->
+      <div id="logo" class="sidebar-header">
+        <a href="/admin"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
+      </div>
+      <div class="lyear-layout-sidebar-scroll">
+
+        <nav class="sidebar-main">
+          <ul class="nav nav-drawer">
+            <li class="nav-item active"> <a href="index.html"><i class="mdi mdi-home"></i> 后台首页</a> </li>
+            <li class="nav-item nav-item-has-subnav">
+              <a href="javascript:void(0)"><i class="mdi mdi-palette"></i> 用户管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="lyear_ui_buttons.html">企业人员</a> </li>
+                <li> <a href="lyear_ui_cards.html">企业信息</a> </li>
+                <li> <a href="lyear_ui_grid.html">学生信息</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item nav-item-has-subnav active open">
+              <a href="javascript:void(0) "><i class="mdi mdi-format-align-justify"></i> 论坛管理</a>
+              <ul class="nav nav-subnav">
+                <li> <a href="admin/question_list active">文章管理</a> </li>
+                <li> <a href="lyear_forms_radio.html">评论管理</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item "> <a href="index.html"><i class="mdi mdi-home"></i> 项目管理</a> </li>
+          </ul>
+        </nav>
+
+
+      </div>
+
+    </aside>
+    <!--End 左侧导航-->
+
+    <!--头部信息-->
+    <header class="lyear-layout-header">
+
+      <nav class="navbar navbar-default">
+        <div class="topbar">
+
+          <div class="topbar-left">
+            <div class="lyear-aside-toggler">
+              <span class="lyear-toggler-bar"></span>
+              <span class="lyear-toggler-bar"></span>
+              <span class="lyear-toggler-bar"></span>
+            </div>
+            <span class="navbar-page-title"> 后台首页 </span>
+          </div>
+
+          <ul class="topbar-right">
+            <li class="dropdown dropdown-profile">
+              <a href="javascript:void(0)" data-toggle="dropdown">
+                <img class="img-avatar img-avatar-48 m-r-10" src="" alt="笔下光年" />
+                <span th:text="${session.user.getAccountId()}"> <span class="caret"></span></span>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li> <a href="lyear_pages_profile.html"><i class="mdi mdi-account"></i> 个人信息</a> </li>
+                <li> <a href="lyear_pages_edit_pwd.html"><i class="mdi mdi-lock-outline"></i> 修改密码</a> </li>
+                <li> <a href="javascript:void(0)"><i class="mdi mdi-delete"></i> 清空缓存</a></li>
+                <li class="divider"></li>
+                <li> <a href="lyear_pages_login.html"><i class="mdi mdi-logout-variant"></i> 退出登录</a> </li>
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+    </header>
+    <!--End 头部信息-->
+
+    <!--页面主要内容-->
+    <main class="lyear-layout-content">
+
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="card">
+            <div class="card-header">
+              <h4>项目信息</h4>
+            </div>
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-hover">
+                  <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>学生姓名</th>
+                    <th>学生创建时间</th>
+                    <th>学生联系方式</th>
+                    <th>学生账号状态</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr th:each="user : ${pagination.data}">
+                    <td th:href="@{'/question/'+${user.id}}" th:text="${user.id}"></td>
+                    <td th:text="${user.name}"></td>
+                    <td th:text="${#dates.format(user.createTime,'yyyy-MM-dd HH:mm:ss')}"></td>
+                    <td th:text="${user.phone}"></td>
+                    <td><a type="button" class="btn btn-danger" th:data-id="${user.id}" onclick="deleteds(this)" >启用</a>
+                      <a type="button" class="btn btn-danger" th:data-id="${user.id}" onclick="stopusing(this)" >停用</a>
+                    </td>
+
+                  </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </main>
+    <!--End 页面主要内容-->
+  </div>
+</div>
+
+<script type="text/javascript" src="../static/js2/jquery.min.js"></script>
+<script type="text/javascript" src="../static/js2/bootstrap.min.js"></script>
+<script type="text/javascript" src="../static/js2/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="../static/js2/main.min.js"></script>
+
+<!--图表插件-->
+<script type="text/javascript" src="js/Chart.js"></script>
+
+
+</body>
+</html>

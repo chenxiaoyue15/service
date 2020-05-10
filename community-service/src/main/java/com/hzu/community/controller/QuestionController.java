@@ -24,7 +24,7 @@ public class QuestionController {
      * @return
      */
     @RequestMapping("list")
-    public RestResponse<List<Question>> list(Integer offset,Integer size,String search,String tag,String sort){
+    public RestResponse<List<Question>> list(Integer offset,Integer size,String search,String tag,String sort)  {
         List<Question> list = null;
         list = questionService.getQuestions(offset,size,search,tag,sort);
         return RestResponse.success(list);
@@ -36,7 +36,8 @@ public class QuestionController {
      * @return
      */
     @RequestMapping("one")
-    public RestResponse<Question> one(Integer id){
+    public RestResponse<Question> one(Integer id)  {
+
         Question question = questionService.queryOneQuestion(id);
         return RestResponse.success(question);
     }

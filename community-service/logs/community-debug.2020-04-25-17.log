@@ -1,0 +1,3 @@
+2020-04-25 18:13:26.282  [http-nio-8084-exec-1] DEBUG [com.hzu.community.mapper.UserMapper.select:] [a3910f66bebf14b0,6ef378e82ceaa8b8,a3910f66bebf14b0] - ==>  Preparing: select * from user WHERE name = ? 
+2020-04-25 18:13:26.332  [http-nio-8084-exec-1] DEBUG [com.hzu.community.mapper.UserMapper.select:] [a3910f66bebf14b0,6ef378e82ceaa8b8,a3910f66bebf14b0] - ==> Parameters: 123(String)
+2020-04-25 18:13:26.348  [http-nio-8084-exec-1] DEBUG [com.hzu.community.mapper.UserMapper.select:] [a3910f66bebf14b0,6ef378e82ceaa8b8,a3910f66bebf14b0] - <==      Total: 1
