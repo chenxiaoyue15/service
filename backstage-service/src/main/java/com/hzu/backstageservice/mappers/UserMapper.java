@@ -17,4 +17,11 @@ public interface UserMapper {
 
     Integer count();
 
+    List<User> selectHRUsers(Integer offset, Integer size);
+
+    Integer HRcount();
+
+    void openit(User user);
+
+    void closeit(User user);
 }

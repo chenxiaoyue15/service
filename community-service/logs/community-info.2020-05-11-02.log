@@ -1,0 +1,354 @@
+2020-05-11 02:01:19.197 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:06:19.198 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:11:19.200 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:16:19.200 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:21:19.204 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:26:19.207 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:31:19.208 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:36:19.211 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:41:19.213 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:46:19.214 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:48:59.572 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [3cf2dc79720537e2,6d2db1041d097bd1] - Incoming Request: 9c52812ebddde3cc
+GET http://DESKTOP-K5RUUL2:8083/question/list?offset=0&size=4 HTTP/1.1
+x-b3-parentspanid: 3d8c68fef9192b00
+x-b3-traceid: 3cf2dc79720537e2
+x-b3-spanid: 6d2db1041d097bd1
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 02:48:59.595 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:84] [3cf2dc79720537e2,6d2db1041d097bd1] - Outgoing Response: 9c52812ebddde3cc
+Duration: 24 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Sun, 10 May 2020 18:48:59 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":[{"id":25,"title":"åå¸æç« æµè¯","description":"åå¸æç« æµè¯","tag":"js,php","gmtCreate":1587794699373,"gmtModified":1587794699373,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":24,"title":"ä»ä¹æ¯å¾®æå¡ï¼å¾®æå¡çå¥½å¤","description":"\tå¨å¾®æå¡æ¶æä¸­ï¼ä¸å¡è¢«æåæå¤ä¸ªé«åèä½è¦åçå°åæå¡ï¼æ¯ä¸ªå°åæå¡é½ç§°ä½ä¸ä¸ªå¾®æå¡ï¼èæ¯ä¸ªå¾®æå¡é½å¯ä»¥è¿è¡å¨ç¬ç«è¿ç¨ä¸­ï¼å¨æ´ä½æ¶æä¸­æ§è¡åç¬çä»»å¡ï¼è´è´£èªå·±çåè½ãæå¡ä¸æå¡ä¹é´å¯ä»¥ç¸äºè°ç¨ï¼éç¨è½»éçº§éä¿¡æºå¶ï¼ç¬ç«èªå¨é¨ç½²ï¼å¨æ¯ä¸ªå¾®æå¡éé¢å¯ä»¥ç¨ä¸åçè¯­è¨ä»¥åä¸åçå­å¨ææ¯ã\r\n\tå æ­¤ï¼å¾®æå¡çä¼ç¹æ¾èæè§ï¼è¿ä¹æ¯è®©å¾®æå¡æ¶ææä¸ºç­é¨æ¶æçåå ï¼\r\n\tç¬¬ä¸ç¹ï¼æäºå¼ååç»´æ¤ï¼æ¯ä¸ªå¾®æå¡å¯ç±ä¸ä¸ªäººæèä¸ä¸ªå°ç»è¿è¡å¼ååç»´æ¤ï¼å¾®æå¡ç¸å¯¹æ¥è¯´å·¥ç¨éè¾å°ï¼æäºçè§£ï¼\r\n\tç¬¬äºç¹ï¼ç¬ç«é¨ç½²ï¼ä¸ä¸ªå¾®æå¡çä¿®æ¹ä¸éè¦åè°å¶ä»çæå¡ï¼èçäºå¼åäººåä¹é´çæ²éææ¬ï¼\r\n\tç¬¬ä¸ç¹ï¼ä¼¸ç¼©æ§å¼ºï¼æ¯ä¸ªå¾®æå¡é½å¯ä»¥è¿è¡åç¬çæ¨ªååçºµåä¸æ©å±ï¼å¹¶ä¸æä»¬å¯ä»¥æ ¹æ®æ¯ä¸ªæå¡å¯¹ç¡¬ä»¶éæ±çä¸åè¿è¡å®å¶åå°åçº§åæ©å®¹ï¼éçä¸å¡è§æ¨¡çæ©å¤§ï¼æä»¬å¯ä»¥è¿è¡è¿ä¸æ­¥çæåï¼è¿ä¸æ­¥è¿è¡ç³»ç»çº§çæ©å±ã\r\n\tç¬¬åç¹ï¼ä¸ç»ç»ç»æç¸å¹éï¼å½åºç°å¼å¸¸æ¥å¿çæ¶åï¼æä»¬å¯ä»¥éè¿ååä¸åçæå¡ï¼äº¤ç»ä¸åçå¢éè¿è¡ç»´æ¤ï¼åå°ç»´æ¤ãæ²éææ¬ï¼\tç¬¬äºç¹ï¼ææ¯å¼ææ§ï¼æ¯ä¸ªæå¡å¯ä»¥æ ¹æ®èªèº«éæ±éæ©æéåè¯¥æå¡çææ¯è¿è¡å¼åã","tag":"java","gmtCreate":1587791267506,"gmtModified":1587791267506,"creator":1,"viewCount":17,"commentCount":3,"likeCount":null},{"id":23,"title":"ææ°æç« ","description":"123","tag":"python,java","gmtCreate":1587748463351,"gmtModified":1587748463351,"creator":1,"viewCount":1,"commentCount":0,"likeCount":null},{"id":22,"title":"ç¼ç¨ä¹ç¾","description":"132","tag":"java","gmtCreate":1587748280171,"gmtModified":1587748280171,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null}]}
+2020-05-11 02:48:59.668 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [3cf2dc79720537e2,0588a876a8dc2a4c] - Incoming Request: ea8823e0241e8fe8
+GET http://DESKTOP-K5RUUL2:8083/question/list?offset=4&size=4 HTTP/1.1
+x-b3-parentspanid: e683d5e2118aadae
+x-b3-traceid: 3cf2dc79720537e2
+x-b3-spanid: 0588a876a8dc2a4c
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 02:48:59.672 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:84] [3cf2dc79720537e2,0588a876a8dc2a4c] - Outgoing Response: ea8823e0241e8fe8
+Duration: 4 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Sun, 10 May 2020 18:48:59 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":[{"id":21,"title":"ä»0å¼å§å­¦JAVA","description":"123","tag":"java","gmtCreate":1587748265666,"gmtModified":1587748265666,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":20,"title":"å¾®æå¡æ¶æå¦ä½èèï¼","description":"123","tag":"java","gmtCreate":1587748221949,"gmtModified":1587748221949,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":19,"title":"å¦ä½å¿«éå­¦ä¹ java","description":"123","tag":"java,php","gmtCreate":1587748189578,"gmtModified":1587748189578,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":18,"title":"ç­é¨3","description":"123","tag":"php,java,js","gmtCreate":1587463062594,"gmtModified":1587463062594,"creator":1,"viewCount":15,"commentCount":1,"likeCount":null}]}
+2020-05-11 02:48:59.678 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [3cf2dc79720537e2,9fcfbec145246bb5] - Incoming Request: ca8d5ef620907161
+GET http://DESKTOP-K5RUUL2:8083/question/list?offset=8&size=4 HTTP/1.1
+x-b3-parentspanid: b1c97cbdb85a77b0
+x-b3-traceid: 3cf2dc79720537e2
+x-b3-spanid: 9fcfbec145246bb5
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 02:48:59.685 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:84] [3cf2dc79720537e2,9fcfbec145246bb5] - Outgoing Response: ca8d5ef620907161
+Duration: 7 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Sun, 10 May 2020 18:48:59 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":[{"id":17,"title":"ç­é¨2","description":"123","tag":"js,php,java","gmtCreate":1587463050254,"gmtModified":1587463050254,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":16,"title":"ç­é¨æ ç­¾","description":"123æ¯ç§æé¨å¯¹UIå®ç®¡é¨å¡æ¯æ¯æ¥å£çæä¼è®¡å¸ä¸å®å±å®¢å§å¼åèå¸¦è£¤","tag":"php,js,java","gmtCreate":1587463038397,"gmtModified":1587463038397,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null}]}
+2020-05-11 02:51:19.216 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:56:19.218 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 02:58:45.686 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [0e0b9363315e9036,2f5920eb7a4cb872] - Incoming Request: 8e90eb0356d69d18
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyMTAwNzUsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTEyMzY3NSJ9.CUq_B6N_wAI5mkECalXJGfJ2K-lk2G0WQbDU-cFkgDw HTTP/1.1
+x-b3-parentspanid: 0e0b9363315e9036
+x-b3-traceid: 0e0b9363315e9036
+x-b3-spanid: 2f5920eb7a4cb872
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 02:58:45.704 [http-nio-8083-exec-9] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [0e0b9363315e9036,2f5920eb7a4cb872] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor150.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 02:58:45.708 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:84] [0e0b9363315e9036,2f5920eb7a4cb872] - Outgoing Response: 8e90eb0356d69d18
+Duration: 22 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Sun, 10 May 2020 18:58:45 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}
+2020-05-11 02:58:54.276 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:79] [8b6f496cafdc5155,93e68a6c45201434] - Incoming Request: e74ebdac1788a99e
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyMTAwNzUsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTEyMzY3NSJ9.CUq_B6N_wAI5mkECalXJGfJ2K-lk2G0WQbDU-cFkgDw HTTP/1.1
+x-b3-parentspanid: 8b6f496cafdc5155
+x-b3-traceid: 8b6f496cafdc5155
+x-b3-spanid: 93e68a6c45201434
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 02:58:54.280 [http-nio-8083-exec-3] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [8b6f496cafdc5155,93e68a6c45201434] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor150.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 02:58:54.282 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:84] [8b6f496cafdc5155,93e68a6c45201434] - Outgoing Response: e74ebdac1788a99e
+Duration: 7 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Sun, 10 May 2020 18:58:54 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}
+2020-05-11 02:59:50.616 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:79] [f32cab1265b64c60,2dc01c36049c9892] - Incoming Request: e680a5da0c076aa6
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyMTAwNzUsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTEyMzY3NSJ9.CUq_B6N_wAI5mkECalXJGfJ2K-lk2G0WQbDU-cFkgDw HTTP/1.1
+x-b3-parentspanid: f32cab1265b64c60
+x-b3-traceid: f32cab1265b64c60
+x-b3-spanid: 2dc01c36049c9892
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 02:59:50.620 [http-nio-8083-exec-4] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [f32cab1265b64c60,2dc01c36049c9892] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor150.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 02:59:50.622 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:84] [f32cab1265b64c60,2dc01c36049c9892] - Outgoing Response: e680a5da0c076aa6
+Duration: 7 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Sun, 10 May 2020 18:59:50 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}

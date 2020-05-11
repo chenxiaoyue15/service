@@ -26,4 +26,21 @@ public class UserService {
 
         return userMapper.count();
     }
+
+    public List<User> getHRUsers(Integer offset, Integer size) {
+        return userMapper.selectHRUsers(offset,size);
+    }
+
+    public Integer HRcount() {
+        return userMapper.HRcount();
+
+    }
+
+    public void openit(User user) {
+        userMapper.openit(user);
+    }
+
+    public void closeit(User user) {
+        userMapper.closeit(user);
+    }
 }

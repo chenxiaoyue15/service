@@ -27,4 +27,9 @@ public class CompanyService {
 
         return companyMapper.count();
     }
+
+    public void deleteById(Company company) {
+        companyMapper.deleteById(company);
+    }
+
 }

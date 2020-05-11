@@ -3,10 +3,7 @@ package com.hzu.community.api.dao;
 import com.hzu.community.api.common.RestResponse;
 import com.hzu.community.api.config.GenericRest;
 import com.hzu.community.api.dto.QuestionDTO;
-import com.hzu.community.api.model.Company;
-import com.hzu.community.api.model.Project;
-import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.User;
+import com.hzu.community.api.model.*;
 import com.hzu.community.api.utils.Rests;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -151,5 +148,117 @@ public class AdminDao {
 
         });
         return resp.getResult();
+    }
+
+    public Integer employmentcount() {
+
+        RestResponse<Integer> resp = Rests.exc(() -> {
+
+            {
+                String url = Rests.toUrl(adminServiceName, "/backstage/employmentcount");
+                ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {
+                });
+                return responseEntity.getBody();
+            }
+
+        });
+        return resp.getResult();
+    }
+
+    public List<UserMsg> employmentlist(Integer offset, Integer size) {
+        RestResponse<List<UserMsg>> resp = Rests.exc(() -> {
+
+
+            String url = Rests.toUrl(adminServiceName, "/backstage/employmentlist?offset=" + offset + "&size=" + size);
+            ResponseEntity<RestResponse<List<UserMsg>>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<List<UserMsg>>>() {
+            });
+            return responseEntity.getBody();
+
+
+        });
+        return resp.getResult();
+    }
+
+    public Integer HRusercount() {
+
+        RestResponse<Integer> resp = Rests.exc(() -> {
+
+            {
+                String url = Rests.toUrl(adminServiceName, "/backstage/HRusercount");
+                ResponseEntity<RestResponse<Integer>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Integer>>() {
+                });
+                return responseEntity.getBody();
+            }
+
+        });
+        return resp.getResult();
+    }
+
+    public List<User> getHRUsers(Integer offset, Integer size) {
+        RestResponse<List<User>> resp = Rests.exc(() -> {
+
+
+            String url = Rests.toUrl(adminServiceName, "/backstage/HRuserlist?offset=" + offset + "&size=" + size);
+            ResponseEntity<RestResponse<List<User>>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<List<User>>>() {
+            });
+            return responseEntity.getBody();
+
+
+        });
+        return resp.getResult();
+    }
+
+    public Project projectlist1(Long projectId) {
+        RestResponse<Project> resp = Rests.exc(() -> {
+
+            String url = Rests.toUrl(adminServiceName, "/backstage/project1?projectId=" + projectId);
+            ResponseEntity<RestResponse<Project>> responseEntity = rest.get(url, new ParameterizedTypeReference<RestResponse<Project>>() {});
+            return responseEntity.getBody();
+
+        });return resp.getResult();
+    }
+
+    public void deleteById(Company company) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(adminServiceName, "/backstage/deleteById");
+            ResponseEntity<RestResponse<Company>> responseEntity = rest.post(url, company, new ParameterizedTypeReference<RestResponse<Company>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
+
+    public void openit(User user) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(adminServiceName, "/backstage/openit");
+            ResponseEntity<RestResponse<User>> responseEntity = rest.post(url, user, new ParameterizedTypeReference<RestResponse<User>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
+
+    public void closeit(User user) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(adminServiceName, "/backstage/closeit");
+            ResponseEntity<RestResponse<User>> responseEntity = rest.post(url, user, new ParameterizedTypeReference<RestResponse<User>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
+
+    public void added(Project project) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(adminServiceName, "/backstage/added");
+            ResponseEntity<RestResponse<User>> responseEntity = rest.post(url, project, new ParameterizedTypeReference<RestResponse<User>>() {
+            });
+            return responseEntity.getBody();
+        });
+    }
+    public void out(Project project) {
+        Rests.exc(() -> {
+            String url = Rests.toUrl(adminServiceName, "/backstage/out");
+            ResponseEntity<RestResponse<User>> responseEntity = rest.post(url, project, new ParameterizedTypeReference<RestResponse<User>>() {
+            });
+            return responseEntity.getBody();
+        });
     }
 }

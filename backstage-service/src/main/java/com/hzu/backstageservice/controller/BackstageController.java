@@ -1,10 +1,7 @@
 package com.hzu.backstageservice.controller;
 
 import com.hzu.backstageservice.common.RestResponse;
-import com.hzu.backstageservice.model.Company;
-import com.hzu.backstageservice.model.Project;
-import com.hzu.backstageservice.model.Question;
-import com.hzu.backstageservice.model.User;
+import com.hzu.backstageservice.model.*;
 import com.hzu.backstageservice.service.CompanyService;
 import com.hzu.backstageservice.service.ProjectService;
 import com.hzu.backstageservice.service.QuestionService;
@@ -39,6 +36,12 @@ public class BackstageController {
         list = userService.getUsers(offset,size);
         return RestResponse.success(list);
     }
+    @RequestMapping("HRuserlist")
+    public RestResponse<List<User>> HRlist(Integer offset, Integer size){
+        List<User> list = null;
+        list = userService.getHRUsers(offset,size);
+        return RestResponse.success(list);
+    }
     @RequestMapping("companylist")
     public RestResponse<List<Company>> companylist(Integer offset, Integer size){
         List<Company> list = null;
@@ -49,6 +52,18 @@ public class BackstageController {
     public RestResponse<List<Project>> projectlist(Integer offset, Integer size){
         List<Project> list = null;
         list = projectService.getProjects(offset,size);
+        return RestResponse.success(list);
+    }
+    @RequestMapping("project1")
+    public RestResponse<List<Project>> projectlist1(Long projectId){
+        List<Project> list = null;
+        list = projectService.get1Project(projectId);
+        return RestResponse.success(list);
+    }
+    @RequestMapping("employmentlist")
+    public RestResponse<List<UserMsg>> employmentlist(Integer offset, Integer size){
+        List<UserMsg> list = null;
+        list = projectService.getUserMsg(offset,size);
         return RestResponse.success(list);
     }
 
@@ -73,6 +88,13 @@ public class BackstageController {
 
         return RestResponse.success(count);
     }
+    @RequestMapping(value="HRusercount")
+    public RestResponse<Integer> HRusercount(){
+
+        Integer count =  userService.HRcount();
+
+        return RestResponse.success(count);
+    }
     @RequestMapping(value="projectcount")
     public RestResponse<Integer> projectcount(){
 
@@ -80,10 +102,52 @@ public class BackstageController {
 
         return RestResponse.success(count);
     }
+    @RequestMapping(value="employmentcount")
+    public RestResponse<Integer> employmentcount(){
+
+        Integer count =  projectService.employmentcount();
+
+        return RestResponse.success(count);
+    }
     @RequestMapping(value="deletequestion")
     public RestResponse<Object> deletequestion(@RequestBody Question question){
 
         questionService.deleteById(question);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="deleteById")
+    public RestResponse<Object> deleteById(@RequestBody Company company){
+
+        companyService.deleteById(company);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="openit")
+    public RestResponse<Object> openit(@RequestBody User user){
+
+        userService.openit(user);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="added")
+    public RestResponse<Object> added(@RequestBody Project project){
+
+        projectService.added(project);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="out")
+    public RestResponse<Object> out(@RequestBody Project project){
+
+        projectService.out(project);
+
+        return RestResponse.success();
+    }
+    @RequestMapping(value="closeit")
+    public RestResponse<Object> closeit(@RequestBody User user){
+
+        userService.closeit(user);
 
         return RestResponse.success();
     }

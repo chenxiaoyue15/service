@@ -1,0 +1,42 @@
+2020-05-11 04:02:18.361  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.UserMapper.select:] [3b925e1d06c010c2,c00980842afb1b12,3b925e1d06c010c2] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:18.361  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.UserMapper.select:] [3b925e1d06c010c2,c00980842afb1b12,3b925e1d06c010c2] - ==> Parameters: 123(String)
+2020-05-11 04:02:18.362  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.UserMapper.select:] [3b925e1d06c010c2,c00980842afb1b12,3b925e1d06c010c2] - <==      Total: 1
+2020-05-11 04:02:18.369  [http-nio-8083-exec-7] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [3b925e1d06c010c2,ba288038729ec227,3b925e1d06c010c2] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:18.370  [http-nio-8083-exec-7] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [3b925e1d06c010c2,ba288038729ec227,3b925e1d06c010c2] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:18.370  [http-nio-8083-exec-7] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [3b925e1d06c010c2,ba288038729ec227,3b925e1d06c010c2] - <==      Total: 1
+2020-05-11 04:02:18.613  [http-nio-8083-exec-9] DEBUG [com.hzu.community.mapper.UserMapper.select:] [7ebc1d13e2e82e8c,be24de532fb03ffa,7ebc1d13e2e82e8c] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:18.613  [http-nio-8083-exec-9] DEBUG [com.hzu.community.mapper.UserMapper.select:] [7ebc1d13e2e82e8c,be24de532fb03ffa,7ebc1d13e2e82e8c] - ==> Parameters: 123(String)
+2020-05-11 04:02:18.614  [http-nio-8083-exec-9] DEBUG [com.hzu.community.mapper.UserMapper.select:] [7ebc1d13e2e82e8c,be24de532fb03ffa,7ebc1d13e2e82e8c] - <==      Total: 1
+2020-05-11 04:02:18.621  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [7ebc1d13e2e82e8c,a178901dcd1de1fb,7ebc1d13e2e82e8c] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:18.622  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [7ebc1d13e2e82e8c,a178901dcd1de1fb,7ebc1d13e2e82e8c] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:18.622  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [7ebc1d13e2e82e8c,a178901dcd1de1fb,7ebc1d13e2e82e8c] - <==      Total: 1
+2020-05-11 04:02:18.723  [http-nio-8083-exec-4] DEBUG [com.hzu.community.mapper.UserMapper.select:] [a079dcf20c720d14,70c077df3c08e31d,a079dcf20c720d14] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:18.723  [http-nio-8083-exec-4] DEBUG [com.hzu.community.mapper.UserMapper.select:] [a079dcf20c720d14,70c077df3c08e31d,a079dcf20c720d14] - ==> Parameters: 123(String)
+2020-05-11 04:02:18.724  [http-nio-8083-exec-4] DEBUG [com.hzu.community.mapper.UserMapper.select:] [a079dcf20c720d14,70c077df3c08e31d,a079dcf20c720d14] - <==      Total: 1
+2020-05-11 04:02:18.726  [http-nio-8083-exec-5] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [a079dcf20c720d14,4c10330a08bf6aa2,a079dcf20c720d14] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:18.727  [http-nio-8083-exec-5] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [a079dcf20c720d14,4c10330a08bf6aa2,a079dcf20c720d14] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:18.727  [http-nio-8083-exec-5] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [a079dcf20c720d14,4c10330a08bf6aa2,a079dcf20c720d14] - <==      Total: 1
+2020-05-11 04:02:25.158  [http-nio-8083-exec-10] DEBUG [com.hzu.community.mapper.UserMapper.select:] [976b1cb6ecb67333,2dd6fb5fa828cfea,976b1cb6ecb67333] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:25.158  [http-nio-8083-exec-10] DEBUG [com.hzu.community.mapper.UserMapper.select:] [976b1cb6ecb67333,2dd6fb5fa828cfea,976b1cb6ecb67333] - ==> Parameters: 123(String)
+2020-05-11 04:02:25.159  [http-nio-8083-exec-10] DEBUG [com.hzu.community.mapper.UserMapper.select:] [976b1cb6ecb67333,2dd6fb5fa828cfea,976b1cb6ecb67333] - <==      Total: 1
+2020-05-11 04:02:25.163  [http-nio-8083-exec-6] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [976b1cb6ecb67333,38f80a8795e807d8,976b1cb6ecb67333] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:25.163  [http-nio-8083-exec-6] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [976b1cb6ecb67333,38f80a8795e807d8,976b1cb6ecb67333] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:25.165  [http-nio-8083-exec-6] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [976b1cb6ecb67333,38f80a8795e807d8,976b1cb6ecb67333] - <==      Total: 1
+2020-05-11 04:02:25.257  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.UserMapper.select:] [07497b1ea2ac1f5e,1ebd830c451562c4,07497b1ea2ac1f5e] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:25.257  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.UserMapper.select:] [07497b1ea2ac1f5e,1ebd830c451562c4,07497b1ea2ac1f5e] - ==> Parameters: 123(String)
+2020-05-11 04:02:25.258  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.UserMapper.select:] [07497b1ea2ac1f5e,1ebd830c451562c4,07497b1ea2ac1f5e] - <==      Total: 1
+2020-05-11 04:02:25.264  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [07497b1ea2ac1f5e,ffe8ecc929d285cf,07497b1ea2ac1f5e] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:25.265  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [07497b1ea2ac1f5e,ffe8ecc929d285cf,07497b1ea2ac1f5e] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:25.267  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [07497b1ea2ac1f5e,ffe8ecc929d285cf,07497b1ea2ac1f5e] - <==      Total: 1
+2020-05-11 04:02:28.623  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.UserMapper.select:] [c68c722b94ea6381,579871ea0bbaced5,c68c722b94ea6381] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:28.623  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.UserMapper.select:] [c68c722b94ea6381,579871ea0bbaced5,c68c722b94ea6381] - ==> Parameters: 123(String)
+2020-05-11 04:02:28.623  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.UserMapper.select:] [c68c722b94ea6381,579871ea0bbaced5,c68c722b94ea6381] - <==      Total: 1
+2020-05-11 04:02:28.627  [http-nio-8083-exec-7] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [c68c722b94ea6381,e0e7be691fbb3a88,c68c722b94ea6381] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:28.627  [http-nio-8083-exec-7] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [c68c722b94ea6381,e0e7be691fbb3a88,c68c722b94ea6381] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:28.628  [http-nio-8083-exec-7] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [c68c722b94ea6381,e0e7be691fbb3a88,c68c722b94ea6381] - <==      Total: 1
+2020-05-11 04:02:28.712  [http-nio-8083-exec-9] DEBUG [com.hzu.community.mapper.UserMapper.select:] [6be3aa064cb8a5a7,d3ad18173597f0a6,6be3aa064cb8a5a7] - ==>  Preparing: select * from user WHERE name = ? 
+2020-05-11 04:02:28.712  [http-nio-8083-exec-9] DEBUG [com.hzu.community.mapper.UserMapper.select:] [6be3aa064cb8a5a7,d3ad18173597f0a6,6be3aa064cb8a5a7] - ==> Parameters: 123(String)
+2020-05-11 04:02:28.713  [http-nio-8083-exec-9] DEBUG [com.hzu.community.mapper.UserMapper.select:] [6be3aa064cb8a5a7,d3ad18173597f0a6,6be3aa064cb8a5a7] - <==      Total: 1
+2020-05-11 04:02:28.721  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [6be3aa064cb8a5a7,a978300db84cb72a,6be3aa064cb8a5a7] - ==>  Preparing: select count(*) from notification where receiver = ? and status = ? 
+2020-05-11 04:02:28.722  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [6be3aa064cb8a5a7,a978300db84cb72a,6be3aa064cb8a5a7] - ==> Parameters: 1(Integer), 0(Integer)
+2020-05-11 04:02:28.723  [http-nio-8083-exec-3] DEBUG [com.hzu.community.mapper.NotificationMapper.countUnread:] [6be3aa064cb8a5a7,a978300db84cb72a,6be3aa064cb8a5a7] - <==      Total: 1

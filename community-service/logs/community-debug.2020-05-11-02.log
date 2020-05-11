@@ -1,0 +1,9 @@
+2020-05-11 02:48:59.577  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,6d2db1041d097bd1,3d8c68fef9192b00] - ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-05-11 02:48:59.578  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,6d2db1041d097bd1,3d8c68fef9192b00] - ==> Parameters: 0(Integer), 4(Integer)
+2020-05-11 02:48:59.591  [http-nio-8083-exec-2] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,6d2db1041d097bd1,3d8c68fef9192b00] - <==      Total: 4
+2020-05-11 02:48:59.669  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,0588a876a8dc2a4c,e683d5e2118aadae] - ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-05-11 02:48:59.669  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,0588a876a8dc2a4c,e683d5e2118aadae] - ==> Parameters: 4(Integer), 4(Integer)
+2020-05-11 02:48:59.671  [http-nio-8083-exec-1] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,0588a876a8dc2a4c,e683d5e2118aadae] - <==      Total: 4
+2020-05-11 02:48:59.679  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,9fcfbec145246bb5,b1c97cbdb85a77b0] - ==>  Preparing: select * from question order by gmt_create desc limit ?,? 
+2020-05-11 02:48:59.680  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,9fcfbec145246bb5,b1c97cbdb85a77b0] - ==> Parameters: 8(Integer), 4(Integer)
+2020-05-11 02:48:59.682  [http-nio-8083-exec-8] DEBUG [com.hzu.community.mapper.QuestionMapper.selectQuestion:] [3cf2dc79720537e2,9fcfbec145246bb5,b1c97cbdb85a77b0] - <==      Total: 2

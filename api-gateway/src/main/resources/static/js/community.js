@@ -149,21 +149,37 @@ function showSelectTag() {
     
 }
 
-function deleted(e) {
-    var questionId =e.getAttribute("data-id");
-    var de = confirm("确定进行删除操作？");
-    if (de) {
-        $.ajax({
-                type: "POST",
-                url: "/deleted",
-                contentType: 'application/json',
-                data: JSON.stringify({
-                    "id": questionId
-                })
-    }),window.location="/";
-    }
+// function deleted(e) {
+//     var questionId =e.getAttribute("data-id");
+//     var de = confirm("确定进行删除操作？");
+//     if (de) {
+//         $.ajax({
+//                 type: "POST",
+//                 url: "/deleted",
+//                 contentType: 'application/json',
+//                 data: JSON.stringify({
+//                     "id": questionId
+//                 })
+//     }),window.location.reload();
+//     }
+//
+// }
 
-}
+// function deletedcompany(e) {
+//     var questionId =e.getAttribute("data-id");
+//     var de = confirm("确定进行删除操作？");
+//     if (de) {
+//         $.ajax({
+//                 type: "POST",
+//                 url: "/admin/deleted",
+//                 contentType: 'application/json',
+//                 data: JSON.stringify({
+//                     "id": questionId
+//                 })
+//     }),window.location.reload();
+//     }
+//
+// }
 function deleteds(e) {
     var questionId = e.getAttribute("data-id");
     var de = confirm("确定进行删除操作？");
@@ -175,7 +191,7 @@ function deleteds(e) {
             data: JSON.stringify({
                 "id": questionId
             })
-        }), window.location = "/admin/question_list";
+        }),window.location.reload();
     }
 }
 

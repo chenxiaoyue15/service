@@ -54,7 +54,6 @@ public class PublishController {
         model.addAttribute("description",description);
         model.addAttribute("tag",tag);
         model.addAttribute("tags",TagCache.get());
-
         if (title==null || title==""){
             model.addAttribute("error","标题不能为空");
             return "publish";
@@ -89,6 +88,6 @@ public class PublishController {
         question.setId(id);
         questionService.createOrUpdate(question);
 
-        return "redirect:/";
+        return "redirect:/new";
     }
 }

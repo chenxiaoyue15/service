@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-<title>校企合作平台——论坛</title>
+<title>消息通知</title>
 <link rel="icon" href="favicon.ico" type="image/ico">
 <meta name="keywords" content="校企合作平台——论坛">
 <meta name="description" content="校企合作平台——论坛">
@@ -21,17 +21,17 @@
        
       <!-- logo -->
       <div id="logo" class="sidebar-header">
-        <a href="/home"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
+        <a href="/community"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
       </div>
       <div class="lyear-layout-sidebar-scroll">
         
         <nav class="sidebar-main">
           <ul class="nav nav-drawer">
-            <li class="nav-item"> <a href="/home"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
+            <li class="nav-item"> <a href="/community"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
             <li class="nav-item nav-item-has-subnav ">
               <a href="javascript:void(0)"><i class="mdi mdi-palette"></i> 发现</a>
               <ul class="nav nav-subnav">
-                <li > <a href="/">最新文章</a> </li>
+                <li > <a href="/new">最新文章</a> </li>
                 <li> <a th:href="@{/hot/(sort='hot')}">最热文章</a> </li>
               </ul>
             </li>
@@ -50,7 +50,9 @@
             </li>
           </ul>
         </nav>
-        
+        <div class="sidebar-footer">
+          <p class="copyright"> <a  href="/">返回平台首页</a> </p>
+        </div>
 
       </div>
       
@@ -75,7 +77,6 @@
           <ul class="topbar-right">
             <li class="dropdown dropdown-profile">
               <a href="javascript:void(0)" data-toggle="dropdown">
-                <img class="img-avatar img-avatar-48 m-r-10" src="images/users/avatar.jpg" alt="笔下光年" />
                 <span th:text="${session.user.getAccountId()}"> <span class="caret"></span></span>
               </a>
               <ul class="dropdown-menu dropdown-menu-right">

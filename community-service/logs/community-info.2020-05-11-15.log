@@ -1,0 +1,976 @@
+2020-05-11 15:03:51.950 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:08:51.952 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:13:51.953 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:18:51.954 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:23:51.957 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:25:47.631 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:79] [8739f60b0e09ae9e,da0a4416d9eae31f] - Incoming Request: a1ebdfc9f9317be6
+GET http://DESKTOP-K5RUUL2:8083/question/list?offset=0&size=4 HTTP/1.1
+x-b3-parentspanid: 0f5e78feccb5a5e4
+x-b3-traceid: 8739f60b0e09ae9e
+x-b3-spanid: da0a4416d9eae31f
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:25:47.745 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:84] [8739f60b0e09ae9e,da0a4416d9eae31f] - Outgoing Response: a1ebdfc9f9317be6
+Duration: 134 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:25:47 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":[{"id":25,"title":"åå¸æç« æµè¯","description":"åå¸æç« æµè¯","tag":"js,php","gmtCreate":1587794699373,"gmtModified":1587794699373,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":24,"title":"ä»ä¹æ¯å¾®æå¡ï¼å¾®æå¡çå¥½å¤","description":"\tå¨å¾®æå¡æ¶æä¸­ï¼ä¸å¡è¢«æåæå¤ä¸ªé«åèä½è¦åçå°åæå¡ï¼æ¯ä¸ªå°åæå¡é½ç§°ä½ä¸ä¸ªå¾®æå¡ï¼èæ¯ä¸ªå¾®æå¡é½å¯ä»¥è¿è¡å¨ç¬ç«è¿ç¨ä¸­ï¼å¨æ´ä½æ¶æä¸­æ§è¡åç¬çä»»å¡ï¼è´è´£èªå·±çåè½ãæå¡ä¸æå¡ä¹é´å¯ä»¥ç¸äºè°ç¨ï¼éç¨è½»éçº§éä¿¡æºå¶ï¼ç¬ç«èªå¨é¨ç½²ï¼å¨æ¯ä¸ªå¾®æå¡éé¢å¯ä»¥ç¨ä¸åçè¯­è¨ä»¥åä¸åçå­å¨ææ¯ã\r\n\tå æ­¤ï¼å¾®æå¡çä¼ç¹æ¾èæè§ï¼è¿ä¹æ¯è®©å¾®æå¡æ¶ææä¸ºç­é¨æ¶æçåå ï¼\r\n\tç¬¬ä¸ç¹ï¼æäºå¼ååç»´æ¤ï¼æ¯ä¸ªå¾®æå¡å¯ç±ä¸ä¸ªäººæèä¸ä¸ªå°ç»è¿è¡å¼ååç»´æ¤ï¼å¾®æå¡ç¸å¯¹æ¥è¯´å·¥ç¨éè¾å°ï¼æäºçè§£ï¼\r\n\tç¬¬äºç¹ï¼ç¬ç«é¨ç½²ï¼ä¸ä¸ªå¾®æå¡çä¿®æ¹ä¸éè¦åè°å¶ä»çæå¡ï¼èçäºå¼åäººåä¹é´çæ²éææ¬ï¼\r\n\tç¬¬ä¸ç¹ï¼ä¼¸ç¼©æ§å¼ºï¼æ¯ä¸ªå¾®æå¡é½å¯ä»¥è¿è¡åç¬çæ¨ªååçºµåä¸æ©å±ï¼å¹¶ä¸æä»¬å¯ä»¥æ ¹æ®æ¯ä¸ªæå¡å¯¹ç¡¬ä»¶éæ±çä¸åè¿è¡å®å¶åå°åçº§åæ©å®¹ï¼éçä¸å¡è§æ¨¡çæ©å¤§ï¼æä»¬å¯ä»¥è¿è¡è¿ä¸æ­¥çæåï¼è¿ä¸æ­¥è¿è¡ç³»ç»çº§çæ©å±ã\r\n\tç¬¬åç¹ï¼ä¸ç»ç»ç»æç¸å¹éï¼å½åºç°å¼å¸¸æ¥å¿çæ¶åï¼æä»¬å¯ä»¥éè¿ååä¸åçæå¡ï¼äº¤ç»ä¸åçå¢éè¿è¡ç»´æ¤ï¼åå°ç»´æ¤ãæ²éææ¬ï¼\tç¬¬äºç¹ï¼ææ¯å¼ææ§ï¼æ¯ä¸ªæå¡å¯ä»¥æ ¹æ®èªèº«éæ±éæ©æéåè¯¥æå¡çææ¯è¿è¡å¼åã","tag":"java","gmtCreate":1587791267506,"gmtModified":1587791267506,"creator":1,"viewCount":17,"commentCount":3,"likeCount":null},{"id":23,"title":"ææ°æç« ","description":"123","tag":"python,java","gmtCreate":1587748463351,"gmtModified":1587748463351,"creator":1,"viewCount":1,"commentCount":0,"likeCount":null},{"id":22,"title":"ç¼ç¨ä¹ç¾","description":"132","tag":"java","gmtCreate":1587748280171,"gmtModified":1587748280171,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null}]}
+2020-05-11 15:25:47.832 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [8739f60b0e09ae9e,8af8fa28c03dba60] - Incoming Request: c64e72dfce23c332
+GET http://DESKTOP-K5RUUL2:8083/question/list?offset=4&size=4 HTTP/1.1
+x-b3-parentspanid: 929bdc69ab521e0e
+x-b3-traceid: 8739f60b0e09ae9e
+x-b3-spanid: 8af8fa28c03dba60
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:25:47.837 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:84] [8739f60b0e09ae9e,8af8fa28c03dba60] - Outgoing Response: c64e72dfce23c332
+Duration: 5 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:25:47 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":[{"id":21,"title":"ä»0å¼å§å­¦JAVA","description":"123","tag":"java","gmtCreate":1587748265666,"gmtModified":1587748265666,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":20,"title":"å¾®æå¡æ¶æå¦ä½èèï¼","description":"123","tag":"java","gmtCreate":1587748221949,"gmtModified":1587748221949,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":19,"title":"å¦ä½å¿«éå­¦ä¹ java","description":"123","tag":"java,php","gmtCreate":1587748189578,"gmtModified":1587748189578,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":18,"title":"ç­é¨3","description":"123","tag":"php,java,js","gmtCreate":1587463062594,"gmtModified":1587463062594,"creator":1,"viewCount":15,"commentCount":1,"likeCount":null}]}
+2020-05-11 15:25:47.848 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [8739f60b0e09ae9e,bee81dd4fa5c2000] - Incoming Request: be48d4048bc976e4
+GET http://DESKTOP-K5RUUL2:8083/question/list?offset=8&size=4 HTTP/1.1
+x-b3-parentspanid: 6314df4841a23468
+x-b3-traceid: 8739f60b0e09ae9e
+x-b3-spanid: bee81dd4fa5c2000
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:25:47.852 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:84] [8739f60b0e09ae9e,bee81dd4fa5c2000] - Outgoing Response: be48d4048bc976e4
+Duration: 6 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:25:47 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":[{"id":17,"title":"ç­é¨2","description":"123","tag":"js,php,java","gmtCreate":1587463050254,"gmtModified":1587463050254,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null},{"id":16,"title":"ç­é¨æ ç­¾","description":"123æ¯ç§æé¨å¯¹UIå®ç®¡é¨å¡æ¯æ¯æ¥å£çæä¼è®¡å¸ä¸å®å±å®¢å§å¼åèå¸¦è£¤","tag":"php,js,java","gmtCreate":1587463038397,"gmtModified":1587463038397,"creator":1,"viewCount":0,"commentCount":0,"likeCount":null}]}
+2020-05-11 15:25:59.676 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:79] [f60196184ac1709f,f5daade85b3b531c] - Incoming Request: bd2c32998e9190fd
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjIzODMsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE3NTk4MyJ9.p5cBnqbgMxXrkAFm3w4l-h3X2jb8e35eWHRlUK-Dcoo HTTP/1.1
+x-b3-parentspanid: f60196184ac1709f
+x-b3-traceid: f60196184ac1709f
+x-b3-spanid: f5daade85b3b531c
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:25:59.893 [http-nio-8083-exec-10] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [f60196184ac1709f,f5daade85b3b531c] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 15:25:59.955 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:84] [f60196184ac1709f,f5daade85b3b531c] - Outgoing Response: bd2c32998e9190fd
+Duration: 279 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:25:59 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}
+2020-05-11 15:26:05.613 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [8df966d6ed234db1,f6e027d2a1de2623] - Incoming Request: ea5f90efabc15945
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjIzODMsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE3NTk4MyJ9.p5cBnqbgMxXrkAFm3w4l-h3X2jb8e35eWHRlUK-Dcoo HTTP/1.1
+x-b3-parentspanid: 8df966d6ed234db1
+x-b3-traceid: 8df966d6ed234db1
+x-b3-spanid: f6e027d2a1de2623
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:05.619 [http-nio-8083-exec-1] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [8df966d6ed234db1,f6e027d2a1de2623] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 15:26:05.622 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:84] [8df966d6ed234db1,f6e027d2a1de2623] - Outgoing Response: ea5f90efabc15945
+Duration: 9 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:05 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}
+2020-05-11 15:26:18.570 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [0fc18494231f1a30,a875b7d785b59e14] - Incoming Request: 8f8e59ff30d3cf82
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjIzODMsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE3NTk4MyJ9.p5cBnqbgMxXrkAFm3w4l-h3X2jb8e35eWHRlUK-Dcoo HTTP/1.1
+x-b3-parentspanid: 0fc18494231f1a30
+x-b3-traceid: 0fc18494231f1a30
+x-b3-spanid: a875b7d785b59e14
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:18.574 [http-nio-8083-exec-2] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [0fc18494231f1a30,a875b7d785b59e14] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 15:26:18.578 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:84] [0fc18494231f1a30,a875b7d785b59e14] - Outgoing Response: 8f8e59ff30d3cf82
+Duration: 8 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:18 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}
+2020-05-11 15:26:45.971 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:79] [a7f39266b0129da3,08e32cb2502e5c23] - Incoming Request: cbab204d1b241b45
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjIzODMsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE3NTk4MyJ9.p5cBnqbgMxXrkAFm3w4l-h3X2jb8e35eWHRlUK-Dcoo HTTP/1.1
+x-b3-parentspanid: a7f39266b0129da3
+x-b3-traceid: a7f39266b0129da3
+x-b3-spanid: 08e32cb2502e5c23
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:45.976 [http-nio-8083-exec-3] ERROR [com.hzu.community.common.GlobalExceptionHanlder:28] [a7f39266b0129da3,08e32cb2502e5c23] - user not login
+com.hzu.community.common.UserException: user not login
+	at com.hzu.community.service.UserService.getLoginedUserByToken(UserService.java:117) ~[classes/:?]
+	at com.hzu.community.controller.UserController.getUser(UserController.java:50) ~[classes/:?]
+	at sun.reflect.GeneratedMethodAccessor149.invoke(Unknown Source) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_121]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_121]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:67) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.zalando.logbook.servlet.NormalStrategy.doFilter(NormalStrategy.java:38) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.LogbookFilter.doFilter(LogbookFilter.java:39) ~[logbook-servlet-1.13.0.jar:?]
+	at org.zalando.logbook.servlet.HttpFilter.doFilter(HttpFilter.java:31) ~[logbook-servlet-1.13.0.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.cloud.sleuth.instrument.web.ExceptionLoggingFilter.doFilter(ExceptionLoggingFilter.java:50) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at brave.servlet.TracingFilter.doFilter(TracingFilter.java:84) ~[brave-instrumentation-servlet-5.10.1.jar:?]
+	at org.springframework.cloud.sleuth.instrument.web.LazyTracingFilter.doFilter(TraceWebServletAutoConfiguration.java:138) ~[spring-cloud-sleuth-core-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:109) ~[spring-boot-actuator-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[?:1.8.0_121]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[?:1.8.0_121]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_121]
+2020-05-11 15:26:45.978 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:84] [a7f39266b0129da3,08e32cb2502e5c23] - Outgoing Response: cbab204d1b241b45
+Duration: 8 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:45 GMT
+Content-Type: application/json
+
+{"code":3,"msg":"TOKENå¤±æ","result":null}
+2020-05-11 15:26:46.002 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:79] [a7f39266b0129da3,1896db0653771ae9] - Incoming Request: 8b7482e503a7e5f4
+POST http://DESKTOP-K5RUUL2:8083/user/auth HTTP/1.1
+x-b3-parentspanid: a7f39266b0129da3
+content-length: 26
+x-b3-traceid: a7f39266b0129da3
+x-b3-spanid: 1896db0653771ae9
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+content-type: application/json;charset=UTF-8
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+
+{"name":"123","pwd":"123"}
+2020-05-11 15:26:46.116 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:84] [a7f39266b0129da3,1896db0653771ae9] - Outgoing Response: 8b7482e503a7e5f4
+Duration: 113 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:45 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:26:46.163 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:79] [e073ff3ea22a5ccd,f69605f3de17939f] - Incoming Request: d3d289756d0131b5
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: e073ff3ea22a5ccd
+x-b3-traceid: e073ff3ea22a5ccd
+x-b3-spanid: f69605f3de17939f
+x-b3-sampled: 0
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:46.172 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:84] [e073ff3ea22a5ccd,f69605f3de17939f] - Outgoing Response: d3d289756d0131b5
+Duration: 10 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:45 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:26:46.184 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:79] [e073ff3ea22a5ccd,7290f1616a73e671] - Incoming Request: 946786a4462c041c
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: e073ff3ea22a5ccd
+x-b3-traceid: e073ff3ea22a5ccd
+x-b3-spanid: 7290f1616a73e671
+x-b3-sampled: 0
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:46.194 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:84] [e073ff3ea22a5ccd,7290f1616a73e671] - Outgoing Response: 946786a4462c041c
+Duration: 11 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:45 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:26:52.506 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:79] [68145dc8d65314d2,ae9efb018338eb15] - Incoming Request: b75b4526f65c830a
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: 68145dc8d65314d2
+x-b3-traceid: 68145dc8d65314d2
+x-b3-spanid: ae9efb018338eb15
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:52.512 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:84] [68145dc8d65314d2,ae9efb018338eb15] - Outgoing Response: b75b4526f65c830a
+Duration: 6 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:52 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:26:52.515 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [68145dc8d65314d2,26e7223f32ed97d3] - Incoming Request: 9f81139e24edf027
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: 68145dc8d65314d2
+x-b3-traceid: 68145dc8d65314d2
+x-b3-spanid: 26e7223f32ed97d3
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:52.519 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:84] [68145dc8d65314d2,26e7223f32ed97d3] - Outgoing Response: 9f81139e24edf027
+Duration: 4 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:52 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:26:56.910 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [5bfd5dec7ef0193c,166f890632845391] - Incoming Request: 855f5d5603ac34b1
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: 5bfd5dec7ef0193c
+x-b3-traceid: 5bfd5dec7ef0193c
+x-b3-spanid: 166f890632845391
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:56.918 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:84] [5bfd5dec7ef0193c,166f890632845391] - Outgoing Response: 855f5d5603ac34b1
+Duration: 8 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:56 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:26:56.921 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:79] [5bfd5dec7ef0193c,1da5caecede2e1b2] - Incoming Request: bd9074c6026657e0
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: 5bfd5dec7ef0193c
+x-b3-traceid: 5bfd5dec7ef0193c
+x-b3-spanid: 1da5caecede2e1b2
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:56.925 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:84] [5bfd5dec7ef0193c,1da5caecede2e1b2] - Outgoing Response: bd9074c6026657e0
+Duration: 5 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:56 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:26:58.593 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [d9a76bac2e8f673e,0d7b8bf9c6385e2b] - Incoming Request: 84a760e8a043719a
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: d9a76bac2e8f673e
+x-b3-traceid: d9a76bac2e8f673e
+x-b3-spanid: 0d7b8bf9c6385e2b
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:58.601 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:84] [d9a76bac2e8f673e,0d7b8bf9c6385e2b] - Outgoing Response: 84a760e8a043719a
+Duration: 9 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:58 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:26:58.607 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [d9a76bac2e8f673e,d44757ae69192502] - Incoming Request: b80ca9d50d995d84
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: d9a76bac2e8f673e
+x-b3-traceid: d9a76bac2e8f673e
+x-b3-spanid: d44757ae69192502
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:26:58.610 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:84] [d9a76bac2e8f673e,d44757ae69192502] - Outgoing Response: b80ca9d50d995d84
+Duration: 6 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:26:58 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:27:31.691 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:79] [1348784c0dcc807a,b780f23a3ba08e5a] - Incoming Request: aba965b3dbaac5da
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: 1348784c0dcc807a
+x-b3-traceid: 1348784c0dcc807a
+x-b3-spanid: b780f23a3ba08e5a
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:27:31.700 [http-nio-8083-exec-3] INFO  [org.zalando.logbook.Logbook:84] [1348784c0dcc807a,b780f23a3ba08e5a] - Outgoing Response: aba965b3dbaac5da
+Duration: 8 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:27:31 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:27:31.706 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:79] [1348784c0dcc807a,ef16ea8378f1ff12] - Incoming Request: 82aa6e76c1eb7562
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: 1348784c0dcc807a
+x-b3-traceid: 1348784c0dcc807a
+x-b3-spanid: ef16ea8378f1ff12
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:27:31.709 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:84] [1348784c0dcc807a,ef16ea8378f1ff12] - Outgoing Response: 82aa6e76c1eb7562
+Duration: 4 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:27:31 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:28:51.959 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:29:03.509 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:79] [f75e6c185abff376,1b7982c2ff3c26ba] - Incoming Request: a55135160dae8f38
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: f75e6c185abff376
+x-b3-traceid: f75e6c185abff376
+x-b3-spanid: 1b7982c2ff3c26ba
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:29:03.523 [http-nio-8083-exec-6] INFO  [org.zalando.logbook.Logbook:84] [f75e6c185abff376,1b7982c2ff3c26ba] - Outgoing Response: a55135160dae8f38
+Duration: 15 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:29:03 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:29:03.528 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:79] [f75e6c185abff376,6da67bb68bd8046d] - Incoming Request: e3ff72eee86a0054
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: f75e6c185abff376
+x-b3-traceid: f75e6c185abff376
+x-b3-spanid: 6da67bb68bd8046d
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:29:03.531 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:84] [f75e6c185abff376,6da67bb68bd8046d] - Outgoing Response: e3ff72eee86a0054
+Duration: 4 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:29:03 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:29:07.551 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [7a3ad547ae358023,b77974b6007c774d] - Incoming Request: e6c5316a9c6f6e0a
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: 7a3ad547ae358023
+x-b3-traceid: 7a3ad547ae358023
+x-b3-spanid: b77974b6007c774d
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:29:07.560 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:84] [7a3ad547ae358023,b77974b6007c774d] - Outgoing Response: e6c5316a9c6f6e0a
+Duration: 10 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:29:07 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:29:07.563 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [7a3ad547ae358023,f2d115c3821d9bb5] - Incoming Request: d60e8294dc7b4e6c
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: 7a3ad547ae358023
+x-b3-traceid: 7a3ad547ae358023
+x-b3-spanid: f2d115c3821d9bb5
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:29:07.566 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:84] [7a3ad547ae358023,f2d115c3821d9bb5] - Outgoing Response: d60e8294dc7b4e6c
+Duration: 3 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:29:07 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:32:56.922 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [b82b09ac9b85e2d0,7e44034198e7590e] - Incoming Request: 9140b69e942eced9
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: b82b09ac9b85e2d0
+x-b3-traceid: b82b09ac9b85e2d0
+x-b3-spanid: 7e44034198e7590e
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:32:56.931 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:84] [b82b09ac9b85e2d0,7e44034198e7590e] - Outgoing Response: 9140b69e942eced9
+Duration: 10 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:32:56 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:32:56.935 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [b82b09ac9b85e2d0,464cb276ddf107a7] - Incoming Request: b52dd3363f26f404
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: b82b09ac9b85e2d0
+x-b3-traceid: b82b09ac9b85e2d0
+x-b3-spanid: 464cb276ddf107a7
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:32:56.939 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:84] [b82b09ac9b85e2d0,464cb276ddf107a7] - Outgoing Response: b52dd3363f26f404
+Duration: 5 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:32:56 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:33:51.968 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:38:51.972 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:40:30.282 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:79] [cb7c4e829f95135a,307f0ec35e6aac27] - Incoming Request: d92a496ee7371384
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: cb7c4e829f95135a
+x-b3-traceid: cb7c4e829f95135a
+x-b3-spanid: 307f0ec35e6aac27
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:40:30.293 [http-nio-8083-exec-4] INFO  [org.zalando.logbook.Logbook:84] [cb7c4e829f95135a,307f0ec35e6aac27] - Outgoing Response: d92a496ee7371384
+Duration: 11 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:40:30 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:40:30.296 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:79] [cb7c4e829f95135a,05620bea5e200261] - Incoming Request: 9a1b742b80ffdad0
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: cb7c4e829f95135a
+x-b3-traceid: cb7c4e829f95135a
+x-b3-spanid: 05620bea5e200261
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:40:30.299 [http-nio-8083-exec-5] INFO  [org.zalando.logbook.Logbook:84] [cb7c4e829f95135a,05620bea5e200261] - Outgoing Response: 9a1b742b80ffdad0
+Duration: 3 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:40:30 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:43:51.983 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:48:51.984 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:53:03.538 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:79] [4516787a428f0121,a96d25ac60bc111e] - Incoming Request: c6cd90b86ac41174
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: 4516787a428f0121
+x-b3-traceid: 4516787a428f0121
+x-b3-spanid: a96d25ac60bc111e
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:53:03.547 [http-nio-8083-exec-7] INFO  [org.zalando.logbook.Logbook:84] [4516787a428f0121,a96d25ac60bc111e] - Outgoing Response: c6cd90b86ac41174
+Duration: 8 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:53:03 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:53:03.549 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:79] [4516787a428f0121,578dfc6c52ae7230] - Incoming Request: db4400fed0374af6
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: 4516787a428f0121
+x-b3-traceid: 4516787a428f0121
+x-b3-spanid: 578dfc6c52ae7230
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:53:03.556 [http-nio-8083-exec-8] INFO  [org.zalando.logbook.Logbook:84] [4516787a428f0121,578dfc6c52ae7230] - Outgoing Response: db4400fed0374af6
+Duration: 6 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:53:03 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:53:29.743 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:79] [df99db0398830482,667be7d1fb9cd20c] - Incoming Request: 991a97a848b96c62
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: df99db0398830482
+x-b3-traceid: df99db0398830482
+x-b3-spanid: 667be7d1fb9cd20c
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:53:29.750 [http-nio-8083-exec-9] INFO  [org.zalando.logbook.Logbook:84] [df99db0398830482,667be7d1fb9cd20c] - Outgoing Response: 991a97a848b96c62
+Duration: 9 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:53:29 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:53:29.753 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:79] [df99db0398830482,115173df1b609689] - Incoming Request: f0a10f19d5a5b08d
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: df99db0398830482
+x-b3-traceid: df99db0398830482
+x-b3-spanid: 115173df1b609689
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:53:29.756 [http-nio-8083-exec-10] INFO  [org.zalando.logbook.Logbook:84] [df99db0398830482,115173df1b609689] - Outgoing Response: f0a10f19d5a5b08d
+Duration: 3 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:53:29 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:53:30.977 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:79] [a1f00880214ae8af,acc60101a455f8f1] - Incoming Request: 89f662fd7e702aa9
+GET http://DESKTOP-K5RUUL2:8083/user/get?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s HTTP/1.1
+x-b3-parentspanid: a1f00880214ae8af
+x-b3-traceid: a1f00880214ae8af
+x-b3-spanid: acc60101a455f8f1
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:53:30.983 [http-nio-8083-exec-1] INFO  [org.zalando.logbook.Logbook:84] [a1f00880214ae8af,acc60101a455f8f1] - Outgoing Response: 89f662fd7e702aa9
+Duration: 6 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:53:30 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":{"id":1,"name":"123","age":1,"pwd":"123","token":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjb21tdW5pdHlfdXNlciIsIm5hbWUiOiIxMjMiLCJleHAiOjE1ODkyNjg0MDYsInB3ZCI6IjEyMyIsInRzIjoiMTU4OTE4MjAwNiJ9.yY6DbMzp031zgjZsVcio4dDkY8xubnLvIOuIjsEPD3s","avatarUrl":"1","accountId":"éæè·"}}
+2020-05-11 15:53:30.988 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:79] [a1f00880214ae8af,44c813d53854250a] - Incoming Request: dbae532c2d8b1297
+GET http://DESKTOP-K5RUUL2:8083/notification/countUnread?userId=1&status=0 HTTP/1.1
+x-b3-parentspanid: a1f00880214ae8af
+x-b3-traceid: a1f00880214ae8af
+x-b3-spanid: 44c813d53854250a
+x-b3-sampled: 1
+host: DESKTOP-K5RUUL2:8083
+connection: Keep-Alive
+accept-encoding: gzip,deflate
+user-agent: agent
+accept: application/json, application/*+json
+2020-05-11 15:53:30.991 [http-nio-8083-exec-2] INFO  [org.zalando.logbook.Logbook:84] [a1f00880214ae8af,44c813d53854250a] - Outgoing Response: dbae532c2d8b1297
+Duration: 3 ms
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Keep-Alive: timeout=60
+Connection: keep-alive
+Date: Mon, 11 May 2020 07:53:30 GMT
+Content-Type: application/json
+
+{"code":0,"msg":"OK","result":7}
+2020-05-11 15:53:51.986 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration
+2020-05-11 15:58:51.987 [AsyncResolver-bootstrap-executor-0] INFO  [com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver:43] [,] - Resolving eureka endpoints via configuration

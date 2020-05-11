@@ -2,124 +2,567 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1718f5a7-d552-4e9e-917c-d91b2a04de9f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_lmax_disruptor_3_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_jms_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_streams_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_messaging_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_rpc_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_5_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_metrics_micrometer_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_activemq_client_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_amqp_client_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_sender_kafka_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_19_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jul_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_12_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_log4j2_2_2_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/log4j2.component.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community-service/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/UserServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/Exception2CodeRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/NewRuleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/PageParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/RestCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/common/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/DruidConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/GenericRest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/HttpClientAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/HttpClientProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/config/RestAutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/controller/AgencyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/exception/IllegalParamsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/exception/WithTypeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/mapper/AgencyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/ListResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/service/AgencyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/service/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/utils/BeanHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/utils/HashUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/utils/JwtHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/agency.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mapper/user.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-service/src/test/java/com/hzu/project/user/UserServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dto/UserMsgDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/UserMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/MarkerCluster.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/_owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/brown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/green.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/grey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/magenta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/orange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/red.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/colors/violet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/jquery.slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/osm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/owl.transitions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/css/toastr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/fonts/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/AjaxLoader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/_marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/about-us-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/agency-logo-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/agency-logo-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/agency-logo-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/agency-logo-big-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/agent-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/big-star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/big-star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/client-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/close-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/cluster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/error-page-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ae.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/af.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/al.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/am.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/an.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/as.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/at.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/au.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/aw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/az.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ba.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/be.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/by.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/bz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ca.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/catalonia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ci.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/co.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/cz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/de.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/dj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/dk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/dm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/do.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/dz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ee.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/eg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/eh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/england.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/er.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/es.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/et.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/europeanunion.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fam.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ga.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/gy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/hk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/hm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/hn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/hr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ht.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/hu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/il.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/io.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/iq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ir.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/is.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/it.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/jm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/jo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/jp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ki.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/km.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ky.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/kz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/la.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/li.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/lv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/md.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/me.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/my.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/mz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/na.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/nc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/nf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ni.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/nl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/no.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/np.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/nr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/nu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/nz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/om.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/pw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/py.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/qa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/re.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/rs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/rw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/scotland.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/se.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/si.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/so.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/sz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/td.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/th.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/to.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/tz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/um.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/uy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/uz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/va.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/vc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/vg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/vi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/vn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/vu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/wales.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/wf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ws.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/ye.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/za.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/zm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/flags/zw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/grabbing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/google-map-fixed-height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/google-map-fixed-navigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/google-map-fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/horizontal-search-advanced.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/horizontal-search-floated-slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/horizontal-search-floated.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/horizontal-search-slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/osm-fixed-height.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/osm-fixed-navigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/osm-fullscreen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/slider-search-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/index-files/slider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/agent-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/client-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/member-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/member-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/member-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/member-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/floor-plan-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/floor-plan-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/floor-plan-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/masonry-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/masonry-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/masonry-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-detail-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-detail-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/property-detail-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/thumb-property-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/thumb-property-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/thumb-property-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/thumb-property-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/thumb-property-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/properties/thumb-property-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jpeg-backup/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/jslider.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/label.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo-partner-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo-partner-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo-partner-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo-partner-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo-partner-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/marker.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/member-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/member-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/member-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/member-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/person-default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/price-range-dragger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/floor-plan-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/floor-plan-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/floor-plan-big.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/masonry-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/masonry-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/masonry-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-detail-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-detail-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/property-detail-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/thumb-property-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/thumb-property-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/thumb-property-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/thumb-property-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/thumb-property-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/properties/thumb-property-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/apartment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/condominium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/construction-site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/cottage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/empty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/garage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/houseboat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/industrial-site.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/land.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/property-types.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/single-family.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/villa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/vineyard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/property-types/warehouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/schoollogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/searchbox-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/sine-wave.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/slide-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/slide-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/slide-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/slide-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/star-off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/star-on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/user-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/img/video.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/_owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/bootstrap-fileinput/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/custom-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/draggable-0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/ie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/infobox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery-2.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.dependClass-0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.fitvids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.numberformatter-1.2.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.placeholder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.raty.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jquery.vanillabox-0.1.5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/jshashtable-2.1_src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/leaflet.markercluster.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/locations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/markerclusterer_packed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/markerwithlabel_packed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/retina-1.1.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/scrollReveal.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/selectize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/smoothscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/sources/leaflet-plugins-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/tmpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/toastr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/js/waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/php/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/brown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/green.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/grey.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/magenta.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/orange.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/red.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/colors/violet.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass-old.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_animation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_appearance.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_background-clip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_background-origin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_background-size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_box-sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_box.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_columns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_deprecated-support.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_flexbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_font-face.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_hyphenation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_inline-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_opacity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_pie.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_regions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_selection.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_shared.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_text-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_transform.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/compass/css3/_user-interface.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_classes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_map.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/helpers/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/assets/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/common/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/HRuser_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/employment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/common.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/indexi.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/UserMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/logs/community-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/logs/community-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/logs/community-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/logs/community-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/logs/community-warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/logs/community-warn.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/logs/community-debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/logs/community-debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/logs/community-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/logs/community-error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/logs/community-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/logs/community-info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/community-service/logs/community-warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/community-service/logs/community-warn.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/community-service/target/" />
     <ignored path="$PROJECT_DIR$/eureka-server/target/" />
@@ -151,7 +594,99 @@
     <favorites_list name="service" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="my.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/navigation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notification.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publish.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="question.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2261">
+              <caret line="119" column="59" selection-start-line="119" selection-start-column="59" selection-end-line="119" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-361">
+              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2109">
+              <caret line="111" column="121" selection-start-line="111" selection-start-column="121" selection-end-line="111" selection-end-column="121" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-171" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/common.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="209" column="26" selection-start-line="209" selection-start-column="26" selection-end-line="209" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,6 +718,8 @@
       <find>actu</find>
       <find>starter</find>
       <find>timeoutInMilliseconds</find>
+      <find>百科博客</find>
+      <find>博客</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -199,57 +736,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestResponse.java" />
-        <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/GreatDao.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/Turb2DataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbsDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/config/TurbssDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/ApiGatewayApplication.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/community-service/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/zipkin/src/main/java/com/hzu/zipkin/ZipkinApplication.java" />
-        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
-        <option value="$PROJECT_DIR$/community-service/pom.xml" />
-        <option value="$PROJECT_DIR$/zipkin/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Project.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/User.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/ListResponse.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Company.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Company.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" />
         <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProService.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Project.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" />
         <option value="$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties" />
         <option value="$PROJECT_DIR$/community-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java" />
         <option value="$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" />
-        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" />
         <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/login.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dto/UserMsgDTO.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/UserMsg.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/UserMsg.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/home.html" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/CompanyMapper.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/CompanyMapper.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/user_list.html" />
+        <option value="$PROJECT_DIR$/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/indexi.ftl" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/employment.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/common.ftl" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/HRuser_list.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html" />
+        <option value="$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html" />
       </list>
     </option>
   </component>
@@ -288,9 +825,9 @@
       <path value="$PROJECT_DIR$/api-gateway/src/main/resources/static/js/lib/codemirror/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="633" />
-    <option name="y" value="267" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="621" />
+    <option name="y" value="18" />
     <option name="width" value="1281" />
     <option name="height" value="741" />
   </component>
@@ -309,55 +846,13 @@
               <item name="service" type="b2602c69:ProjectViewProjectNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="community-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name=".mvn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -368,7 +863,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../community" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -377,23 +872,23 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\1xiangmu\service\community-service\src\main\resources\mapper" />
-      <recent name="E:\1xiangmu\service\community-service\src\main\java\com\hzu\community\mapper" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\1xiangmu\service" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\static" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates\admin" />
+      <recent name="E:\1xiangmu\service\api-gateway\src\main\java\com\hzu\community\api\model" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hzu.community.api.dto" />
+      <recent name="com.hzu.backstageservice.model" />
       <recent name="com.hzu.community.api.model" />
       <recent name="com.hzu.backstageservice.service" />
       <recent name="com.hzu.backstageservice.mappers" />
-      <recent name="com.hzu.backstageservice.mapperss" />
-      <recent name="com.hzu.backstageservice.config" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\1xiangmu\service" />
-      <recent name="E:\1xiangmu\service\api-gateway\src\main\resources\templates\admin" />
-      <recent name="E:\1xiangmu\service\backstage-service\src\main\resources\mapper2" />
-      <recent name="E:\1xiangmu\service\backstage-service\src\main\java\com\hzu\backstageservice\model" />
-      <recent name="E:\1xiangmu\service\community-service\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\1xiangmu\service\community-service\src\main\resources\mapper" />
+      <recent name="E:\1xiangmu\service\community-service\src\main\java\com\hzu\community\mapper" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -414,7 +909,7 @@
     </option>
     <option name="contentProportion" value="0.3018242" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CommunityServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
     <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hzu.community.api.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -539,18 +1034,20 @@
       <workItem from="1587743812277" duration="6321000" />
       <workItem from="1587790948505" duration="21611000" />
       <workItem from="1587895648719" duration="2060000" />
-      <workItem from="1589120604854" duration="309000" />
+      <workItem from="1589120604854" duration="10432000" />
+      <workItem from="1589172885127" duration="33776000" />
+      <workItem from="1589213431276" duration="906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="483126000" />
+    <option name="totallyTimeSpent" value="527931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.37671787" side_tool="true" weight="0.3781362" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.40016168" side_tool="true" weight="0.27598566" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.28536782" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -565,12 +1062,12 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.62328213" weight="0.3781362" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.62328213" visible="true" weight="0.3781362" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987874" weight="0.49731663" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4995958" weight="0.3297491" />
-      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.567502" weight="0.27598566" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25788197" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.5998383" weight="0.27598566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26596606" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -586,7 +1083,6 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.3291592" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.4014337" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="11" sideWeight="0.4995958" weight="0.3297491" />
@@ -608,6 +1104,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.10994341" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28455943" />
       <window_info anchor="right" id="Database" order="6" weight="0.32983023" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -616,9 +1113,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3297491" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.5998383" visible="true" weight="0.4014337" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +1126,21 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="22" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="41" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -637,352 +1148,364 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/api-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mappers/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="130" column="71" selection-start-line="130" selection-start-column="71" selection-end-line="130" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="128" column="57" selection-start-line="128" selection-start-column="57" selection-end-line="128" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/application-copy.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/repository/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/annotation/DefaultProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="29" column="45" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/repository/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="46" />
+        <state relative-caret-position="-266">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/CompanyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="71" column="48" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1938">
-          <caret line="116" column="66" selection-start-line="116" selection-start-column="57" selection-end-line="116" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/RestAutoConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="33" column="28" lean-forward="true" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/utils/Rests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/CommonConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/RestResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/ResultMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/common/UserContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/HttpClientAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/config/GenericRest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="51" column="30" lean-forward="true" selection-start-line="51" selection-start-column="30" selection-end-line="51" selection-end-column="30" />
+        <state relative-caret-position="513">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/QuestionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="188">
+          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/QuestionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/NotificationController.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="30" column="59" lean-forward="true" selection-start-line="30" selection-start-column="59" selection-end-line="30" selection-end-column="59" />
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/mapper/NotificationMapper.java">
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/resources/mapper/QuestionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="63" column="24" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/method/HandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/NotificationService.java">
+    <entry file="jar://F:/repository/org/springframework/spring-web/5.2.5.RELEASE/spring-web-5.2.5.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/repository/org/springframework/spring-webmvc/5.2.5.RELEASE/spring-webmvc-5.2.5.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dto/QuestionDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
-          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/GreatService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="107">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/PublishController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="232">
+          <caret line="87" column="27" lean-forward="true" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/community-service/src/main/java/com/hzu/community/controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="33" column="36" lean-forward="true" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="164">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="43" column="33" selection-start-line="43" selection-start-column="33" selection-end-line="43" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper2/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/resources/mapper3/ProjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/controller/BackstageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state relative-caret-position="202">
+          <caret line="142" column="26" selection-start-line="142" selection-start-column="26" selection-end-line="142" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/QuestionService.java">
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/service/ProjectService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="240">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapper/QuestionMapper.java">
+    <entry file="file://$PROJECT_DIR$/backstage-service/src/main/java/com/hzu/backstageservice/mapperss/ProjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="112" />
+        <state relative-caret-position="183">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/project_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-501">
+          <caret line="121" column="107" selection-start-line="121" selection-start-column="107" selection-end-line="121" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="247" column="18" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="123" column="30" selection-start-line="123" selection-start-column="30" selection-end-line="123" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/employment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="95" column="22" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/indexi.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/RepliesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        <state relative-caret-position="93">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HotController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/dao/QuestionDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="192" column="16" selection-start-line="192" selection-start-column="16" selection-end-line="192" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/QuestionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-178">
-          <caret line="121" column="5" lean-forward="true" selection-start-line="121" selection-start-column="5" selection-end-line="121" selection-end-column="5" />
+        <state relative-caret-position="99">
+          <caret line="133" column="22" selection-start-line="133" selection-start-column="22" selection-end-line="133" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/NotificationService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/admin/Question_listController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1052">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="164">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/GreatService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/adminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/service/CommentService.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/CommentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="53" column="53" lean-forward="true" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+        <state relative-caret-position="893">
+          <caret line="62" column="63" selection-start-line="62" selection-start-column="63" selection-end-line="62" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-service/src/main/java/com/hzu/project/user/model/User.java">
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/QuestionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/java/com/hzu/community/api/controller/MyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/static/js/community.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3135">
+          <caret line="165" column="4" selection-start-line="151" selection-start-column="3" selection-end-line="165" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/question_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="115" column="20" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/company_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard/src/main/java/com/hzu/dashboard/DashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin/HRuser_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="34" column="65" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+          <folding>
+            <element signature="n#script#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#6;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/admin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1482" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/common.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="209" column="26" selection-start-line="209" selection-start-column="26" selection-end-line="209" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2261">
+          <caret line="119" column="59" selection-start-line="119" selection-start-column="59" selection-end-line="119" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/hot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-361">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2109">
+          <caret line="111" column="121" selection-start-line="111" selection-start-column="121" selection-end-line="111" selection-end-column="121" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/my.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/question.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/publish.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/notification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway/src/main/resources/templates/navigation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="44" column="7" lean-forward="true" selection-start-line="44" selection-start-column="7" selection-end-line="44" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

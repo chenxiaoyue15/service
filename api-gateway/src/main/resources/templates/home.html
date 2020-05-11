@@ -21,17 +21,17 @@
        
       <!-- logo -->
       <div id="logo" class="sidebar-header">
-        <a href="/home"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
+        <a href="/community"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
       </div>
       <div class="lyear-layout-sidebar-scroll">
         
         <nav class="sidebar-main">
           <ul class="nav nav-drawer">
-            <li class="nav-item active open"> <a href="/home"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
+            <li class="nav-item active open"> <a href="/community"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
             <li class="nav-item nav-item-has-subnav ">
               <a href="javascript:void(0)"><i class="mdi mdi-palette"></i> 发现</a>
               <ul class="nav nav-subnav">
-                <li > <a href="/">最新文章</a> </li>
+                <li > <a href="/new">最新文章</a> </li>
                 <li> <a th:href="@{/hot/(sort='hot')}">最热文章</a> </li>
               </ul>
             </li>
@@ -50,7 +50,9 @@
             </li>
           </ul>
         </nav>
-        
+        <div class="sidebar-footer">
+          <p class="copyright"> <a  href="/">返回平台首页</a> </p>
+        </div>
 
       </div>
       
@@ -75,15 +77,14 @@
           <ul class="topbar-right">
             <li class="dropdown dropdown-profile">
               <a href="javascript:void(0)" data-toggle="dropdown">
-                <img class="img-avatar img-avatar-48 m-r-10" src="" alt="" />
                 <span th:text="${session.user.getAccountId()}"> <span class="caret"></span></span>
               </a>
               <ul class="dropdown-menu dropdown-menu-right">
-                <li> <a href="lyear_pages_profile.html"><i class="mdi mdi-account"></i> 个人信息</a> </li>
-                <li> <a href="lyear_pages_edit_pwd.html"><i class="mdi mdi-lock-outline"></i> 修改密码</a> </li>
+                <li> <a href="."><i class="mdi mdi-account"></i> 个人信息</a> </li>
+                <li> <a href="."><i class="mdi mdi-lock-outline"></i> 修改密码</a> </li>
                 <li> <a href="javascript:void(0)"><i class="mdi mdi-delete"></i> 清空缓存</a></li>
                 <li class="divider"></li>
-                <li> <a href="lyear_pages_login.html"><i class="mdi mdi-logout-variant"></i> 退出登录</a> </li>
+                <li> <a href=""><i class="mdi mdi-logout-variant"></i> 退出登录</a> </li>
               </ul>
             </li>
           </ul>
@@ -116,7 +117,7 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <ul class="question-related" style="font-size:21px">
                     <li th:each="tag : ${tags}" style="margin-top:10px">
-                      <a th:href="@{/(page=1,search=${search},tag=${tag})}" th:text="${tag} " class="label label-info"></a>
+                      <a th:href="@{/new/(page=1,search=${search},tag=${tag})}" th:text="${tag} " class="label label-info"></a>
                     </li>
                   </ul>
                 </div>
@@ -139,14 +140,6 @@
 <script type="text/javascript" src="../static/js2/perfect-scrollbar.min.js"></script>
 <script type="text/javascript" src="../static/js2/main.min.js"></script>
 <script type="text/javascript">
-// $(function(){
-//     $('.search-bar .dropdown-menu a').click(function() {
-//         var field = $(this).data('field') || '';
-//         $('#search-field').val(field);
-//         $('#search-btn').html($(this).text() + ' <span class="caret"></span>');
-//     });
-// });
-
 $(function(){
     function number(){
         for(var i=0;i< $(".numberClass").length;i++){

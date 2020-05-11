@@ -1,8 +1,6 @@
 package com.hzu.community.api.controller;
 
-import com.hzu.community.api.dto.PaginationDTO;
 import com.hzu.community.api.model.HotTagCache;
-import com.hzu.community.api.service.QuestionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -17,7 +15,7 @@ public class HomeController {
 
     @Autowired
     private HotTagCache hotTagCache;
-    @RequestMapping("/home")
+    @RequestMapping("/community")
     public String index(Model model,
                         @RequestParam(name = "tag",required = false) String tag
                         ){

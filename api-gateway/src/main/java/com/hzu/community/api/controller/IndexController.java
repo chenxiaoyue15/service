@@ -21,7 +21,7 @@ public class IndexController {
     private QuestionService questionService;
     @Autowired
     private HotTagCache hotTagCache;
-    @RequestMapping("/")
+    @RequestMapping("/new")
     public String index(Model model,
                         @RequestParam(name = "page",defaultValue = "1") Integer page,
                         @RequestParam(name = "size",defaultValue = "5") Integer size,
@@ -38,7 +38,11 @@ public class IndexController {
         model.addAttribute("sort", sort);
         return "index";
     }
+    @RequestMapping("/")
+    public String index( ){
 
+        return "indexi";
+    }
 
 
 

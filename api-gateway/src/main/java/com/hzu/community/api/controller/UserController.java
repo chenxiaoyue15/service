@@ -45,8 +45,24 @@ public class UserController {
             return "redirect:/login?" + "username=" + username + "&" + ResultMsg.errorMsg("用户名或密码错误").asUrlParams();
         }else {
             UserContext.setUser(user);
-            return  StringUtils.isNotBlank(request.getParameter("target")) ? "redirect:" + request.getParameter("target") : "redirect:/";
+            return  StringUtils.isNotBlank(request.getParameter("target")) ? "redirect:" + request.getParameter("target") : "redirect:/community";
         }
     }
 
+    @RequestMapping(value="/adminloginsuc",method={RequestMethod.POST,RequestMethod.GET})
+    public String adminlogin(HttpServletRequest request){
+        String username = request.getParameter("name");
+        String password = request.getParameter("password");
+        if (username == null || password == null) {
+//            request.setAttribute("target", request.getParameter("target"));
+            return "login";
+        }
+        User user =  accountService.auth(username, password);
+        if (user == null) {
+            return "redirect:/login?" + "username=" + username + "&" + ResultMsg.errorMsg("用户名或密码错误").asUrlParams();
+        }else {
+            UserContext.setUser(user);
+            return  StringUtils.isNotBlank(request.getParameter("target")) ? "redirect:" + request.getParameter("target") : "redirect:/admin/home";
+        }
+    }
 }

@@ -6,10 +6,8 @@ import com.hzu.community.api.dao.QuestionDao;
 import com.hzu.community.api.dao.UserDao;
 import com.hzu.community.api.dto.PaginationDTO;
 import com.hzu.community.api.dto.QuestionDTO;
-import com.hzu.community.api.model.Company;
-import com.hzu.community.api.model.Project;
-import com.hzu.community.api.model.Question;
-import com.hzu.community.api.model.User;
+import com.hzu.community.api.dto.UserMsgDTO;
+import com.hzu.community.api.model.*;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,14 +34,14 @@ public class AdminService {
         Integer offset = size * (page - 1);
         List<Question> questions =  adminDao.getQuestions(offset,size);
 //        List<QuestionDTO>questionDTOList=new ArrayList<>();
-//
-//        for (Question question : questions){
-//            User  user = adminDao.ById(question.getCreator());
-//            QuestionDTO questionDTO = new QuestionDTO();
-//            BeanUtils.copyProperties(question,questionDTO);//把第一个的所有属性拷贝到第二个
-//            questionDTO.setUser(user);
-//            questionDTOList.add(questionDTO);
-//        }
+////
+////        for (Question question : questions){
+////            User  user = adminDao.ById(question.getCreator());
+////            QuestionDTO questionDTO = new QuestionDTO();
+////            BeanUtils.copyProperties(question,questionDTO);//把第一个的所有属性拷贝到第二个
+////            questionDTO.setUser(user);
+////            questionDTOList.add(questionDTO);
+////        }
         paginationDTO.setData(questions);
 
 
@@ -82,6 +80,48 @@ public class AdminService {
         List<Project> users =  adminDao.projectlist(offset,size);
         paginationDTO.setData(users);
         return paginationDTO;
+    }
+
+    public PaginationDTO employment(Integer page, Integer size) {
+        PaginationDTO paginationDTO = new PaginationDTO();
+        Integer totalCount=adminDao.employmentcount();
+        paginationDTO.setPagination(totalCount,page,size);
+        Integer offset = size * (page - 1);
+        List<UserMsg> userMsgs =  adminDao.employmentlist(offset,size);
+
+        paginationDTO.setData(userMsgs);
+        return paginationDTO;
+
+    }
+
+    public PaginationDTO getHRusers(Integer page, Integer size) {
+        PaginationDTO paginationDTO = new PaginationDTO();
+        Integer totalCount=adminDao.HRusercount();
+        paginationDTO.setPagination(totalCount,page,size);
+        Integer offset = size * (page - 1);
+        List<User> users =  adminDao.getHRUsers(offset,size);
+        paginationDTO.setData(users);
+        return paginationDTO;
+    }
+
+    public void deleteById(Company company) {
+        adminDao.deleteById(company);
+    }
+
+    public void openit(User user) {
+        adminDao.openit(user);
+    }
+
+    public void closeit(User user) {
+        adminDao.closeit(user);
+    }
+
+    public void added(Project project) {
+        adminDao.added(project);
+    }
+
+    public void out(Project project) {
+        adminDao.out(project);
     }
 }
 

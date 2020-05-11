@@ -18,4 +18,5 @@ public interface CompanyMapper {
 
     Integer count();
 
+    void deleteById(Company company);
 }

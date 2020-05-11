@@ -8,10 +8,39 @@
     from   project
 
 </select>
+    <select id="getProject" resultType="com.hzu.backstageservice.model.Project">
+    select *
+    from   project
+  where  id = #{projectId}
+</select>
+    <select id="getUserMsg" resultType="com.hzu.backstageservice.model.UserMsg">
+    select *
+    from   project_msg
+
+</select>
     <select id="count" resultType="integer" >
         select count(id)
         from   project
 
     </select>
+    <select id="employmentcount" resultType="integer" >
+        select count(id)
+        from   project_msg
 
+    </select>
+
+<update id="added">
+update project
+<set>
+    state = 1
+</set>
+where id = #{id}
+</update>
+    <update id="out">
+update project
+<set>
+    state = 2
+</set>
+where id = #{id}
+</update>
 </mapper>

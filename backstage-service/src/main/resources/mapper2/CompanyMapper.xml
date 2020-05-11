@@ -13,5 +13,8 @@
         from   company
 
     </select>
-
+    <delete id="deleteById">
+        delete  from company
+        where id = #{id}
+    </delete>
 </mapper>

@@ -4,10 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 <title>我的文章</title>
-<!--<link rel="icon" href="favicon.ico" type="image/ico">-->
-<!--<meta name="keywords" content="LightYear,光年,后台模板,后台管理系统,光年HTML模板">-->
-<!--<meta name="description" content="LightYear是一个基于Bootstrap v3.3.7的后台管理系统的HTML模板。">-->
-<!--<meta name="author" content="yinqi">-->
+
   <script src="../static/js/community.js" type="application/javascript"></script>
   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
   <link rel="stylesheet" href="../static/css/style.min.css">
@@ -22,17 +19,17 @@
        
       <!-- logo -->
       <div id="logo" class="sidebar-header">
-        <a href="/home"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
+        <a href="/community"><img src="../static/images/1.jpg" title="校企合作平台" alt="校企合作平台" style="width: 50px;"/></a>
       </div>
       <div class="lyear-layout-sidebar-scroll">
         
         <nav class="sidebar-main">
           <ul class="nav nav-drawer">
-            <li class="nav-item"> <a href="/home"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
+            <li class="nav-item"> <a href="/community"><i class="mdi mdi-home"></i> 论坛首页</a> </li>
             <li class="nav-item nav-item-has-subnav ">
               <a href="javascript:void(0)"><i class="mdi mdi-palette"></i> 发现</a>
               <ul class="nav nav-subnav">
-                <li > <a href="/">最新文章</a> </li>
+                <li > <a href="/new">最新文章</a> </li>
                 <li> <a th:href="@{/hot/(sort='hot')}">最热文章</a> </li>
               </ul>
             </li>
@@ -51,7 +48,9 @@
             </li>
           </ul>
         </nav>
-
+        <div class="sidebar-footer">
+          <p class="copyright"> <a  href="/">返回平台首页</a> </p>
+        </div>
       </div>
       
     </aside>
@@ -75,7 +74,6 @@
           <ul class="topbar-right">
             <li class="dropdown dropdown-profile">
               <a href="javascript:void(0)" data-toggle="dropdown">
-                <img class="img-avatar img-avatar-48 m-r-10" src="images/users/avatar.jpg" alt="" />
                 <span th:text="${session.user.getAccountId()}"> <span class="caret"></span></span>
               </a>
               <ul class="dropdown-menu dropdown-menu-right">
@@ -125,7 +123,7 @@
                     <tr th:each="question : ${pagination.data}">
                       <!--<span class="numberClass"></span>-->
 
-                      <td  th:text="${question.id}"></td>
+                      <td ><span class="numberClass"></td>
                       <td th:text="${question.title}"></td>
                       <td th:text="${#dates.format(question.gmtCreate,'yyyy-MM-dd HH:mm:ss')}"></td>
                       <td th:text="${question.creator}"></td>
@@ -207,6 +205,23 @@ $(function(){
     number();
 });
 
+</script>
+<script>
+    function deleted(e) {
+        var questionId =e.getAttribute("data-id");
+        var de = confirm("确定进行删除操作？");
+        if (de) {
+            $.ajax({
+                type: "POST",
+                url: "/deleted",
+                contentType: 'application/json',
+                data: JSON.stringify({
+                    "id": questionId
+                })
+            }),window.location.reload();
+        }
+
+    }
 </script>
 </body>
 </html>
